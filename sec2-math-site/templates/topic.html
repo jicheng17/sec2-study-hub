@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}{{ t.title }} · Sec 2 Math{% endblock %}
+{% block content %}
+<a class="back" href="{{ url_for('strand', slug=strand.slug) }}">← {{ strand.name }}</a>
+<div class="single">{% include "_card.html" %}</div>
+{% endblock %}

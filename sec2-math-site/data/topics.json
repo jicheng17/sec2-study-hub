@@ -1,0 +1,140 @@
+{
+  "strands": [
+    {
+      "slug": "algebra",
+      "name": "Numbers & Algebra",
+      "css": "na"
+    },
+    {
+      "slug": "geometry",
+      "name": "Geometry & Measurement",
+      "css": "gm"
+    },
+    {
+      "slug": "stats",
+      "name": "Statistics & Probability",
+      "css": "sp"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "proportion",
+      "strand": "algebra",
+      "title": "Proportion",
+      "html": "<table class=\"t\"><tr><th>Type</th><th>Equation</th><th>Graph</th></tr>\n<tr><td>Direct, <span class=\"m\"><i>y</i> ∝ <i>x</i></span></td><td class=\"m\"><i>y</i> = <i>kx</i></td><td>straight line through origin</td></tr>\n<tr><td>Inverse, <span class=\"m\"><i>y</i> ∝ <span class=\"frac\"><span>1</span><span><i>x</i></span></span></span></td><td class=\"m\"><i>y</i> = <span class=\"frac\"><span><i>k</i></span><span><i>x</i></span></span></td><td>curve, never touches axes</td></tr>\n</table>\n<p>Also <span class=\"m\"><i>y</i> = <i>kx</i>²</span>, <span class=\"m\"><i>y</i> = <i>k</i>√<i>x</i></span>, <span class=\"m\"><i>y</i> = <span class=\"frac\"><span><i>k</i></span><span><i>x</i>²</span></span></span>. Direct: <span class=\"m\"><i>x</i> doubles → <i>y</i> doubles</span>. Inverse: <span class=\"m\"><i>xy</i> = <i>k</i></span> is constant.</p>\n<div class=\"ex\"><b>Example</b><i class=\"m\">y</i> ∝ <i class=\"m\">x</i>, <i class=\"m\">y</i> = 12 when <i class=\"m\">x</i> = 3. So <span class=\"m\"><i>k</i> = 4</span>, and when <span class=\"m\"><i>x</i> = 5</span>, <span class=\"m\"><i>y</i> = 20</span>.</div>\n<div class=\"warn\"><b>Watch out:</b> always find <span class=\"m\"><i>k</i></span> first, then substitute. Don't guess the ratio.</div>",
+      "text": "Type Equation Graph Direct, y ∝ x y = kx straight line through origin Inverse, y ∝ 1 x y = k x curve, never touches axes Also y = kx ² , y = k √ x , y = k x ² . Direct: x doubles → y doubles . Inverse: xy = k is constant. Example y ∝ x , y = 12 when x = 3. So k = 4 , and when x = 5 , y = 20 . Watch out: always find k first, then substitute. Don't guess the ratio."
+    },
+    {
+      "slug": "linear-graphs",
+      "strand": "algebra",
+      "title": "Linear graphs",
+      "html": "<span class=\"f\"><i>y</i> = <i>mx</i> + <i>c</i></span>\n<ul class=\"k\">\n<li><span class=\"m\"><i>m</i></span> = gradient, <span class=\"m\"><i>c</i></span> = <i>y</i>-intercept</li>\n<li>Gradient = <span class=\"m\"><span class=\"frac\"><span>rise</span><span>run</span></span> = <span class=\"frac\"><span><i>y</i>₂ − <i>y</i>₁</span><span><i>x</i>₂ − <i>x</i>₁</span></span></span></li>\n<li>Positive <span class=\"m\"><i>m</i></span> slopes up ↗, negative slopes down ↘</li>\n<li>Horizontal line <span class=\"m\"><i>y</i> = <i>a</i></span>: gradient 0. Vertical line <span class=\"m\"><i>x</i> = <i>a</i></span>: gradient undefined</li>\n<li>Parallel lines have the same gradient</li>\n</ul>\n<div class=\"ex\"><b>Example</b>Through (1, 3) and (4, 9): <span class=\"m\"><i>m</i> = 6 ÷ 3 = 2</span>. 3 = 2(1) + <i class=\"m\">c</i> → <span class=\"m\"><i>c</i> = 1</span>, so <span class=\"m\"><i>y</i> = 2<i>x</i> + 1</span>.</div>\n<div class=\"warn\"><b>Watch out:</b> rearrange into <span class=\"m\"><i>y</i> = …</span> before reading <span class=\"m\"><i>m</i></span>. In 2<i class=\"m\">y</i> = 6<i class=\"m\">x</i> − 4, the gradient is 3, not 6.</div>",
+      "text": "y = mx + c m = gradient, c = y -intercept Gradient = rise run = y ₂ − y ₁ x ₂ − x ₁ Positive m slopes up ↗, negative slopes down ↘ Horizontal line y = a : gradient 0. Vertical line x = a : gradient undefined Parallel lines have the same gradient Example Through (1, 3) and (4, 9): m = 6 ÷ 3 = 2 . 3 = 2(1) + c → c = 1 , so y = 2 x + 1 . Watch out: rearrange into y = … before reading m . In 2 y = 6 x − 4, the gradient is 3, not 6."
+    },
+    {
+      "slug": "expansion",
+      "strand": "algebra",
+      "title": "Expansion",
+      "html": "<span class=\"f\">(<i>a</i> + <i>b</i>)² = <i>a</i>² + 2<i>ab</i> + <i>b</i>²<br/>(<i>a</i> − <i>b</i>)² = <i>a</i>² − 2<i>ab</i> + <i>b</i>²<br/>(<i>a</i> + <i>b</i>)(<i>a</i> − <i>b</i>) = <i>a</i>² − <i>b</i>²</span>\n<p>General: <span class=\"m\">(<i>a</i> + <i>b</i>)(<i>c</i> + <i>d</i>) = <i>ac</i> + <i>ad</i> + <i>bc</i> + <i>bd</i></span> (multiply every term by every term).</p>\n<div class=\"ex\"><b>Example</b><span class=\"m\">(2<i>x</i> − 3)² = 4<i>x</i>² − 12<i>x</i> + 9</span></div>\n<div class=\"warn\"><b>Watch out:</b> <span class=\"m\">(<i>a</i> + <i>b</i>)² ≠ <i>a</i>² + <i>b</i>²</span>. Don't forget the middle term 2<i class=\"m\">ab</i>. Also watch the sign: <span class=\"m\">−(<i>x</i> − 4) = −<i>x</i> + 4</span>.</div>",
+      "text": "( a + b )² = a ² + 2 ab + b ² ( a − b )² = a ² − 2 ab + b ² ( a + b )( a − b ) = a ² − b ² General: ( a + b )( c + d ) = ac + ad + bc + bd (multiply every term by every term). Example (2 x − 3)² = 4 x ² − 12 x + 9 Watch out: ( a + b )² ≠ a ² + b ² . Don't forget the middle term 2 ab . Also watch the sign: −( x − 4) = − x + 4 ."
+    },
+    {
+      "slug": "factorisation",
+      "strand": "algebra",
+      "title": "Factorisation",
+      "html": "<p>Try these in order:</p>\n<ul class=\"k\">\n<li><b>Common factor:</b> <span class=\"m\">6<i>x</i>² + 9<i>x</i> = 3<i>x</i>(2<i>x</i> + 3)</span></li>\n<li><b>Special products:</b> <span class=\"m\"><i>x</i>² − 25 = (<i>x</i> + 5)(<i>x</i> − 5)</span></li>\n<li><b>Grouping:</b> <span class=\"m\"><i>ax</i> + <i>ay</i> + <i>bx</i> + <i>by</i> = (<i>a</i> + <i>b</i>)(<i>x</i> + <i>y</i>)</span></li>\n<li><b>Quadratic</b> <span class=\"m\"><i>x</i>² + <i>bx</i> + <i>c</i></span>: find two numbers that <u>multiply</u> to <span class=\"m\"><i>c</i></span> and <u>add</u> to <span class=\"m\"><i>b</i></span> (multiplication frame or cross method)</li>\n</ul>\n<div class=\"ex\"><b>Example</b><span class=\"m\"><i>x</i>² − <i>x</i> − 12</span>: −4 × 3 = −12 and −4 + 3 = −1, so <span class=\"m\">(<i>x</i> − 4)(<i>x</i> + 3)</span>.<br/><span class=\"m\">2<i>x</i>² + 7<i>x</i> + 3 = (2<i>x</i> + 1)(<i>x</i> + 3)</span></div>\n<div class=\"warn\"><b>Watch out:</b> factorise completely. <span class=\"m\">2<i>x</i>² − 18 = 2(<i>x</i>² − 9) = 2(<i>x</i> + 3)(<i>x</i> − 3)</span>. Check by expanding back.</div>",
+      "text": "Try these in order: Common factor: 6 x ² + 9 x = 3 x (2 x + 3) Special products: x ² − 25 = ( x + 5)( x − 5) Grouping: ax + ay + bx + by = ( a + b )( x + y ) Quadratic x ² + bx + c : find two numbers that multiply to c and add to b (multiplication frame or cross method) Example x ² − x − 12 : −4 × 3 = −12 and −4 + 3 = −1, so ( x − 4)( x + 3) . 2 x ² + 7 x + 3 = (2 x + 1)( x + 3) Watch out: factorise completely. 2 x ² − 18 = 2( x ² − 9) = 2( x + 3)( x − 3) . Check by expanding back."
+    },
+    {
+      "slug": "algebraic-fractions",
+      "strand": "algebra",
+      "title": "Algebraic fractions",
+      "html": "<ul class=\"k\">\n<li><b>Simplify:</b> factorise top and bottom, then cancel common <u>factors</u></li>\n<li><b>Add / subtract:</b> use the LCM of the denominators</li>\n<li><b>Multiply:</b> factorise, cancel, then multiply across</li>\n<li><b>Divide:</b> flip the second fraction, then multiply</li>\n</ul>\n<div class=\"ex\"><b>Example</b><span class=\"m\"><span class=\"frac\"><span><i>x</i>² − 9</span><span><i>x</i>² + 3<i>x</i></span></span> = <span class=\"frac\"><span>(<i>x</i> + 3)(<i>x</i> − 3)</span><span><i>x</i>(<i>x</i> + 3)</span></span> = <span class=\"frac\"><span><i>x</i> − 3</span><span><i>x</i></span></span></span></div>\n<div class=\"warn\"><b>Watch out:</b> you can only cancel factors, never terms. <span class=\"m\"><span class=\"frac\"><span><i>x</i> + 3</span><span><i>x</i></span></span> ≠ 3</span>.</div>",
+      "text": "Simplify: factorise top and bottom, then cancel common factors Add / subtract: use the LCM of the denominators Multiply: factorise, cancel, then multiply across Divide: flip the second fraction, then multiply Example x ² − 9 x ² + 3 x = ( x + 3)( x − 3) x ( x + 3) = x − 3 x Watch out: you can only cancel factors, never terms. x + 3 x ≠ 3 ."
+    },
+    {
+      "slug": "changing-the-subject",
+      "strand": "algebra",
+      "title": "Changing the subject",
+      "html": "<p>Undo operations in reverse order, doing the same thing to both sides. If the new subject appears twice, collect those terms on one side and factorise it out.</p>\n<div class=\"ex\"><b>Example</b>Make <i class=\"m\">r</i> the subject of <span class=\"m\"><i>V</i> = <i>πr</i>²<i>h</i></span>:<br/><span class=\"m\"><i>r</i>² = <span class=\"frac\"><span><i>V</i></span><span><i>πh</i></span></span> → <i>r</i> = √<span style=\"border-top:1px solid currentColor;padding-left:2px\"><span class=\"frac\"><span><i>V</i></span><span><i>πh</i></span></span></span></span></div>\n<div class=\"ex\"><b>Example</b><span class=\"m\"><i>ax</i> + <i>b</i> = <i>cx</i> → <i>x</i>(<i>a</i> − <i>c</i>) = −<i>b</i> → <i>x</i> = <span class=\"frac\"><span><i>b</i></span><span><i>c</i> − <i>a</i></span></span></span></div>",
+      "text": "Undo operations in reverse order, doing the same thing to both sides. If the new subject appears twice, collect those terms on one side and factorise it out. Example Make r the subject of V = πr ² h : r ² = V πh → r = √ V πh Example ax + b = cx → x ( a − c ) = − b → x = b c − a"
+    },
+    {
+      "slug": "quadratic-equations-and-graphs",
+      "strand": "algebra",
+      "title": "Quadratic equations & graphs",
+      "html": "<p>Solve by factorisation: rearrange to <span class=\"m\">… = 0</span>, factorise, then set each factor to 0.</p>\n<span class=\"f\">(<i>x</i> − <i>p</i>)(<i>x</i> − <i>q</i>) = 0 ⇒ <i>x</i> = <i>p</i> or <i>x</i> = <i>q</i></span>\n<p>Graph of <span class=\"m\"><i>y</i> = <i>ax</i>² + <i>bx</i> + <i>c</i></span>:</p>\n<ul class=\"k\">\n<li><span class=\"m\"><i>a</i> &gt; 0</span>: ∪ shape with a minimum point. <span class=\"m\"><i>a</i> &lt; 0</span>: ∩ shape with a maximum point</li>\n<li><i>y</i>-intercept = <span class=\"m\"><i>c</i></span>. <i>x</i>-intercepts = the roots</li>\n<li>Line of symmetry sits halfway between the roots: <span class=\"m\"><i>x</i> = <span class=\"frac\"><span><i>p</i> + <i>q</i></span><span>2</span></span></span></li>\n</ul>\n<div class=\"ex\"><b>Example</b><span class=\"m\"><i>x</i>² − 5<i>x</i> = −6 → <i>x</i>² − 5<i>x</i> + 6 = 0 → (<i>x</i> − 2)(<i>x</i> − 3) = 0 → <i>x</i> = 2 or 3</span></div>\n<div class=\"warn\"><b>Watch out:</b> never divide both sides by <i class=\"m\">x</i>. In <span class=\"m\"><i>x</i>² = 4<i>x</i></span> that loses the answer <span class=\"m\"><i>x</i> = 0</span>. Write <span class=\"m\"><i>x</i>(<i>x</i> − 4) = 0</span>.</div>",
+      "text": "Solve by factorisation: rearrange to … = 0 , factorise, then set each factor to 0. ( x − p )( x − q ) = 0 ⇒ x = p or x = q Graph of y = ax ² + bx + c : a > 0 : ∪ shape with a minimum point. a < 0 : ∩ shape with a maximum point y -intercept = c . x -intercepts = the roots Line of symmetry sits halfway between the roots: x = p + q 2 Example x ² − 5 x = −6 → x ² − 5 x + 6 = 0 → ( x − 2)( x − 3) = 0 → x = 2 or 3 Watch out: never divide both sides by x . In x ² = 4 x that loses the answer x = 0 . Write x ( x − 4) = 0 ."
+    },
+    {
+      "slug": "simultaneous-equations",
+      "strand": "algebra",
+      "title": "Simultaneous equations",
+      "html": "<ul class=\"k\">\n<li><b>Elimination:</b> make one variable's coefficients equal, then add or subtract the equations</li>\n<li><b>Substitution:</b> make one variable the subject, then substitute into the other equation</li>\n<li><b>Graphical:</b> the solution is the point where the two lines intersect</li>\n</ul>\n<div class=\"ex\"><b>Example</b><span class=\"m\"><i>x</i> + <i>y</i> = 10</span> … (1)   <span class=\"m\"><i>x</i> − <i>y</i> = 4</span> … (2)<br/>(1) + (2): <span class=\"m\">2<i>x</i> = 14 → <i>x</i> = 7</span>, then <span class=\"m\"><i>y</i> = 3</span>.</div>\n<div class=\"warn\"><b>Watch out:</b> check both values in the <u>other</u> equation. Parallel lines give no solution.</div>",
+      "text": "Elimination: make one variable's coefficients equal, then add or subtract the equations Substitution: make one variable the subject, then substitute into the other equation Graphical: the solution is the point where the two lines intersect Example x + y = 10 … (1) x − y = 4 … (2) (1) + (2): 2 x = 14 → x = 7 , then y = 3 . Watch out: check both values in the other equation. Parallel lines give no solution."
+    },
+    {
+      "slug": "linear-inequalities",
+      "strand": "algebra",
+      "title": "Linear inequalities",
+      "html": "<p>Solve like an equation, with one extra rule:</p>\n<span class=\"f\">× or ÷ by a negative ⇒ flip the sign</span>\n<div class=\"diag\">\n<svg aria-label=\"Number line showing x greater than or equal to 2\" role=\"img\" viewbox=\"0 0 300 58\" width=\"300\">\n<line class=\"ln\" x1=\"10\" x2=\"290\" y1=\"30\" y2=\"30\"></line>\n<g font-size=\"13\" text-anchor=\"middle\">\n<line class=\"ln\" x1=\"50\" x2=\"50\" y1=\"25\" y2=\"35\"></line><text x=\"50\" y=\"52\">0</text>\n<line class=\"ln\" x1=\"100\" x2=\"100\" y1=\"25\" y2=\"35\"></line><text x=\"100\" y=\"52\">1</text>\n<line class=\"ln\" x1=\"150\" x2=\"150\" y1=\"25\" y2=\"35\"></line><text x=\"150\" y=\"52\">2</text>\n<line class=\"ln\" x1=\"200\" x2=\"200\" y1=\"25\" y2=\"35\"></line><text x=\"200\" y=\"52\">3</text>\n<line class=\"ln\" x1=\"250\" x2=\"250\" y1=\"25\" y2=\"35\"></line><text x=\"250\" y=\"52\">4</text>\n</g>\n<line class=\"hl\" x1=\"150\" x2=\"282\" y1=\"14\" y2=\"14\"></line>\n<path class=\"hl\" d=\"M276 9 L284 14 L276 19\"></path>\n<line class=\"hl\" stroke-dasharray=\"3 3\" x1=\"150\" x2=\"150\" y1=\"14\" y2=\"30\"></line>\n<circle cx=\"150\" cy=\"14\" r=\"5\" style=\"fill:var(--accent)\"></circle>\n<text font-size=\"14\" font-style=\"italic\" x=\"20\" y=\"18\">x ≥ 2</text>\n</svg>\n</div>\n<p>Filled dot ● for ≤ or ≥. Open dot ○ for &lt; or &gt;.</p>\n<div class=\"ex\"><b>Example</b><span class=\"m\">5 − 2<i>x</i> &gt; 11 → −2<i>x</i> &gt; 6 → <i>x</i> &lt; −3</span></div>\n<div class=\"warn\"><b>Watch out:</b> \"largest integer <i class=\"m\">x</i>\" for <span class=\"m\"><i>x</i> &lt; −3</span> is −4, not −3.</div>",
+      "text": "Solve like an equation, with one extra rule: × or ÷ by a negative ⇒ flip the sign 0 1 2 3 4 x ≥ 2 Filled dot ● for ≤ or ≥. Open dot ○ for < or >. Example 5 − 2 x > 11 → −2 x > 6 → x < −3 Watch out: \"largest integer x \" for x < −3 is −4, not −3."
+    },
+    {
+      "slug": "congruence-and-similarity",
+      "strand": "geometry",
+      "title": "Congruence & similarity",
+      "html": "<p><b>Congruent</b> (same shape, same size). Tests for triangles:</p>\n<p><span class=\"m\">SSS · SAS · AAS (ASA) · RHS</span> <span style=\"color:var(--muted)\">(RHS: right angle, hypotenuse, side)</span></p>\n<p><b>Similar</b> (same shape, different size): corresponding angles equal and corresponding sides in the same ratio.</p>\n<span class=\"f\"><span class=\"frac\"><span><i>AB</i></span><span><i>PQ</i></span></span> = <span class=\"frac\"><span><i>BC</i></span><span><i>QR</i></span></span> = <span class=\"frac\"><span><i>AC</i></span><span><i>PR</i></span></span> = <i>k</i></span>\n<p>Two triangles with two pairs of equal angles are similar (AA).</p>\n<div class=\"warn\"><b>Watch out:</b> name vertices in matching order. △<i>ABC</i> ≡ △<i>PQR</i> means A↔P, B↔Q, C↔R. SSA and AAA do <u>not</u> prove congruence.</div>",
+      "text": "Congruent (same shape, same size). Tests for triangles: SSS · SAS · AAS (ASA) · RHS (RHS: right angle, hypotenuse, side) Similar (same shape, different size): corresponding angles equal and corresponding sides in the same ratio. AB PQ = BC QR = AC PR = k Two triangles with two pairs of equal angles are similar (AA). Watch out: name vertices in matching order. △ ABC ≡ △ PQR means A↔P, B↔Q, C↔R. SSA and AAA do not prove congruence."
+    },
+    {
+      "slug": "scale-drawings-and-maps",
+      "strand": "geometry",
+      "title": "Scale drawings & maps",
+      "html": "<p>Map scale <span class=\"m\">1 : <i>n</i></span> means 1 cm on the map is <span class=\"m\"><i>n</i></span> cm on the ground.</p>\n<span class=\"f\">Area scale = (length scale)²</span>\n<div class=\"ex\"><b>Example</b>Scale 1 : 50 000 → 1 cm : 0.5 km, so 1 cm² : 0.25 km². A 6 cm² park is <span class=\"m\">6 × 0.25 = 1.5 km²</span>.</div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Unit</th><th>Conversion</th></tr>\n<tr><td>1 km</td><td>100 000 cm</td></tr>\n<tr><td>1 m²</td><td>10 000 cm²</td></tr>\n<tr><td>1 km²</td><td>1 000 000 m²</td></tr>\n<tr><td>1 m³</td><td>1 000 000 cm³ = 1000 ℓ</td></tr>\n<tr><td>1 cm³</td><td>1 mℓ</td></tr>\n</table></div>",
+      "text": "Map scale 1 : n means 1 cm on the map is n cm on the ground. Area scale = (length scale)² Example Scale 1 : 50 000 → 1 cm : 0.5 km, so 1 cm² : 0.25 km². A 6 cm² park is 6 × 0.25 = 1.5 km² . Unit Conversion 1 km 100 000 cm 1 m² 10 000 cm² 1 km² 1 000 000 m² 1 m³ 1 000 000 cm³ = 1000 ℓ 1 cm³ 1 mℓ"
+    },
+    {
+      "slug": "pythagoras-theorem",
+      "strand": "geometry",
+      "title": "Pythagoras' theorem",
+      "html": "<div class=\"diag\">\n<svg aria-label=\"Right-angled triangle with legs a and b and hypotenuse c\" role=\"img\" viewbox=\"0 0 220 140\" width=\"220\">\n<path class=\"fillsoft\" d=\"M30 115 L190 115 L30 25 Z\"></path>\n<path class=\"ln\" d=\"M30 115 L190 115 L30 25 Z\"></path>\n<path class=\"ln\" d=\"M30 101 L44 101 L44 115\" stroke-width=\"1.5\"></path>\n<line class=\"hl\" x1=\"190\" x2=\"30\" y1=\"115\" y2=\"25\"></line>\n<text font-size=\"17\" font-style=\"italic\" x=\"14\" y=\"75\">a</text>\n<text font-size=\"17\" font-style=\"italic\" x=\"106\" y=\"134\">b</text>\n<text font-size=\"17\" font-style=\"italic\" style=\"fill:var(--accent)\" x=\"116\" y=\"62\">c</text>\n</svg>\n</div>\n<span class=\"f\"><i>a</i>² + <i>b</i>² = <i>c</i>²</span>\n<p><span class=\"m\"><i>c</i></span> is the hypotenuse, the longest side, opposite the right angle.</p>\n<p><b>Converse:</b> if <span class=\"m\"><i>a</i>² + <i>b</i>² = <i>c</i>²</span>, the triangle is right-angled.</p>\n<p>Common triples: 3‑4‑5, 5‑12‑13, 8‑15‑17, 7‑24‑25 (and their multiples).</p>\n<div class=\"warn\"><b>Watch out:</b> finding a shorter side means subtracting: <span class=\"m\"><i>a</i> = √(<i>c</i>² − <i>b</i>²)</span>.</div>",
+      "text": "a b c a ² + b ² = c ² c is the hypotenuse, the longest side, opposite the right angle. Converse: if a ² + b ² = c ² , the triangle is right-angled. Common triples: 3‑4‑5, 5‑12‑13, 8‑15‑17, 7‑24‑25 (and their multiples). Watch out: finding a shorter side means subtracting: a = √( c ² − b ²) ."
+    },
+    {
+      "slug": "trigonometric-ratios",
+      "strand": "geometry",
+      "title": "Trigonometric ratios",
+      "html": "<div class=\"diag\">\n<svg aria-label=\"Right-angled triangle labelled with angle theta, opposite, adjacent and hypotenuse\" role=\"img\" viewbox=\"0 0 240 140\" width=\"240\">\n<path class=\"fillsoft\" d=\"M30 115 L200 115 L200 25 Z\"></path>\n<path class=\"ln\" d=\"M30 115 L200 115 L200 25 Z\"></path>\n<path class=\"ln\" d=\"M186 115 L186 101 L200 101\" stroke-width=\"1.5\"></path>\n<path class=\"hl\" d=\"M62 115 A32 32 0 0 0 58 100\"></path>\n<text font-size=\"16\" font-style=\"italic\" style=\"fill:var(--accent)\" x=\"68\" y=\"108\">θ</text>\n<text font-size=\"13\" x=\"92\" y=\"134\">adjacent</text>\n<text font-size=\"13\" x=\"206\" y=\"74\">opp</text>\n<text font-size=\"13\" x=\"70\" y=\"60\">hypotenuse</text>\n</svg>\n</div>\n<span class=\"f\">sin <i>θ</i> = <span class=\"frac\"><span>opp</span><span>hyp</span></span>   cos <i>θ</i> = <span class=\"frac\"><span>adj</span><span>hyp</span></span>   tan <i>θ</i> = <span class=\"frac\"><span>opp</span><span>adj</span></span></span>\n<p>Remember <b>TOA CAH SOH</b>. Use sin⁻¹, cos⁻¹, tan⁻¹ to find an angle.</p>\n<div class=\"ex\"><b>Example</b>hyp = 10, <i class=\"m\">θ</i> = 30°: opp = 10 sin 30° = 5.</div>\n<div class=\"warn\"><b>Watch out:</b> calculator must be in <b>DEG</b> mode. Label opp/adj from the angle you are using. They swap for the other angle.</div>",
+      "text": "θ adjacent opp hypotenuse sin θ = opp hyp cos θ = adj hyp tan θ = opp adj Remember TOA CAH SOH . Use sin⁻¹, cos⁻¹, tan⁻¹ to find an angle. Example hyp = 10, θ = 30°: opp = 10 sin 30° = 5. Watch out: calculator must be in DEG mode. Label opp/adj from the angle you are using. They swap for the other angle."
+    },
+    {
+      "slug": "volume-and-surface-area",
+      "strand": "geometry",
+      "title": "Volume & surface area",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Solid</th><th>Volume</th><th>Surface area</th></tr>\n<tr><td>Prism</td><td class=\"m\">base area × <i>h</i></td><td>sum of all faces</td></tr>\n<tr><td>Cylinder</td><td class=\"m\"><i>πr</i>²<i>h</i></td><td class=\"m\">2<i>πrh</i> + 2<i>πr</i>²</td></tr>\n<tr><td>Pyramid</td><td class=\"m\"><span class=\"frac\"><span>1</span><span>3</span></span> × base area × <i>h</i></td><td>base + triangular faces</td></tr>\n<tr><td>Cone</td><td class=\"m\"><span class=\"frac\"><span>1</span><span>3</span></span><i>πr</i>²<i>h</i></td><td class=\"m\"><i>πrl</i> + <i>πr</i>²</td></tr>\n<tr><td>Sphere</td><td class=\"m\"><span class=\"frac\"><span>4</span><span>3</span></span><i>πr</i>³</td><td class=\"m\">4<i>πr</i>²</td></tr>\n<tr><td>Hemisphere</td><td class=\"m\"><span class=\"frac\"><span>2</span><span>3</span></span><i>πr</i>³</td><td class=\"m\">2<i>πr</i>² curved, 3<i>πr</i>² total</td></tr>\n</table></div>\n<p>Cone slant height: <span class=\"m\"><i>l</i> = √(<i>r</i>² + <i>h</i>²)</span></p>\n<div class=\"warn\"><b>Watch out:</b> <span class=\"m\"><i>h</i></span> is the perpendicular height, not the slant height. Check if the question wants curved or total surface area.</div>",
+      "text": "Solid Volume Surface area Prism base area × h sum of all faces Cylinder πr ² h 2 πrh + 2 πr ² Pyramid 1 3 × base area × h base + triangular faces Cone 1 3 πr ² h πrl + πr ² Sphere 4 3 πr ³ 4 πr ² Hemisphere 2 3 πr ³ 2 πr ² curved, 3 πr ² total Cone slant height: l = √( r ² + h ²) Watch out: h is the perpendicular height, not the slant height. Check if the question wants curved or total surface area."
+    },
+    {
+      "slug": "statistical-diagrams",
+      "strand": "stats",
+      "title": "Statistical diagrams",
+      "html": "<ul class=\"k\">\n<li><b>Dot diagram:</b> one dot per value on a number line. Good for small data sets</li>\n<li><b>Stem-and-leaf:</b> keeps every value. Always include a key, e.g. 3 | 4 means 34. Leaves in ascending order</li>\n<li><b>Histogram:</b> for grouped continuous data. Bars touch, and equal class widths are used in Sec 2</li>\n</ul>\n<div class=\"ex\"><b>Stem-and-leaf</b>\n<span class=\"m\" style=\"display:block;line-height:1.6\">2 | 3 5 8<br/>3 | 0 4 4 9<br/>4 | 1 6    <span style=\"color:var(--muted)\">Key: 3 | 4 = 34</span></span></div>\n<div class=\"warn\"><b>Watch out:</b> spot misleading graphs: axes not starting at 0, uneven scales, or 3‑D pictures that exaggerate size.</div>",
+      "text": "Dot diagram: one dot per value on a number line. Good for small data sets Stem-and-leaf: keeps every value. Always include a key, e.g. 3 | 4 means 34. Leaves in ascending order Histogram: for grouped continuous data. Bars touch, and equal class widths are used in Sec 2 Stem-and-leaf 2 | 3 5 8 3 | 0 4 4 9 4 | 1 6 Key: 3 | 4 = 34 Watch out: spot misleading graphs: axes not starting at 0, uneven scales, or 3‑D pictures that exaggerate size."
+    },
+    {
+      "slug": "mean-median-mode",
+      "strand": "stats",
+      "title": "Mean, median, mode",
+      "html": "<span class=\"f\">Mean = <span class=\"frac\"><span>sum of values</span><span>number of values</span></span> = <span class=\"frac\"><span>Σ<i>fx</i></span><span>Σ<i>f</i></span></span></span>\n<ul class=\"k\">\n<li><b>Median:</b> middle value after sorting. Position <span class=\"m\"><span class=\"frac\"><span><i>n</i> + 1</span><span>2</span></span></span>. If <span class=\"m\"><i>n</i></span> is even, average the two middle values</li>\n<li><b>Mode:</b> most frequent value (can be none, or more than one)</li>\n<li>Grouped data: use class mid-values for <span class=\"m\"><i>x</i></span>. The answer is an estimate</li>\n</ul>\n<div class=\"ex\"><b>Example</b>3, 7, 7, 9, 14: mean = 40 ÷ 5 = 8, median = 7, mode = 7.</div>\n<div class=\"warn\"><b>Watch out:</b> an extreme value (outlier) pulls the mean. The median is better then. Sort the data before finding the median.</div>",
+      "text": "Mean = sum of values number of values = Σ fx Σ f Median: middle value after sorting. Position n + 1 2 . If n is even, average the two middle values Mode: most frequent value (can be none, or more than one) Grouped data: use class mid-values for x . The answer is an estimate Example 3, 7, 7, 9, 14: mean = 40 ÷ 5 = 8, median = 7, mode = 7. Watch out: an extreme value (outlier) pulls the mean. The median is better then. Sort the data before finding the median."
+    },
+    {
+      "slug": "probability",
+      "strand": "stats",
+      "title": "Probability",
+      "html": "<span class=\"f\">P(<i>E</i>) = <span class=\"frac\"><span>number of favourable outcomes</span><span>total number of outcomes</span></span></span>\n<ul class=\"k\">\n<li><span class=\"m\">0 ≤ P(<i>E</i>) ≤ 1</span>. Impossible = 0, certain = 1</li>\n<li><span class=\"m\">P(not <i>E</i>) = 1 − P(<i>E</i>)</span></li>\n<li>List the sample space (all outcomes) when unsure. For two dice there are 6 × 6 = 36 outcomes</li>\n</ul>\n<div class=\"ex\"><b>Example</b>Bag of 3 red and 5 blue: P(red) = <span class=\"m\"><span class=\"frac\"><span>3</span><span>8</span></span></span>, P(not red) = <span class=\"m\"><span class=\"frac\"><span>5</span><span>8</span></span></span>.</div>\n<div class=\"warn\"><b>Watch out:</b> give answers as fractions in simplest form (or decimals), never as ratios like 3 : 8.</div>",
+      "text": "P( E ) = number of favourable outcomes total number of outcomes 0 ≤ P( E ) ≤ 1 . Impossible = 0, certain = 1 P(not E ) = 1 − P( E ) List the sample space (all outcomes) when unsure. For two dice there are 6 × 6 = 36 outcomes Example Bag of 3 red and 5 blue: P(red) = 3 8 , P(not red) = 5 8 . Watch out: give answers as fractions in simplest form (or decimals), never as ratios like 3 : 8."
+    }
+  ]
+}

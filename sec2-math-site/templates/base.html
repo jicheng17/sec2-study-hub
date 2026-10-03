@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Sec 2 Math Cheat Sheet{% endblock %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Singapore MOE syllabus · Secondary 2 · G3 / Express</div>
+  <h1><a href="{{ url_for('index') }}" style="color:inherit;text-decoration:none">Sec 2 Math Cheat Sheet</a></h1>
+  <p class="lede">Every formula, rule and method from the Sec 2 syllabus, grouped by the three MOE strands. Each topic has a quick worked example and the mistake that loses the most marks.</p>
+</header>
+
+{% if config.HOME_URL %}<a class="back" href="{{ config.HOME_URL }}">← Sec 2 Study Hub</a>{% endif %}
+<nav class="jump" aria-label="Strands">
+  <a href="{{ url_for('index') }}" class="{{ 'on' if not active }}">All topics</a>
+  {% for s in strands %}
+  <a href="{{ url_for('strand', slug=s.slug) }}" class="{{ 'on' if active == s.slug }}"><i style="background:var(--{{ s.css }})"></i>{{ s.name }}</a>
+  {% endfor %}
+  <form class="search" action="{{ url_for('index') }}" method="get" role="search">
+    <input id="q" type="search" name="q" value="{{ q or '' }}" placeholder="Search e.g. gradient, cone" aria-label="Search topics">
+  </form>
+</nav>
+
+{% block content %}{% endblock %}
+
+<footer>Based on the MOE O-Level Mathematics syllabus (4052) content for Secondary 2, G3 / Express level. G2 students cover most of these topics, though some (such as trigonometry and algebraic fractions) may be taught at a different point. Check with your school's scheme of work.</footer>
+</div>
+</body>
+</html>

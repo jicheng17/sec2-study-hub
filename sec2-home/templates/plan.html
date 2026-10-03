@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EOY Revision Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+<a class="back" href="{{ url_for('home') }}">← Sec 2 Study Hub</a>
+<header class="top">
+  <div class="eyebrow">Sec 2 end-of-year exam · 30 Sep – 8 Oct 2026</div>
+  <h1>EOY Revision Plan</h1>
+  <p class="lede">Two full revision days before the exam, then a routine for every exam-week evening. Tick tasks as you finish them. Ticks are saved in this browser.</p>
+</header>
+
+<div class="block">
+  <p class="lead-note">The exam timetable isn't on the scope sheet, so the exam-week plan is a routine: each evening, open the checklist for the next day's paper. Once you know the paper order, write it into the list at the bottom of this page.</p>
+  <div class="toolbar">
+    <button type="button" id="reset">Clear all ticks</button>
+    <span class="confirm" id="reset-msg" hidden></span>
+    {% if scope_ok %}<a class="go" href="{{ url_for('files', filename=scope_file) }}" target="_blank" rel="noopener">Exam scope &amp; format PDF ↗</a>{% endif %}
+  </div>
+</div>
+
+<section class="block" aria-labelledby="before-h">
+  <h2 id="before-h">Before the exam</h2>
+  <div class="days">
+    {% for d in plan.PREP_DAYS %}
+    <article class="day {{ 'today' if d.date == today }}">
+      <div class="day-head">
+        <h3>{{ d.label }}</h3>{% if d.date == today %}<span class="today-pill">Today</span>{% endif %}
+        <span class="meta">{{ d.hours }}</span>
+      </div>
+      <p class="focus">{{ d.focus }}</p>
+      <ul class="tasks">
+        {% for tid, mins, subj, text in d.tasks %}
+        <li class="task"><input type="checkbox" id="t-{{ tid }}" data-task="{{ tid }}">
+          <label for="t-{{ tid }}"><span class="tmeta">{{ subj }}{% if mins %} · {{ mins }} min{% endif %}</span>{{ text }}</label></li>
+        {% endfor %}
+      </ul>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="block" aria-labelledby="during-h">
+  <h2 id="during-h">Each exam-week evening{% if in_exams %} <span class="today-pill">Now</span>{% endif %}</h2>
+  <div class="routine">
+    {% for when, what in plan.EXAM_DAY_ROUTINE %}
+    <div><b>{{ when }}</b><span>{{ what }}</span></div>
+    {% endfor %}
+  </div>
+  <article class="day">
+    <div class="day-head"><h3>{{ plan.WEEKEND.label }}</h3><span class="meta">the one weekend in the exam</span></div>
+    <ul class="tasks">
+      {% for tid, text in plan.WEEKEND.tasks %}
+      <li class="task"><input type="checkbox" id="t-{{ tid }}" data-task="{{ tid }}"><label for="t-{{ tid }}">{{ text }}</label></li>
+      {% endfor %}
+    </ul>
+  </article>
+</section>
+
+<section class="block" aria-labelledby="subj-h">
+  <h2 id="subj-h">Night-before checklists</h2>
+  <div class="subjects">
+    {% for s in plan.SUBJECTS %}
+    <article class="subj c-{{ s.color }}" id="{{ s.slug }}" data-subject>
+      <h3>{{ s.name }}{% if s.optional %}<span class="opt">If taking</span>{% endif %}<span class="progress" data-progress></span></h3>
+      <p><span class="k">Paper</span>{{ s.paper }}</p>
+      <p><span class="k">Scope</span>{{ s.scope }}</p>
+      <ul class="tasks">
+        {% for tid, text in s.tasks %}
+        <li class="task"><input type="checkbox" id="t-{{ tid }}" data-task="{{ tid }}"><label for="t-{{ tid }}">{{ text }}</label></li>
+        {% endfor %}
+      </ul>
+      {% if s.link %}<a class="cs" href="{{ s.link }}">Open the {{ s.name|lower }} cheat sheet →</a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="block" aria-labelledby="order-h">
+  <h2 id="order-h">My paper order</h2>
+  <p class="src">Type in each date's paper when you get the timetable. Saved in this browser.</p>
+  <textarea id="paper-order" rows="6" style="font:inherit;width:100%;max-width:560px;padding:10px 12px;border-radius:8px;border:1px solid var(--rule);background:var(--card);color:var(--ink)" placeholder="30 Sep – English Paper 1&#10;1 Oct – Maths&#10;…"></textarea>
+</section>
+
+<footer>Plan based on the 2026 Sec 2 EOY Exam Scope &amp; Format sheet. Edit <code>sec2-home/plan.py</code> to change tasks.</footer>
+</div>
+
+<script>
+(function () {
+  var KEY = 'sec2-eoy-plan-2026';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { state = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+
+  var boxes = document.querySelectorAll('input[data-task]');
+  function updateProgress() {
+    document.querySelectorAll('[data-subject]').forEach(function (card) {
+      var b = card.querySelectorAll('input[data-task]');
+      var done = Array.prototype.filter.call(b, function (x) { return x.checked; }).length;
+      card.querySelector('[data-progress]').textContent = done + ' / ' + b.length;
+    });
+  }
+  boxes.forEach(function (b) {
+    b.checked = !!state[b.dataset.task];
+    b.addEventListener('change', function () {
+      if (b.checked) state[b.dataset.task] = true; else delete state[b.dataset.task];
+      save(); updateProgress();
+    });
+  });
+  updateProgress();
+
+  var order = document.getElementById('paper-order');
+  order.value = state.__order || '';
+  order.addEventListener('input', function () { state.__order = order.value; save(); });
+
+  var reset = document.getElementById('reset'), msg = document.getElementById('reset-msg'), armed = false;
+  reset.addEventListener('click', function () {
+    if (!armed) { armed = true; reset.textContent = 'Click again to clear'; return; }
+    armed = false; reset.textContent = 'Clear all ticks';
+    var keep = state.__order; state = {}; if (keep) state.__order = keep;
+    save(); boxes.forEach(function (b) { b.checked = false; }); updateProgress();
+    msg.textContent = 'All ticks cleared.'; msg.hidden = false;
+  });
+})();
+</script>
+</body>
+</html>

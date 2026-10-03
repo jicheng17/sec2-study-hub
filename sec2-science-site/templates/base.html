@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Lower Sec Science Cheat Sheet{% endblock %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Lower Secondary Science · Sec 1 &amp; Sec 2</div>
+  <h1><a href="{{ url_for('index') }}" style="color:inherit;text-decoration:none">Lower Sec Science Cheat Sheet</a></h1>
+  <p class="lede">Secondary 1 (Books 1A and 1B, Chapters 1–8) and Secondary 2 (Books 2A and 2B, Chapters 9–16), one card per sub-chapter, with key facts, tables to memorise, worked examples and the mistake that loses the most marks. Chapters in the EOY exam scope are marked <span class="badge eoy">EOY</span>.</p>
+</header>
+
+{% if config.HOME_URL %}<a class="back" href="{{ config.HOME_URL }}">← Sec 2 Study Hub</a>{% endif %}
+{% if active in levels %}{% set cur_level = active %}
+{% elif active in books %}{% set cur_level = books[active].level %}
+{% elif active in strand_map and strand_map[active].level in levels %}{% set cur_level = strand_map[active].level %}
+{% else %}{% set cur_level = None %}{% endif %}
+<nav class="jump" aria-label="Filter topics">
+  <a href="{{ url_for('index') }}" class="{{ 'on' if not active and not q }}">All topics</a>
+  <a href="{{ url_for('eoy') }}" class="{{ 'on' if active == 'eoy' }}"><i style="background:var(--red)"></i>EOY scope</a>
+  <span class="sep" aria-hidden="true"></span>
+  {% for key, lv in levels.items() %}
+  <a href="{{ url_for('level', slug=key[3:]) }}" class="{{ 'on' if cur_level == key }}">{{ lv.short }}</a>
+  {% endfor %}
+  <a href="{{ url_for('theme', slug='other') }}" class="{{ 'on' if active == 'other' }}">Other</a>
+  <form class="search" action="{{ url_for('index') }}" method="get" role="search">
+    <input id="q" type="search" name="q" value="{{ q or '' }}" placeholder="Search e.g. density, osmosis" aria-label="Search topics">
+  </form>
+</nav>
+
+{% if cur_level %}
+<nav class="subnav" aria-label="{{ levels[cur_level].short }} chapters">
+  <a href="{{ url_for('level', slug=cur_level[3:]) }}" class="all {{ 'on' if active == cur_level }}">All of {{ levels[cur_level].short }}</a>
+  {% for bslug, bk in books.items() if bk.level == cur_level %}
+  <div class="subnav-book">
+    <a href="{{ url_for('book', slug=bslug) }}" class="book-link {{ 'on' if active == bslug }}">{{ bk.name }} <span>{{ bk.theme }}</span></a>
+    <ul>
+      {% for s in strands if s.book == bk.code %}
+      <li><a href="{{ url_for('theme', slug=s.slug) }}" class="{{ 'on' if active == s.slug }}">{{ s.name }}{% if s.eoy %} <i class="eoy-dot" title="In EOY scope"></i>{% endif %}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% block content %}{% endblock %}
+
+<footer>Based on the contents pages of Science Books 1A, 1B, 2A and 2B and the MOE 2021 Lower Secondary Science syllabus. Check details against your textbook and class notes.</footer>
+</div>
+<script>window.addEventListener("beforeprint",function(){document.querySelectorAll("details.qa").forEach(function(d){d.open=true})});</script>
+</body>
+</html>

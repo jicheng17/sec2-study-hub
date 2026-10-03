@@ -1,0 +1,4 @@
+<article class="card {{ t.css }}">
+  <h3><a href="{{ url_for('topic', slug=t.slug) }}">{{ t.title }}</a> <span class="tag">{{ t.css|upper|replace('NA','N&A')|replace('GM','G&M')|replace('SP','S&P') }}</span></h3>
+  {{ t.html }}
+</article>

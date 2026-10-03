@@ -1,0 +1,16 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# School documents and textbook photos (kept locally, not published)
+Sec 2 Parents e-Engagement Session*.pdf
+2026 S2 EOY Exam Scope*.pdf
+*.jpg
+*.jpeg
+*.png
+*.heic

@@ -1,0 +1,642 @@
+{
+  "strands": [
+    {
+      "slug": "ch1",
+      "name": "Ch 1 Scientific endeavour",
+      "css": "c1",
+      "book": "1A",
+      "blurb": "Book 1A · The scientific endeavour",
+      "eoy": false,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch2",
+      "name": "Ch 2 Physical properties",
+      "css": "c2",
+      "book": "1A",
+      "blurb": "Book 1A · Exploring diversity of matter by its physical properties",
+      "eoy": true,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch3",
+      "name": "Ch 3 Chemical composition",
+      "css": "c3",
+      "book": "1A",
+      "blurb": "Book 1A · Exploring diversity of matter by its chemical composition",
+      "eoy": true,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch4",
+      "name": "Ch 4 Separation techniques",
+      "css": "c4",
+      "book": "1A",
+      "blurb": "Book 1A · Exploring diversity of matter using separation techniques",
+      "eoy": true,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch5",
+      "name": "Ch 5 Light",
+      "css": "c5",
+      "book": "1B",
+      "blurb": "Book 1B · Ray model of light",
+      "eoy": false,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch6",
+      "name": "Ch 6 Cells",
+      "css": "c6",
+      "book": "1B",
+      "blurb": "Book 1B · Model of cells: the basic units of life",
+      "eoy": false,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch7",
+      "name": "Ch 7 Particulate nature",
+      "css": "c7",
+      "book": "1B",
+      "blurb": "Book 1B · Model of matter: the particulate nature of matter",
+      "eoy": true,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch8",
+      "name": "Ch 8 Atoms & molecules",
+      "css": "c8",
+      "book": "1B",
+      "blurb": "Book 1B · Model of matter: atoms and molecules",
+      "eoy": true,
+      "level": "sec1"
+    },
+    {
+      "slug": "ch9",
+      "name": "Ch 9 Forces & energy",
+      "css": "c9",
+      "blurb": "Book 2A · Application of forces and transfer of energy",
+      "book": "2A",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "ch10",
+      "name": "Ch 10 Heat",
+      "css": "c10",
+      "blurb": "Book 2A · Transfer of heat energy and its effects",
+      "book": "2A",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "ch11",
+      "name": "Ch 11 Chemical changes",
+      "css": "c11",
+      "blurb": "Book 2A · Identifying, types, how they occur, daily life",
+      "book": "2A",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "ch12",
+      "name": "Ch 12 Ecosystems",
+      "css": "c12",
+      "blurb": "Book 2A · Interactions within ecosystems",
+      "book": "2A",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "ch13",
+      "name": "Ch 13 Electrical systems",
+      "css": "c13",
+      "blurb": "Book 2B · Circuits, components, safety, saving energy",
+      "book": "2B",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "ch14",
+      "name": "Ch 14 Digestive system",
+      "css": "c14",
+      "blurb": "Book 2B · Human digestive system",
+      "book": "2B",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "ch15",
+      "name": "Ch 15 Transport systems",
+      "css": "c15",
+      "blurb": "Book 2B · Transport in humans and plants, diffusion and osmosis",
+      "book": "2B",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "ch16",
+      "name": "Ch 16 Reproductive system",
+      "css": "c16",
+      "blurb": "Book 2B · Human sexual reproductive system",
+      "book": "2B",
+      "eoy": false,
+      "level": "sec2"
+    },
+    {
+      "slug": "other",
+      "name": "Other topics",
+      "css": "ot",
+      "book": "other",
+      "blurb": "Not in Books 1A–2B",
+      "eoy": false,
+      "level": "other"
+    }
+  ],
+  "topics": [
+    {
+      "slug": "1-1-what-is-science",
+      "strand": "ch1",
+      "badge": "1.1",
+      "title": "What is science?",
+      "html": "<p><b>Science</b> is the systematic study of the natural and physical world through observation and experiment, to explain how things work.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Branch</th><th>Studies</th></tr>\n<tr><td>Biology</td><td>living things</td></tr>\n<tr><td>Chemistry</td><td>substances and how they change</td></tr>\n<tr><td>Physics</td><td>energy, forces and matter</td></tr>\n</table></div>\n<p><b>Science vs technology:</b> science finds out <i>why</i> and <i>how</i> things happen. Technology <i>applies</i> scientific knowledge to make useful products and solve problems (e.g. science of electricity → phones, MRT).</p>"
+    },
+    {
+      "slug": "1-2-nature-of-knowledge",
+      "strand": "ch1",
+      "badge": "1.2",
+      "title": "What is the nature of scientific knowledge?",
+      "html": "<ul class=\"k\">\n<li><b>Based on evidence:</b> ideas must be supported by observations and data that others can check</li>\n<li><b>Tentative:</b> it can change when new evidence appears (e.g. the Earth-centred model of the universe was replaced by the Sun-centred model. Models of the atom changed many times)</li>\n<li><b>Tested and shared:</b> scientists repeat experiments and review each other's work before accepting results</li>\n<li>A <b>theory</b> explains why something happens. A <b>law</b> describes what always happens</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> \"tentative\" doesn't mean science is a guess. It means scientists change their ideas when better evidence appears.</div>"
+    },
+    {
+      "slug": "1-3-practise-science",
+      "strand": "ch1",
+      "badge": "1.3",
+      "title": "How do we practise science?",
+      "html": "<p class=\"flow\">Observe → Ask a question → Hypothesis → Plan a fair test → Collect data → Analyse → Conclude → Communicate</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Variable</th><th>Meaning</th><th>Example: does temperature affect how fast sugar dissolves?</th></tr>\n<tr><td>Independent</td><td>what you change</td><td>water temperature</td></tr>\n<tr><td>Dependent</td><td>what you measure</td><td>time for sugar to dissolve</td></tr>\n<tr><td>Controlled (constant)</td><td>what you keep the same for a fair test</td><td>mass of sugar, volume of water, stirring</td></tr>\n</table></div>\n<p><b>Good practice:</b> repeat readings and take an average, read measuring cylinders at eye level at the bottom of the meniscus, use SI units (m, kg, s, °C).</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Hazard symbol</th><th>Meaning</th></tr>\n<tr><td>Flame</td><td>flammable: catches fire easily</td></tr>\n<tr><td>Skull and crossbones</td><td>toxic: poisonous</td></tr>\n<tr><td>Liquid eating a hand and metal</td><td>corrosive: destroys skin and materials</td></tr>\n<tr><td>Exclamation mark</td><td>harmful or irritant</td></tr>\n<tr><td>Exploding bomb</td><td>explosive</td></tr>\n</table></div>\n<p><b>Bunsen burner:</b> air hole closed gives a yellow (luminous), sooty, cooler flame. Air hole open gives a blue (non-luminous), hotter flame used for heating.</p>\n<div class=\"warn\"><b>Watch out:</b> change only <u>one</u> variable at a time, or you can't tell which change caused the result.</div>"
+    },
+    {
+      "slug": "1-4-influences-on-science",
+      "strand": "ch1",
+      "badge": "1.4",
+      "title": "What influences the way we practise science?",
+      "html": "<ul class=\"k\">\n<li><b>Values and attitudes:</b> integrity (report results honestly), objectivity (no bias), open-mindedness, curiosity, perseverance</li>\n<li><b>Ethics:</b> is it right? e.g. testing on animals, using human data, genetic modification</li>\n<li><b>Society and culture:</b> what people need or accept affects what is researched</li>\n<li><b>Funding and resources:</b> governments and companies decide what research to pay for</li>\n<li><b>Technology:</b> new instruments (microscopes, telescopes, computers) open up new discoveries</li>\n<li><b>Safety and environment:</b> research must not harm people or nature</li>\n</ul>"
+    },
+    {
+      "slug": "1-5-why-learn-science",
+      "strand": "ch1",
+      "badge": "1.5",
+      "title": "Why do we learn science?",
+      "html": "<ul class=\"k\">\n<li>To understand the world around us and how our bodies work</li>\n<li>To make informed decisions (e.g. health, food, energy use, reading product labels)</li>\n<li>To solve problems in society (e.g. NEWater, vaccines, clean energy, climate change)</li>\n<li>To build skills: observing, questioning, reasoning, working with evidence</li>\n<li>For future careers in science, engineering, medicine and technology</li>\n</ul>"
+    },
+    {
+      "slug": "2-1-why-physical-properties",
+      "strand": "ch2",
+      "badge": "2.1",
+      "title": "Why is it important to know the physical properties of matter?",
+      "html": "<p><b>Matter</b> is anything that has mass and takes up space. <b>Physical properties</b> can be observed or measured without changing what the substance is.</p>\n<p>Knowing them lets us <b>choose the right material for a job</b>:</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Object</th><th>Material</th><th>Property used</th></tr>\n<tr><td>Cooking pot</td><td>aluminium or steel</td><td>good conductor of heat, high melting point</td></tr>\n<tr><td>Pot handle</td><td>plastic or wood</td><td>poor conductor of heat</td></tr>\n<tr><td>Electrical wire</td><td>copper, covered in plastic</td><td>copper conducts electricity, plastic insulates</td></tr>\n<tr><td>Window</td><td>glass</td><td>transparent, hard, waterproof</td></tr>\n<tr><td>Raincoat</td><td>plastic or nylon</td><td>waterproof, flexible</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> when asked why a material is used, name the property <u>and</u> link it to the job (\"copper is used because it is a good conductor of electricity, so current flows easily\").</div>"
+    },
+    {
+      "slug": "2-2-common-properties",
+      "strand": "ch2",
+      "badge": "2.2",
+      "title": "What are some common physical properties of matter?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Property</th><th>Meaning</th></tr>\n<tr><td>Hardness</td><td>resists scratching (diamond is the hardest natural material)</td></tr>\n<tr><td>Strength</td><td>can take a large force without breaking</td></tr>\n<tr><td>Flexibility</td><td>bends without breaking</td></tr>\n<tr><td>Elasticity</td><td>returns to its original shape after stretching</td></tr>\n<tr><td>Malleability</td><td>can be hammered into thin sheets</td></tr>\n<tr><td>Ductility</td><td>can be drawn into wires</td></tr>\n<tr><td>Conductivity</td><td>lets heat or electricity pass through</td></tr>\n<tr><td>Melting and boiling point</td><td>temperature at which a solid melts, or a liquid boils</td></tr>\n<tr><td>Transparency</td><td>transparent (see through clearly), translucent (some light), opaque (no light)</td></tr>\n<tr><td>Solubility</td><td>how well it dissolves in a liquid</td></tr>\n<tr><td>Density</td><td>mass per unit volume (see 2.3)</td></tr>\n<tr><td>Magnetism</td><td>attracted by a magnet (iron, steel, nickel, cobalt)</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Metals</th><th>Non-metals</th></tr>\n<tr><td>shiny, good conductors of heat and electricity, malleable and ductile, usually high melting point, sonorous (ring when hit)</td><td>dull, poor conductors (except graphite), brittle when solid, usually low melting point</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> mercury is a metal that is liquid at room temperature, and graphite is a non-metal that conducts electricity. These are common MCQ traps.</div>"
+    },
+    {
+      "slug": "2-3-density",
+      "strand": "ch2",
+      "badge": "2.3",
+      "title": "How do we investigate the density of objects?",
+      "html": "<span class=\"f\">Density = <span class=\"frac\"><span>mass</span><span>volume</span></span> &nbsp; <i>ρ</i> = <span class=\"frac\"><span><i>m</i></span><span><i>V</i></span></span> &nbsp; units: g/cm³ or kg/m³</span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Object</th><th>How to find volume</th></tr>\n<tr><td>Regular solid (cuboid)</td><td>measure with a ruler: length × breadth × height</td></tr>\n<tr><td>Irregular solid</td><td><b>displacement</b>: lower it into a measuring cylinder of water. Volume = final reading − initial reading. Or use a displacement can and collect the overflow</td></tr>\n<tr><td>Liquid</td><td>measuring cylinder, read at the bottom of the meniscus</td></tr>\n</table></div>\n<p>Mass is measured with an electronic balance. 1 cm³ = 1 ml. Density of water = 1 g/cm³.</p>\n<div class=\"ex\"><b>Example</b>A stone has a mass of 60 g. Water rises from 50 cm³ to 70 cm³. Volume = 20 cm³. Density = 60 ÷ 20 = 3 g/cm³.</div>\n<div class=\"ex\"><b>Example</b>A block 2 cm × 3 cm × 5 cm has a mass of 240 g. Volume = 30 cm³. Density = 240 ÷ 30 = 8 g/cm³.</div>\n<div class=\"warn\"><b>Watch out:</b> density doesn't change with size. Cutting a block in half halves the mass and volume, so density stays the same.</div>"
+    },
+    {
+      "slug": "2-4-effects-of-density",
+      "strand": "ch2",
+      "badge": "2.4",
+      "title": "What are the effects of different densities?",
+      "html": "<ul class=\"k\">\n<li>An object <b>floats</b> if it is <b>less dense</b> than the liquid. It <b>sinks</b> if it is <b>denser</b></li>\n<li>Liquids that don't mix form <b>layers</b>: the densest at the bottom (e.g. oil floats on water)</li>\n<li>Ice (0.92 g/cm³) floats on water (1 g/cm³)</li>\n<li>A steel ship floats because its hull holds a lot of air, so the <b>average density</b> of the whole ship is less than water</li>\n<li>A hot-air balloon rises because hot air is less dense than the cooler air around it</li>\n<li>Objects float more easily in seawater because salt water is denser than fresh water</li>\n</ul>\n<div class=\"ex\"><b>Example</b>Wood (0.6 g/cm³) floats in water. Iron (7.9 g/cm³) sinks in water, but floats in mercury (13.6 g/cm³).</div>\n<div class=\"warn\"><b>Watch out:</b> heavy objects don't always sink. Compare <u>densities</u>, not masses.</div>"
+    },
+    {
+      "slug": "2-5-sustainable-choices",
+      "strand": "ch2",
+      "badge": "2.5",
+      "title": "How can understanding physical properties affect our choices for sustainable living?",
+      "html": "<p>Choose materials that do the job <b>and</b> harm the environment less.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Choice</th><th>Why it is more sustainable</th></tr>\n<tr><td>Reusable bottles and bags (durable, strong)</td><td>used many times, so less waste</td></tr>\n<tr><td>Aluminium cans, glass bottles</td><td>can be recycled many times</td></tr>\n<tr><td>Biodegradable packaging (paper, plant-based)</td><td>broken down by decomposers</td></tr>\n<tr><td>Good insulation in buildings</td><td>less energy needed for cooling</td></tr>\n<tr><td>Lightweight (low density) materials in vehicles</td><td>less fuel needed</td></tr>\n</table></div>\n<p>Most plastics are durable and cheap but <b>non-biodegradable</b>, so they stay in landfills and oceans for hundreds of years. Singapore's only landfill, Semakau, is expected to fill up, so reducing waste matters.</p>\n<p class=\"flow\">Reduce → Reuse → Recycle (the 3Rs)</p>"
+    },
+    {
+      "slug": "3-1-why-chemical-composition",
+      "strand": "ch3",
+      "badge": "3.1",
+      "title": "How is understanding chemical composition applicable to our daily lives?",
+      "html": "<p><b>Chemical composition</b> is what a substance is made of. Knowing it helps us:</p>\n<ul class=\"k\">\n<li>use substances safely (e.g. never mix bleach with other cleaners, as harmful gases can form)</li>\n<li>read food labels and choose healthier food (sugar, salt, fat content)</li>\n<li>understand medicines and their doses</li>\n<li>choose materials for products (e.g. alloys for coins, stainless steel for cutlery)</li>\n<li>detect harmful substances (e.g. carbon monoxide from burning fuel in a closed room)</li>\n</ul>"
+    },
+    {
+      "slug": "3-2-elements",
+      "strand": "ch3",
+      "badge": "3.2",
+      "title": "What are the basic building blocks of matter and their chemically combined derivatives?",
+      "html": "<ul class=\"k\">\n<li>An <b>element</b> is a pure substance that cannot be broken down into simpler substances by chemical means. It is made of only one type of atom</li>\n<li>There are 118 known elements, arranged in the <b>Periodic Table</b></li>\n<li>Elements combine chemically to form <b>compounds</b> (their \"chemically combined derivatives\")</li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Element</th><th>Symbol</th><th>Element</th><th>Symbol</th></tr>\n<tr><td>Hydrogen</td><td>H</td><td>Sodium</td><td>Na</td></tr>\n<tr><td>Carbon</td><td>C</td><td>Magnesium</td><td>Mg</td></tr>\n<tr><td>Nitrogen</td><td>N</td><td>Chlorine</td><td>Cl</td></tr>\n<tr><td>Oxygen</td><td>O</td><td>Iron</td><td>Fe</td></tr>\n<tr><td>Helium</td><td>He</td><td>Copper</td><td>Cu</td></tr>\n<tr><td>Sulfur</td><td>S</td><td>Calcium</td><td>Ca</td></tr>\n</table></div>\n<p><b>Symbols:</b> first letter capital, second letter small (Co = cobalt, but CO = carbon monoxide, a compound).</p>\n<p>Elements are grouped as <b>metals</b> (left and centre of the Periodic Table), <b>non-metals</b> (right) and <b>metalloids</b> (in between, e.g. silicon).</p>"
+    },
+    {
+      "slug": "3-3-compounds-mixtures",
+      "strand": "ch3",
+      "badge": "3.3",
+      "title": "What matter comprises elements and/or compounds that are not chemically combined?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Compound</th><th>Mixture</th></tr>\n<tr><td>Made of</td><td>two or more elements <b>chemically combined</b></td><td>two or more substances <b>not chemically combined</b></td></tr>\n<tr><td>Proportions</td><td>fixed (water is always H₂O)</td><td>can vary (more or less sugar in tea)</td></tr>\n<tr><td>Properties</td><td>different from its elements</td><td>each part keeps its own properties</td></tr>\n<tr><td>Separated by</td><td>chemical reactions only</td><td>physical methods (filtering, distillation)</td></tr>\n<tr><td>Energy change when formed</td><td>usually yes (heat or light)</td><td>usually little or none</td></tr>\n<tr><td>Examples</td><td>water, carbon dioxide, sodium chloride (table salt)</td><td>air, seawater, alloys, soil, orange juice</td></tr>\n</table></div>\n<div class=\"ex\"><b>Example</b>Sodium (a reactive metal) and chlorine (a poisonous gas) combine to form sodium chloride, which is safe to eat. A compound's properties differ from its elements.</div>\n<div class=\"ex\"><b>Iron + sulfur</b>Mixed: a magnet still pulls out the iron. Heated: they react to form iron sulfide, a new compound that is not magnetic.</div>\n<p><b>Types of mixture:</b> <b>solution</b> (solute dissolved in a solvent, e.g. salt water, clear), <b>suspension</b> (insoluble particles spread in a liquid, e.g. muddy water, settles on standing), <b>alloy</b> (metal mixed with other elements, e.g. steel, brass).</p>\n<div class=\"warn\"><b>Watch out:</b> air is a mixture, not a compound. Its gases are not chemically combined and the proportions vary.</div>"
+    },
+    {
+      "slug": "3-4-distinguish",
+      "strand": "ch3",
+      "badge": "3.4",
+      "title": "How can we distinguish between elements, compounds and mixtures?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Element</th><th>Compound</th><th>Mixture</th></tr>\n<tr><td>Pure substance?</td><td>yes</td><td>yes</td><td>no</td></tr>\n<tr><td>Types of particle</td><td>one kind of atom</td><td>one kind of molecule (atoms of different elements joined)</td><td>two or more kinds, not joined</td></tr>\n<tr><td>Broken down?</td><td>no</td><td>by chemical means</td><td>separated by physical means</td></tr>\n<tr><td>Melting / boiling point</td><td>fixed</td><td>fixed</td><td>melts or boils over a range</td></tr>\n</table></div>\n<ul class=\"k\">\n<li><b>Purity test:</b> a pure substance melts and boils at a fixed temperature (pure water boils at 100 °C). Impurities lower the melting point and raise the boiling point, and make them happen over a range</li>\n<li><b>Chromatography:</b> a pure substance gives one spot. A mixture of dyes gives several spots</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> in particle diagrams, joined circles of the <u>same</u> colour are an element (e.g. O₂). Joined circles of <u>different</u> colours are a compound. Unjoined different particles are a mixture.</div>"
+    },
+    {
+      "slug": "4-1-purpose-separation",
+      "strand": "ch4",
+      "badge": "4.1",
+      "title": "What is the purpose of separation techniques?",
+      "html": "<ul class=\"k\">\n<li><b>Obtain useful substances:</b> salt from seawater, sugar from sugar cane, metals from ores</li>\n<li><b>Remove impurities or harmful substances:</b> clean drinking water, pure medicines</li>\n<li><b>Identify what is in a mixture:</b> testing food colourings, forensic analysis of inks</li>\n<li><b>Recycle and reduce waste:</b> separating metals and plastics in recycling plants</li>\n</ul>"
+    },
+    {
+      "slug": "4-2-choosing-technique",
+      "strand": "ch4",
+      "badge": "4.2",
+      "title": "How do we choose the appropriate separation technique(s)?",
+      "html": "<p>Pick the technique based on the <b>property that differs</b> between the parts of the mixture.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Mixture</th><th>Technique</th><th>Property used</th></tr>\n<tr><td>Magnetic and non-magnetic solids (iron + sand)</td><td>magnetic attraction</td><td>magnetism</td></tr>\n<tr><td>Solids of different sizes (rice + sand)</td><td>sieving</td><td>particle size</td></tr>\n<tr><td>Insoluble solid + liquid (sand + water)</td><td><b>filtration</b>: solid left on the filter paper is the <b>residue</b>, liquid passing through is the <b>filtrate</b></td><td>solubility, particle size</td></tr>\n<tr><td>Soluble solid from a solution (salt from salt water)</td><td><b>evaporation to dryness</b></td><td>boiling point</td></tr>\n<tr><td>Soluble solid that breaks down on strong heating (sugar, copper(II) sulfate)</td><td><b>crystallisation</b>: heat to a saturated solution, then cool so crystals form</td><td>solubility falls on cooling</td></tr>\n<tr><td>Pure liquid from a solution (water from seawater)</td><td><b>simple distillation</b>: boil, then condense the vapour. The liquid collected is the <b>distillate</b></td><td>boiling point</td></tr>\n<tr><td>Liquids that mix, with different boiling points (ethanol + water)</td><td>fractional distillation</td><td>boiling point</td></tr>\n<tr><td>Liquids that don't mix (oil + water)</td><td>separating funnel</td><td>density, immiscibility</td></tr>\n<tr><td>Dyes in ink or food colouring</td><td><b>paper chromatography</b></td><td>solubility in the solvent</td></tr>\n</table></div>\n<p><b>Chromatography tips:</b> draw the start line in <b>pencil</b> (ink would run), keep it <b>above</b> the solvent level, and put a lid on to stop evaporation.</p>\n<p><b>Distillation tips:</b> thermometer bulb at the side arm, cold water enters the condenser at the <b>bottom</b>, add boiling chips for smooth boiling.</p>\n<div class=\"warn\"><b>Watch out:</b> evaporation gives you the <u>solid</u> and loses the water. Distillation gives you the <u>water</u> (and leaves the solid behind).</div>"
+    },
+    {
+      "slug": "4-3-potable-water-singapore",
+      "strand": "ch4",
+      "badge": "4.3",
+      "title": "How can we apply separation techniques to obtain potable water in Singapore?",
+      "html": "<p><b>Potable water</b> is water that is safe to drink. Singapore gets it from the <b>Four National Taps</b>:</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Tap</th><th>How it works</th></tr>\n<tr><td>Local catchment</td><td>rainwater collected in reservoirs and drains, then treated</td></tr>\n<tr><td>Imported water</td><td>water piped from Johor, Malaysia</td></tr>\n<tr><td><b>NEWater</b></td><td>used water treated by microfiltration, reverse osmosis and ultraviolet (UV) disinfection</td></tr>\n<tr><td><b>Desalination</b></td><td>seawater turned into fresh water, mainly by reverse osmosis</td></tr>\n</table></div>\n<p><b>Conventional water treatment:</b></p>\n<p class=\"flow\">Screening → Coagulation (chemicals clump small particles) → Sedimentation (clumps settle) → Filtration (sand filters) → Chlorination (kills germs) → Storage</p>\n<ul class=\"k\">\n<li><b>Microfiltration:</b> removes bacteria and fine particles</li>\n<li><b>Reverse osmosis:</b> pressure pushes water through a partially permeable membrane, leaving salts, viruses and other dissolved substances behind</li>\n<li><b>UV disinfection:</b> kills any remaining microorganisms</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> name each step <u>and</u> what it removes. Desalination and reverse osmosis use a lot of energy, so they are costly.</div>"
+    },
+    {
+      "slug": "5-1-represent-light",
+      "strand": "ch5",
+      "badge": "5.1",
+      "title": "How do we represent light?",
+      "html": "<ul class=\"k\">\n<li>Light travels in <b>straight lines</b>. We draw it as a <b>ray</b>: a straight line with an arrow showing direction. A <b>beam</b> is many rays</li>\n<li><b>Luminous</b> objects give out their own light (Sun, lamp, fire). <b>Non-luminous</b> objects are seen because they reflect light into our eyes (Moon, book)</li>\n<li><b>Shadows</b> form when an opaque object blocks light, because light cannot bend around it</li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Material</th><th>Light</th><th>Example</th></tr>\n<tr><td>Transparent</td><td>passes through almost completely, clear image</td><td>clear glass, water</td></tr>\n<tr><td>Translucent</td><td>some passes through, blurred image</td><td>frosted glass, tracing paper</td></tr>\n<tr><td>Opaque</td><td>none passes through</td><td>wood, metal</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> we see objects because light enters our <u>eyes</u>. Arrows go from the object to the eye, never from the eye.</div>"
+    },
+    {
+      "slug": "5-2-reflection",
+      "strand": "ch5",
+      "badge": "5.2",
+      "title": "What is reflection and what are its applications?",
+      "html": "<p><b>Reflection</b> is the bouncing of light off a surface.</p>\n<span class=\"f\">Law of reflection: angle of incidence = angle of reflection &nbsp; (<i>i</i> = <i>r</i>)</span>\n<ul class=\"k\">\n<li>Both angles are measured from the <b>normal</b>: a line at 90° to the surface</li>\n<li>The incident ray, reflected ray and normal all lie in the same plane</li>\n</ul>\n<p><b>Image in a plane mirror:</b> same size as the object, upright, <b>laterally inverted</b> (left and right swapped), as far behind the mirror as the object is in front, and <b>virtual</b> (can't be caught on a screen).</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Application</th><th>How it uses reflection</th></tr>\n<tr><td>Periscope</td><td>two plane mirrors at 45° let you see over obstacles</td></tr>\n<tr><td>Rear-view and side mirrors</td><td>let drivers see behind them</td></tr>\n<tr><td>Convex mirrors at road bends and in shops</td><td>give a wider field of view</td></tr>\n<tr><td>\"AMBULANCE\" written backwards</td><td>reads correctly in a driver's mirror (lateral inversion)</td></tr>\n</table></div>\n<div class=\"ex\"><b>Example</b>A ray hits a mirror at 30° to the <u>surface</u>. Angle of incidence = 90° − 30° = 60°, so angle of reflection = 60°.</div>\n<div class=\"warn\"><b>Watch out:</b> always measure angles from the <u>normal</u>, not from the mirror surface.</div>"
+    },
+    {
+      "slug": "5-3-rough-surfaces",
+      "strand": "ch5",
+      "badge": "5.3",
+      "title": "What happens when the reflecting surface is rough?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Regular reflection</th><th>Diffuse (irregular) reflection</th></tr>\n<tr><td>Surface</td><td>smooth (mirror, still water)</td><td>rough (paper, wall, clothing)</td></tr>\n<tr><td>Reflected rays</td><td>parallel rays stay parallel</td><td>scattered in many directions</td></tr>\n<tr><td>Image</td><td>clear image formed</td><td>no clear image</td></tr>\n</table></div>\n<ul class=\"k\">\n<li>The law of reflection is still obeyed at every point. The normals point in different directions because the surface is uneven, so the rays scatter</li>\n<li>Diffuse reflection lets us see objects from any angle, and makes paper easy to read without glare</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> diffuse reflection does <u>not</u> break the law of reflection.</div>"
+    },
+    {
+      "slug": "5-4-refraction",
+      "strand": "ch5",
+      "badge": "5.4",
+      "title": "What happens when light passes through different mediums?",
+      "html": "<p class=\"note\">Marked optional for G2 Science in the textbook.</p>\n<p><b>Refraction</b> is the bending of light when it passes from one transparent medium to another, because its <b>speed changes</b>.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Light travels…</th><th>Speed</th><th>Bends</th></tr>\n<tr><td>into a denser medium (air → water or glass)</td><td>slows down</td><td><b>towards</b> the normal</td></tr>\n<tr><td>into a less dense medium (glass → air)</td><td>speeds up</td><td><b>away from</b> the normal</td></tr>\n<tr><td>along the normal (at 90° to the surface)</td><td>changes</td><td>does not bend</td></tr>\n</table></div>\n<p><b>Effects:</b> a swimming pool looks shallower than it is, a pencil in water looks bent, lenses in spectacles and cameras focus light.</p>\n<p><b>Dispersion:</b> a prism splits white light into the colours of the spectrum because each colour bends by a different amount:</p>\n<p class=\"flow\">Red → Orange → Yellow → Green → Blue → Indigo → Violet (violet bends most)</p>"
+    },
+    {
+      "slug": "5-5-radiation-impact",
+      "strand": "ch5",
+      "badge": "5.5",
+      "title": "What is the impact of applications of radiation on society and the environment?",
+      "html": "<p>Visible light is one part of the <b>electromagnetic spectrum</b>:</p>\n<p class=\"flow\">Radio waves → Microwaves → Infrared → Visible light → Ultraviolet → X-rays → Gamma rays</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Radiation</th><th>Uses</th><th>Risks</th></tr>\n<tr><td>Radio waves</td><td>radio, TV, communication</td><td>generally low risk</td></tr>\n<tr><td>Microwaves</td><td>microwave ovens, mobile phones, satellites</td><td>heating of body tissue at high power</td></tr>\n<tr><td>Infrared</td><td>remote controls, thermal cameras, heaters</td><td>burns from strong sources</td></tr>\n<tr><td>Ultraviolet (UV)</td><td>sterilising water and equipment, detecting fake notes</td><td>sunburn, skin cancer, eye damage. Use sunscreen and sunglasses</td></tr>\n<tr><td>X-rays</td><td>medical imaging of bones, airport security</td><td>damage to cells, so exposure is limited and staff wear lead aprons</td></tr>\n<tr><td>Gamma rays</td><td>cancer treatment, sterilising food and equipment</td><td>can damage cells and cause cancer</td></tr>\n</table></div>\n<p><b>Light pollution:</b> too much artificial light at night disturbs animals (e.g. birds and turtles) and human sleep.</p>"
+    },
+    {
+      "slug": "6-1-technology-cells",
+      "strand": "ch6",
+      "badge": "6.1",
+      "title": "How do advances in technology help in the understanding of cells?",
+      "html": "<ul class=\"k\">\n<li>Cells are too small to see with the naked eye. The <b>microscope</b> made them visible</li>\n<li><b>Robert Hooke</b> (1665) saw tiny boxes in cork and named them \"cells\"</li>\n<li><b>Cell theory:</b> all living things are made of cells, the cell is the basic unit of life, and new cells come from existing cells</li>\n<li><b>Electron microscopes</b> magnify far more than light microscopes, showing tiny parts such as mitochondria in detail</li>\n</ul>\n<span class=\"f\">Total magnification = eyepiece lens × objective lens &nbsp; (e.g. 10× × 40× = 400×)</span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Microscope part</th><th>Job</th></tr>\n<tr><td>Eyepiece</td><td>lens you look through</td></tr>\n<tr><td>Objective lenses</td><td>main magnifying lenses (low, medium, high power)</td></tr>\n<tr><td>Stage and clips</td><td>hold the slide</td></tr>\n<tr><td>Coarse and fine focus knobs</td><td>bring the image into focus (use fine focus at high power)</td></tr>\n<tr><td>Light source or mirror</td><td>shines light through the specimen</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> always start with the <u>lowest</u> power objective lens, then switch to higher power.</div>"
+    },
+    {
+      "slug": "6-2-plant-animal-cells",
+      "strand": "ch6",
+      "badge": "6.2",
+      "title": "How can we use models to represent typical plant and animal cells?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Part</th><th>Job</th><th>Plant</th><th>Animal</th></tr>\n<tr><td>Cell membrane</td><td>controls what enters and leaves the cell</td><td>✓</td><td>✓</td></tr>\n<tr><td>Cytoplasm</td><td>jelly where chemical reactions take place</td><td>✓</td><td>✓</td></tr>\n<tr><td>Nucleus</td><td>controls cell activities, contains genetic material (DNA)</td><td>✓</td><td>✓</td></tr>\n<tr><td>Mitochondria</td><td>respiration takes place here, releasing energy</td><td>✓</td><td>✓</td></tr>\n<tr><td>Cell wall</td><td>made of cellulose, gives the cell a fixed shape and support</td><td>✓</td><td>✗</td></tr>\n<tr><td>Chloroplasts</td><td>contain chlorophyll, absorb light for photosynthesis</td><td>✓ (green parts only)</td><td>✗</td></tr>\n<tr><td>Vacuole</td><td>stores cell sap and keeps the cell firm</td><td>one large central</td><td>small, temporary</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Specialised cell</th><th>Adaptation</th></tr>\n<tr><td>Red blood cell</td><td>no nucleus and biconcave shape, so more room for haemoglobin to carry oxygen</td></tr>\n<tr><td>Root hair cell</td><td>long extension gives a large surface area to absorb water and minerals</td></tr>\n<tr><td>Nerve cell</td><td>long fibres carry messages around the body</td></tr>\n<tr><td>Sperm cell</td><td>tail to swim, many mitochondria for energy</td></tr>\n<tr><td>Guard cells</td><td>open and close stomata to control gas exchange and water loss</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> root cells have no chloroplasts because they get no light. \"All plant cells have chloroplasts\" is false.</div>"
+    },
+    {
+      "slug": "6-3-organism-function",
+      "strand": "ch6",
+      "badge": "6.3",
+      "title": "How does an organism function efficiently?",
+      "html": "<p class=\"flow\">Cell → Tissue → Organ → Organ system → Organism</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Level</th><th>Meaning</th><th>Human example</th><th>Plant example</th></tr>\n<tr><td>Cell</td><td>basic unit of life</td><td>muscle cell</td><td>palisade cell</td></tr>\n<tr><td>Tissue</td><td>group of similar cells doing one job</td><td>muscle tissue</td><td>xylem tissue</td></tr>\n<tr><td>Organ</td><td>different tissues working together</td><td>heart, stomach</td><td>leaf, root</td></tr>\n<tr><td>Organ system</td><td>organs working together</td><td>circulatory, digestive system</td><td>shoot system</td></tr>\n<tr><td>Organism</td><td>a complete living thing</td><td>human</td><td>plant</td></tr>\n</table></div>\n<p><b>Division of labour:</b> different cells, tissues and organs are specialised for different jobs, so the organism works more efficiently than if every cell did everything.</p>"
+    },
+    {
+      "slug": "7-1-particulate-nature",
+      "strand": "ch7",
+      "badge": "7.1",
+      "title": "What is the particulate nature of matter?",
+      "html": "<p><b>Particulate model of matter:</b></p>\n<ul class=\"k\">\n<li>All matter is made of tiny, discrete <b>particles</b> (atoms, molecules or ions)</li>\n<li>There are <b>spaces</b> between the particles</li>\n<li>The particles are in <b>constant random motion</b></li>\n<li>There are forces of attraction between the particles</li>\n</ul>\n<p><b>Evidence:</b></p>\n<ul class=\"k\">\n<li><b>Diffusion:</b> the smell of perfume spreads across a room</li>\n<li><b>Dissolving:</b> sugar seems to disappear in water as its particles spread between water particles</li>\n<li>Mixing 50 cm³ of alcohol with 50 cm³ of water gives <b>less than</b> 100 cm³, because the smaller particles fit into the spaces between the larger ones</li>\n<li><b>Brownian motion:</b> smoke or pollen grains jiggle randomly because invisible air or water particles hit them</li>\n</ul>"
+    },
+    {
+      "slug": "7-2-states-of-matter",
+      "strand": "ch7",
+      "badge": "7.2",
+      "title": "How can we explain the properties of different states of matter using the particulate nature of matter?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Solid</th><th>Liquid</th><th>Gas</th></tr>\n<tr><td>Arrangement</td><td>closely packed, regular pattern</td><td>closely packed, irregular</td><td>far apart, random</td></tr>\n<tr><td>Movement</td><td>vibrate about fixed positions</td><td>slide past each other</td><td>move quickly in all directions</td></tr>\n<tr><td>Forces between particles</td><td>very strong</td><td>strong</td><td>very weak</td></tr>\n<tr><td>Shape</td><td>fixed</td><td>takes the shape of the container</td><td>fills the container</td></tr>\n<tr><td>Volume</td><td>fixed</td><td>fixed</td><td>not fixed</td></tr>\n<tr><td>Compressible?</td><td>no</td><td>hardly</td><td>yes, large spaces between particles</td></tr>\n</table></div>\n<div class=\"ex\"><b>Example</b>Why can a gas be compressed but a liquid cannot? Gas particles are far apart with large spaces, so they can be pushed closer together. Liquid particles are already closely packed.</div>\n<div class=\"warn\"><b>Watch out:</b> explain properties using particles: arrangement, spacing, movement and forces. \"Solids are hard\" alone scores nothing.</div>"
+    },
+    {
+      "slug": "7-3-heating-cooling",
+      "strand": "ch7",
+      "badge": "7.3",
+      "title": "How does the particulate nature of matter explain the behaviour of particles upon heating and cooling?",
+      "html": "<ul class=\"k\">\n<li><b>Heating:</b> particles gain energy and move or vibrate faster. They move further apart, so the substance <b>expands</b></li>\n<li><b>Cooling:</b> particles lose energy, move slower and closer together, so the substance <b>contracts</b></li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Change</th><th>From → to</th><th>Particle explanation</th></tr>\n<tr><td>Melting</td><td>solid → liquid</td><td>particles gain enough energy to overcome strong forces and leave fixed positions</td></tr>\n<tr><td>Boiling / evaporation</td><td>liquid → gas</td><td>particles gain enough energy to break free and move far apart</td></tr>\n<tr><td>Condensation</td><td>gas → liquid</td><td>particles lose energy, slow down and come closer together</td></tr>\n<tr><td>Freezing</td><td>liquid → solid</td><td>particles lose energy and settle into fixed positions</td></tr>\n<tr><td>Sublimation</td><td>solid → gas directly</td><td>e.g. dry ice, iodine</td></tr>\n</table></div>\n<ul class=\"k\">\n<li>During melting and boiling the temperature stays <b>constant</b>, as energy goes into overcoming forces between particles (flat parts of a heating curve)</li>\n<li><b>Boiling:</b> at a fixed temperature, throughout the liquid, with bubbles. <b>Evaporation:</b> at any temperature, only at the surface</li>\n<li>Evaporation is faster when it is hotter, windier, less humid, or the surface area is larger</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> particles themselves do not expand or melt. They move faster and further apart.</div>"
+    },
+    {
+      "slug": "7-4-other-phenomena",
+      "strand": "ch7",
+      "badge": "7.4",
+      "title": "How does the particulate nature of matter help us appreciate other phenomena?",
+      "html": "<p><b>Diffusion:</b> the net movement of particles from a region of higher concentration to lower concentration, caused by their random motion.</p>\n<ul class=\"k\">\n<li>Fastest in gases, slower in liquids, almost none in solids</li>\n<li>Faster at higher temperatures (particles move faster)</li>\n<li>Lighter particles diffuse faster than heavier ones</li>\n</ul>\n<p><b>Gas pressure:</b> gas particles hit the walls of their container. Each collision pushes on the wall. Heating makes particles move faster and hit harder and more often, so pressure rises (e.g. tyres feel harder on a hot day, an aerosol can may burst if heated).</p>\n<p><b>Other examples:</b> wet clothes dry (evaporation), a dented ping-pong ball pops back in hot water (gas inside expands), a balloon shrinks in the fridge (gas contracts), salt dissolves faster in hot water.</p>\n<div class=\"warn\"><b>Watch out:</b> pressure comes from particles <u>colliding with the walls</u>, not from particles getting bigger.</div>"
+    },
+    {
+      "slug": "8-1-atoms",
+      "strand": "ch8",
+      "badge": "8.1",
+      "title": "What is the simplest unit of an element and how do we represent its structure?",
+      "html": "<p>An <b>atom</b> is the smallest particle of an element that keeps its chemical properties.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Particle</th><th>Charge</th><th>Relative mass</th><th>Where</th></tr>\n<tr><td>Proton</td><td>+1</td><td>1</td><td>nucleus</td></tr>\n<tr><td>Neutron</td><td>0</td><td>1</td><td>nucleus</td></tr>\n<tr><td>Electron</td><td>−1</td><td>≈ 1/1840 (almost 0)</td><td>shells around the nucleus</td></tr>\n</table></div>\n<ul class=\"k\">\n<li>The <b>nucleus</b> is tiny, holds almost all the mass and is positively charged. Most of an atom is empty space</li>\n<li>A neutral atom has equal numbers of protons and electrons</li>\n<li>Electrons fill shells in order: <b>2, 8, 8</b> (first 20 elements)</li>\n</ul>\n<p><b>How the model changed:</b> Dalton (solid sphere) → Thomson (electrons in a positive \"pudding\") → Rutherford (small, dense nucleus) → Bohr (electrons in shells). This shows scientific knowledge changes with new evidence.</p>\n<div class=\"ex\"><b>Example</b>Sodium has 11 electrons: arrangement 2, 8, 1.</div>"
+    },
+    {
+      "slug": "8-2-proton-number",
+      "strand": "ch8",
+      "badge": "8.2",
+      "title": "How can the number of protons in an atom be used to identify an element?",
+      "html": "<ul class=\"k\">\n<li><b>Proton number (atomic number):</b> the number of protons. <b>Every element has its own proton number</b>, so it identifies the element</li>\n<li><b>Nucleon number (mass number):</b> protons + neutrons</li>\n<li>The Periodic Table lists elements in order of proton number</li>\n</ul>\n<span class=\"f\">Neutrons = nucleon number − proton number</span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Element</th><th>Proton no.</th><th>Nucleon no.</th><th>p</th><th>n</th><th>e</th><th>Electron arrangement</th></tr>\n<tr><td>Hydrogen</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td></tr>\n<tr><td>Carbon</td><td>6</td><td>12</td><td>6</td><td>6</td><td>6</td><td>2, 4</td></tr>\n<tr><td>Oxygen</td><td>8</td><td>16</td><td>8</td><td>8</td><td>8</td><td>2, 6</td></tr>\n<tr><td>Sodium</td><td>11</td><td>23</td><td>11</td><td>12</td><td>11</td><td>2, 8, 1</td></tr>\n<tr><td>Chlorine</td><td>17</td><td>35</td><td>17</td><td>18</td><td>17</td><td>2, 8, 7</td></tr>\n</table></div>\n<p><b>Isotopes:</b> atoms of the same element with the same number of protons but different numbers of neutrons (e.g. carbon-12 and carbon-14).</p>\n<div class=\"warn\"><b>Watch out:</b> the number of <u>neutrons</u> can vary, and electrons can be gained or lost, but if the number of <u>protons</u> changes, it becomes a different element.</div>"
+    },
+    {
+      "slug": "8-3-molecules-formulae",
+      "strand": "ch8",
+      "badge": "8.3",
+      "title": "How do we represent the simplest units of elements and some compounds?",
+      "html": "<ul class=\"k\">\n<li>A <b>molecule</b> is two or more atoms chemically joined together</li>\n<li>Some elements exist as molecules of the same atoms: H₂, O₂, N₂, Cl₂ (diatomic)</li>\n<li>Compounds are made of atoms of <b>different</b> elements joined together</li>\n<li>A <b>chemical formula</b> shows which elements are present and how many atoms of each</li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Substance</th><th>Formula</th><th>Atoms in one unit</th></tr>\n<tr><td>Oxygen gas</td><td>O₂</td><td>2 oxygen</td></tr>\n<tr><td>Water</td><td>H₂O</td><td>2 hydrogen, 1 oxygen</td></tr>\n<tr><td>Carbon dioxide</td><td>CO₂</td><td>1 carbon, 2 oxygen</td></tr>\n<tr><td>Methane</td><td>CH₄</td><td>1 carbon, 4 hydrogen</td></tr>\n<tr><td>Ammonia</td><td>NH₃</td><td>1 nitrogen, 3 hydrogen</td></tr>\n<tr><td>Sodium chloride</td><td>NaCl</td><td>sodium and chlorine in a 1 : 1 ratio</td></tr>\n</table></div>\n<p>A number in front counts whole molecules: 3H₂O means 3 water molecules, so 6 hydrogen atoms and 3 oxygen atoms.</p>\n<p><b>Ions:</b> charged particles formed when atoms lose electrons (positive ions, e.g. Na⁺) or gain electrons (negative ions, e.g. Cl⁻). Sodium chloride is made of ions, not molecules.</p>\n<div class=\"warn\"><b>Watch out:</b> the small number after a symbol applies only to the atom just before it. In CO₂ there is 1 carbon and 2 oxygen.</div>"
+    },
+    {
+      "slug": "8-4-atomic-technologies",
+      "strand": "ch8",
+      "badge": "8.4",
+      "title": "What are some applications of atomic technologies and the possible issues that can arise from them?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Application</th><th>How it is used</th></tr>\n<tr><td>Nuclear power</td><td>splitting large atoms (nuclear fission) releases a lot of energy to generate electricity with little carbon dioxide</td></tr>\n<tr><td>Medicine</td><td>radiotherapy kills cancer cells. Radioactive tracers show how organs work. Gamma rays sterilise equipment</td></tr>\n<tr><td>Carbon dating</td><td>the amount of carbon-14 left shows the age of ancient remains</td></tr>\n<tr><td>Smoke detectors, food irradiation</td><td>small radioactive sources detect smoke. Radiation kills bacteria in food</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Possible issue</th><th>Details</th></tr>\n<tr><td>Radiation exposure</td><td>damages living cells and can cause cancer</td></tr>\n<tr><td>Nuclear accidents</td><td>e.g. Chernobyl (1986) and Fukushima (2011) released radiation over large areas</td></tr>\n<tr><td>Radioactive waste</td><td>stays dangerous for thousands of years and must be stored safely</td></tr>\n<tr><td>Weapons</td><td>the same technology can be used to make nuclear weapons</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> for \"evaluate\" questions, give a benefit and a risk, then a judgement with a reason.</div>"
+    },
+    {
+      "slug": "9-1-forces-in-nature",
+      "strand": "ch9",
+      "badge": "9.1",
+      "title": "How do forces in nature affect us?",
+      "html": "<p>A <b>force</b> is a push or a pull. It is measured in <b>newtons (N)</b> with a spring balance (newton meter).</p>\n<p><b>A force can:</b></p>\n<ul class=\"k\">\n<li>start or stop an object moving</li>\n<li>make a moving object speed up or slow down</li>\n<li>change the direction of motion</li>\n<li>change the shape or size of an object</li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Force in nature</th><th>Effect on us</th></tr>\n<tr><td>Gravity</td><td>keeps us on the ground, makes objects fall, holds the Moon in orbit, causes tides</td></tr>\n<tr><td>Friction</td><td>lets us walk without slipping, lets vehicles brake</td></tr>\n<tr><td>Wind (air pushing)</td><td>moves sailboats and turns wind turbines, can damage buildings in storms</td></tr>\n<tr><td>Water (moving water pushing)</td><td>erodes riverbanks and coasts, turns water turbines</td></tr>\n<tr><td>Magnetism</td><td>Earth's magnetic field makes a compass point north</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> a force cannot be seen. We only see its <u>effects</u>. Name the effect in your answer (e.g. \"the ball changes direction\").</div>"
+    },
+    {
+      "slug": "9-2-types-of-forces",
+      "strand": "ch9",
+      "badge": "9.2",
+      "title": "What are the types of forces?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Contact forces (objects touch)</th><th>Non-contact forces (act at a distance)</th></tr>\n<tr><td><b>Friction:</b> opposes motion between surfaces in contact</td><td><b>Gravitational force:</b> attraction between all masses</td></tr>\n<tr><td><b>Air resistance / drag:</b> friction from air or water</td><td><b>Magnetic force:</b> between magnets, or magnets and iron/steel/nickel/cobalt</td></tr>\n<tr><td><b>Normal (reaction) force:</b> a surface pushing back on an object</td><td><b>Electrostatic force:</b> between charged objects. Like charges repel, unlike attract</td></tr>\n<tr><td><b>Tension:</b> pull in a stretched rope or string</td><td></td></tr>\n<tr><td><b>Upthrust:</b> upward push from a liquid or gas</td><td></td></tr>\n</table></div>\n<p><b>Mass vs weight</b></p>\n<span class=\"f\">Weight = mass × gravitational field strength &nbsp; <i>W</i> = <i>mg</i></span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Mass</th><th>Weight</th></tr>\n<tr><td>Meaning</td><td>amount of matter in an object</td><td>gravitational pull on the object</td></tr>\n<tr><td>Unit</td><td>kilogram (kg)</td><td>newton (N)</td></tr>\n<tr><td>Measured with</td><td>beam or electronic balance</td><td>spring balance</td></tr>\n<tr><td>Changes on the Moon?</td><td>No</td><td>Yes, about 1/6 of Earth's</td></tr>\n</table></div>\n<p><b>Friction:</b> useful for walking, braking and gripping. A nuisance because it wastes energy as heat and wears parts out. <b>Reduce</b> it with lubricants (oil), ball bearings, smooth surfaces and streamlined shapes. <b>Increase</b> it with rough surfaces and tyre treads.</p>\n<div class=\"ex\"><b>Example</b>A 50 kg student on Earth (<i>g</i> = 10 N/kg): weight = 50 × 10 = 500 N.</div>\n<div class=\"warn\"><b>Watch out:</b> \"My weight is 50 kg\" is wrong in science. Mass is in kg, weight is in N.</div>"
+    },
+    {
+      "slug": "9-3-objects-interact",
+      "strand": "ch9",
+      "badge": "9.3",
+      "title": "What happens when two or more objects interact?",
+      "html": "<ul class=\"k\">\n<li>Forces always act in <b>pairs</b>. If A pushes B, B pushes back on A with an equal force in the opposite direction (e.g. a rocket pushes gas down, the gas pushes the rocket up)</li>\n<li>When several forces act on one object, add them up to get the <b>resultant force</b></li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Forces</th><th>Resultant</th><th>Effect</th></tr>\n<tr><td><b>Balanced</b> (equal and opposite)</td><td>0 N</td><td>object stays still, or keeps moving at the same speed in a straight line</td></tr>\n<tr><td><b>Unbalanced</b></td><td>not 0 N</td><td>object speeds up, slows down or changes direction</td></tr>\n</table></div>\n<span class=\"f\">Same direction: add &nbsp;·&nbsp; Opposite directions: subtract (bigger − smaller), direction of the bigger force</span>\n<div class=\"ex\"><b>Example</b>A box is pushed right with 30 N and friction acts left with 10 N. Resultant = 30 − 10 = 20 N to the right, so the box speeds up to the right.</div>\n<div class=\"ex\"><b>Example</b>A skydiver at steady speed: weight (down) = air resistance (up). Forces are balanced, so speed stays constant.</div>\n<div class=\"warn\"><b>Watch out:</b> balanced forces do <u>not</u> mean the object is still. It can be moving at a steady speed. Always give the direction of a resultant force.</div>"
+    },
+    {
+      "slug": "9-4-energy-conserved",
+      "strand": "ch9",
+      "badge": "9.4",
+      "title": "How is energy conserved?",
+      "html": "<p><b>Principle of conservation of energy:</b> energy cannot be created or destroyed. It can only be converted from one form to another. The total amount stays the same.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Form</th><th>Example</th></tr>\n<tr><td>Kinetic</td><td>moving car, flowing water</td></tr>\n<tr><td>Gravitational potential</td><td>book on a high shelf, water in a dam</td></tr>\n<tr><td>Elastic potential</td><td>stretched rubber band, compressed spring</td></tr>\n<tr><td>Chemical potential</td><td>food, fuel, batteries</td></tr>\n<tr><td>Electrical, light, sound, thermal (heat), nuclear</td><td>current in wires, lamp, speaker, hot drink, Sun's core</td></tr>\n</table></div>\n<p><b>Energy conversions:</b></p>\n<p class=\"flow\">Torch: chemical → electrical → light + heat</p>\n<p class=\"flow\">Falling ball: gravitational potential → kinetic (→ heat and sound on hitting the ground)</p>\n<p class=\"flow\">Pendulum: gravitational potential ⇄ kinetic</p>\n<span class=\"f\">Work done = force × distance moved in the direction of the force &nbsp; <i>W</i> = <i>F</i> × <i>d</i> &nbsp;(J)<br>Power = energy converted ÷ time &nbsp; <i>P</i> = <span class=\"frac\"><span><i>E</i></span><span><i>t</i></span></span> &nbsp;(W = J/s)</span>\n<p>In real machines some energy is always converted to <b>wasted</b> forms (usually heat and sound), so the useful output is less than the input. The energy is not lost, just not useful.</p>\n<div class=\"ex\"><b>Example</b>Lifting a 20 N bag up 1.5 m: <i>W</i> = 20 × 1.5 = 30 J. Done in 3 s: <i>P</i> = 30 ÷ 3 = 10 W.</div>\n<div class=\"warn\"><b>Watch out:</b> \"energy is used up\" or \"lost\" is wrong. Say energy is <u>converted</u> to heat or sound that spreads to the surroundings.</div>"
+    },
+    {
+      "slug": "9-5-energy-sources",
+      "strand": "ch9",
+      "badge": "9.5",
+      "title": "What are the sources of energy that we use?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Renewable</th><th>Non-renewable</th></tr>\n<tr><td>Meaning</td><td>replaced naturally and will not run out</td><td>limited, takes millions of years to form, will run out</td></tr>\n<tr><td>Examples</td><td>solar, wind, hydroelectric, tidal, geothermal, biomass</td><td>fossil fuels (coal, oil, natural gas), nuclear fuel (uranium)</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Source</th><th>Advantage</th><th>Disadvantage</th></tr>\n<tr><td>Fossil fuels</td><td>reliable, large amounts of energy, power stations easy to control</td><td>release carbon dioxide (global warming) and air pollutants, will run out</td></tr>\n<tr><td>Solar</td><td>clean, free once installed</td><td>only works in daylight, affected by cloud, needs large area</td></tr>\n<tr><td>Wind</td><td>clean, no fuel cost</td><td>depends on wind, noisy, needs space</td></tr>\n<tr><td>Hydroelectric</td><td>clean, reliable</td><td>dams flood land and destroy habitats</td></tr>\n<tr><td>Nuclear</td><td>huge energy from little fuel, no carbon dioxide while running</td><td>radioactive waste, risk of accidents</td></tr>\n<tr><td>Biomass</td><td>uses waste, renewable</td><td>burning releases carbon dioxide, uses land</td></tr>\n</table></div>\n<p><b>Singapore:</b> most electricity is generated from imported natural gas. With little land and weak winds, solar is the main renewable source (e.g. solar panels on HDB rooftops and floating solar farms on reservoirs).</p>\n<p class=\"flow\">Most energy comes from the Sun: Sun → plants (photosynthesis) → fossil fuels / food</p>\n<div class=\"warn\"><b>Watch out:</b> nuclear energy is non-renewable (uranium runs out), even though it produces little carbon dioxide.</div>"
+    },
+    {
+      "slug": "10-1-temperature",
+      "strand": "ch10",
+      "badge": "10.1",
+      "title": "What does a change in temperature indicate?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Temperature</th><th>Heat</th></tr>\n<tr><td>Meaning</td><td>how hot or cold something is. A measure of the average kinetic energy of its particles</td><td>energy transferred from a hotter to a colder region because of a temperature difference</td></tr>\n<tr><td>Unit</td><td>degree Celsius (°C) or kelvin (K)</td><td>joule (J)</td></tr>\n<tr><td>Measured with</td><td>thermometer, temperature sensor</td><td>calculated, not measured directly</td></tr>\n</table></div>\n<ul class=\"k\">\n<li><b>Temperature rises:</b> the object gains heat, so its particles move faster</li>\n<li><b>Temperature falls:</b> the object loses heat, so its particles move slower</li>\n<li>Heat flows from <b>hot to cold</b> until both reach the same temperature (<b>thermal equilibrium</b>)</li>\n<li>A bigger object at the same temperature has more heat energy (more particles), e.g. a bathtub of warm water holds more heat than a cup at the same temperature</li>\n</ul>\n<p>Reference points: ice melts at 0 °C, water boils at 100 °C (at normal pressure), human body about 37 °C.</p>\n<div class=\"warn\"><b>Watch out:</b> heat and temperature are not the same. \"The temperature of the soup is 300 J\" is wrong.</div>"
+    },
+    {
+      "slug": "10-2-effects-of-heat",
+      "strand": "ch10",
+      "badge": "10.2",
+      "title": "What effects does heat transfer have on an object?",
+      "html": "<p><b>1. Expansion and contraction</b></p>\n<ul class=\"k\">\n<li>Heated: particles vibrate or move faster and further apart, so the object <b>expands</b>. Cooled: it <b>contracts</b></li>\n<li>Gases expand most, then liquids, then solids</li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Use or problem</th><th>Explanation</th></tr>\n<tr><td>Gaps in railway tracks and bridges</td><td>leave room to expand on hot days so they don't buckle</td></tr>\n<tr><td>Overhead cables sag in hot weather</td><td>they expand and get longer</td></tr>\n<tr><td>Liquid-in-glass thermometer</td><td>liquid expands up the narrow tube when heated</td></tr>\n<tr><td>Bimetallic strip (fire alarm, thermostat)</td><td>two metals expand by different amounts, so the strip bends</td></tr>\n<tr><td>Hot water loosens a tight metal lid</td><td>the metal lid expands more than the glass jar</td></tr>\n</table></div>\n<p><b>2. Change of state</b></p>\n<p class=\"flow\">Solid ⇄ Liquid ⇄ Gas &nbsp; (melting / freezing, boiling or evaporation / condensation)</p>\n<ul class=\"k\">\n<li>Gaining heat: melting, boiling, evaporation, sublimation. Losing heat: freezing, condensation</li>\n<li>Temperature stays <b>constant</b> during melting and boiling. The heat is used to break the forces between particles</li>\n<li><b>Boiling</b> happens at a fixed temperature throughout the liquid. <b>Evaporation</b> happens at any temperature, only at the surface</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> particles do not expand. The <u>spaces between them</u> get bigger.</div>"
+    },
+    {
+      "slug": "10-3-heat-transfer-methods",
+      "strand": "ch10",
+      "badge": "10.3",
+      "title": "How does the transfer of heat energy occur?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Method</th><th>How it works</th><th>Happens in</th></tr>\n<tr><td><b>Conduction</b></td><td>vibrating particles pass energy to neighbouring particles. In metals, free electrons also carry energy, so metals conduct fast</td><td>mainly solids</td></tr>\n<tr><td><b>Convection</b></td><td>the heated fluid expands, becomes less dense and rises. Cooler, denser fluid sinks to take its place, forming a <b>convection current</b></td><td>liquids and gases only</td></tr>\n<tr><td><b>Radiation</b></td><td>energy travels as infrared waves. No particles needed</td><td>everywhere, including a vacuum (how the Sun's heat reaches Earth)</td></tr>\n</table></div>\n<ul class=\"k\">\n<li><b>Good conductors:</b> metals (copper, aluminium, iron). <b>Insulators</b> (poor conductors): plastic, wood, glass, air, wool, polystyrene</li>\n<li>Materials that trap air (wool, feathers, foam) are good insulators because air is a poor conductor and trapped air cannot form convection currents</li>\n<li>Convection examples: heater near the floor, air-conditioner near the ceiling, sea and land breezes, heating water in a kettle from the bottom</li>\n</ul>\n<div class=\"ex\"><b>Example: sea breeze (day)</b>Land heats up faster than the sea. Air above the land is heated, expands and rises. Cooler air from over the sea moves in to replace it.</div>\n<div class=\"warn\"><b>Watch out:</b> convection cannot happen in solids because their particles cannot move from place to place. Never write \"heat rises\". Say \"hot air rises because it is less dense\".</div>"
+    },
+    {
+      "slug": "10-4-rate-of-transfer",
+      "strand": "ch10",
+      "badge": "10.4",
+      "title": "What affects the rate at which heat energy is transferred?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Factor</th><th>Faster transfer when…</th></tr>\n<tr><td>Temperature difference</td><td>the difference between object and surroundings is larger</td></tr>\n<tr><td>Surface area</td><td>exposed surface area is larger (e.g. fins on a motorbike engine, spreading out hot food)</td></tr>\n<tr><td>Material</td><td>the material is a good conductor (metal) rather than an insulator</td></tr>\n<tr><td>Thickness</td><td>the material is thinner</td></tr>\n<tr><td>Surface colour and texture (radiation)</td><td>the surface is dull and black (good absorber and emitter). Shiny and white surfaces are poor absorbers and emitters, and reflect radiation</td></tr>\n<tr><td>Movement of air or liquid</td><td>air or liquid flows over the surface (e.g. fan, stirring)</td></tr>\n</table></div>\n<div class=\"ex\"><b>Investigation tip</b>To test one factor (e.g. colour), keep everything else the same: same volume of water, same starting temperature, same can size, same time. Record temperature every minute.</div>\n<div class=\"warn\"><b>Watch out:</b> in an experiment question, name the variable you <u>change</u>, the one you <u>measure</u>, and at least two you keep <u>constant</u>.</div>"
+    },
+    {
+      "slug": "10-5-harnessing-heat",
+      "strand": "ch10",
+      "badge": "10.5",
+      "title": "How can we harness heat transfer in daily life?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Application</th><th>How it uses heat transfer</th></tr>\n<tr><td>Cooking pot</td><td>metal base (good conductor) heats food fast. Plastic or wooden handle (insulator) is safe to hold</td></tr>\n<tr><td>Vacuum flask</td><td>vacuum stops conduction and convection. Silvered walls reflect radiation. Stopper prevents convection and evaporation</td></tr>\n<tr><td>Solar water heater</td><td>black pipes or panels absorb radiation from the Sun</td></tr>\n<tr><td>Buildings in Singapore</td><td>light-coloured roofs reflect radiation, ventilation and high ceilings let hot air rise and escape, greenery shades walls</td></tr>\n<tr><td>Refrigerator</td><td>freezing unit at the top so cold air sinks and sets up convection currents</td></tr>\n<tr><td>Double-glazed windows</td><td>trapped air or vacuum between panes reduces conduction</td></tr>\n<tr><td>Cooler box, polystyrene cup</td><td>insulating material with trapped air reduces conduction</td></tr>\n<tr><td>Clothing</td><td>light colours in hot weather reflect radiation. Layers trap air to keep warm in cold places</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> explain each feature with the method it controls: \"the vacuum prevents heat loss by conduction <u>and</u> convection because there are no particles\".</div>"
+    },
+    {
+      "slug": "11-1-identify-chemical-change",
+      "strand": "ch11",
+      "badge": "11.1",
+      "title": "How do we identify a chemical change?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Physical change</th><th>Chemical change</th></tr>\n<tr><td>New substance formed?</td><td>No</td><td><b>Yes</b></td></tr>\n<tr><td>Reversible?</td><td>usually easily reversed</td><td>usually not easily reversed</td></tr>\n<tr><td>Energy change</td><td>small</td><td>often large (heat or light given out or taken in)</td></tr>\n<tr><td>Examples</td><td>melting ice, dissolving sugar, cutting paper, boiling water</td><td>burning paper, rusting, cooking an egg, baking a cake, fruit ripening</td></tr>\n</table></div>\n<p><b>Signs that a chemical change may have happened:</b></p>\n<ul class=\"k\">\n<li>colour change (e.g. iron turning reddish-brown)</li>\n<li>gas given off: bubbles or fizzing (effervescence)</li>\n<li>a <b>precipitate</b> (insoluble solid) forms when two solutions are mixed</li>\n<li>temperature change: gets hot or cold</li>\n<li>light or sound produced</li>\n<li>change in smell</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> signs only suggest a chemical change. Boiling water also gives off bubbles but no new substance forms. The only proof is a <u>new substance</u>.</div>"
+    },
+    {
+      "slug": "11-2-types-chemical-changes",
+      "strand": "ch11",
+      "badge": "11.2",
+      "title": "What are the different types of chemical changes?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Type</th><th>What happens</th><th>Example (word equation)</th></tr>\n<tr><td><b>Combustion</b> (burning)</td><td>a substance reacts with oxygen, giving out heat and light</td><td>methane + oxygen → carbon dioxide + water</td></tr>\n<tr><td><b>Oxidation</b></td><td>a substance combines with oxygen, often slowly</td><td>iron + oxygen + water → rust (hydrated iron(III) oxide)</td></tr>\n<tr><td><b>Thermal decomposition</b></td><td>heat breaks one substance into simpler ones</td><td>calcium carbonate → calcium oxide + carbon dioxide</td></tr>\n<tr><td><b>Neutralisation</b></td><td>an acid reacts with an alkali or base</td><td>hydrochloric acid + sodium hydroxide → sodium chloride + water</td></tr>\n<tr><td><b>Metal + acid</b></td><td>a reactive metal reacts with a dilute acid</td><td>magnesium + hydrochloric acid → magnesium chloride + hydrogen</td></tr>\n<tr><td><b>Carbonate + acid</b></td><td>gives off carbon dioxide (fizzing)</td><td>calcium carbonate + hydrochloric acid → calcium chloride + water + carbon dioxide</td></tr>\n<tr><td><b>Reaction caused by light</b></td><td>light energy drives the change</td><td>photosynthesis: carbon dioxide + water → glucose + oxygen</td></tr>\n<tr><td><b>Electrolysis</b></td><td>electricity breaks down a compound</td><td>water → hydrogen + oxygen</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Gas test</th><th>Result</th></tr>\n<tr><td>Hydrogen: lighted splint</td><td>\"pop\" sound</td></tr>\n<tr><td>Oxygen: glowing splint</td><td>relights</td></tr>\n<tr><td>Carbon dioxide: bubble through limewater</td><td>white precipitate (limewater turns chalky)</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> rusting needs <u>both</u> oxygen and water. Iron in dry air or in boiled water with an oil layer does not rust.</div>"
+    },
+    {
+      "slug": "11-3-how-chemical-changes-occur",
+      "strand": "ch11",
+      "badge": "11.3",
+      "title": "How do chemical changes occur?",
+      "html": "<ul class=\"k\">\n<li>In a chemical change, the atoms in the <b>reactants</b> are rearranged to form new <b>products</b>. Bonds between atoms are broken and new bonds are formed</li>\n<li>No atoms are created or destroyed, so the <b>total mass stays the same</b> (conservation of mass). In an open container, mass may seem to drop if a gas escapes</li>\n<li>Reactions need particles to <b>collide</b>. They happen faster with higher temperature, higher concentration, smaller pieces (larger surface area) or a catalyst</li>\n</ul>\n<span class=\"f\">reactants → products</span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Energy change</th><th>Meaning</th><th>Examples</th></tr>\n<tr><td><b>Exothermic</b></td><td>gives out heat, surroundings get warmer</td><td>combustion, neutralisation, respiration, hand warmers</td></tr>\n<tr><td><b>Endothermic</b></td><td>takes in heat, surroundings get colder</td><td>thermal decomposition, photosynthesis, instant cold packs</td></tr>\n</table></div>\n<p><b>Writing equations:</b> word equation first, then a balanced chemical equation by counting atoms on both sides. Only change the numbers in front.</p>\n<span class=\"f\">2Mg + O₂ → 2MgO &nbsp;&nbsp; CH₄ + 2O₂ → CO₂ + 2H₂O</span>\n<div class=\"warn\"><b>Watch out:</b> never change the small numbers inside a formula when balancing. H₂O must stay H₂O.</div>"
+    },
+    {
+      "slug": "11-4-chemical-changes-daily-life",
+      "strand": "ch11",
+      "badge": "11.4",
+      "title": "How does knowledge of chemical reactions help us in daily life?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Use</th><th>Chemistry behind it</th></tr>\n<tr><td><b>Preventing rust</b></td><td>paint, oil or grease, plastic coating keep out oxygen and water. Galvanising (zinc coating) protects iron even when scratched</td></tr>\n<tr><td><b>Preserving food</b></td><td>refrigeration slows reactions. Vacuum packing and canning remove oxygen. Antioxidants slow oxidation (e.g. lemon juice stops cut apples browning)</td></tr>\n<tr><td><b>Fire safety</b></td><td>fire needs fuel, oxygen and heat (the <b>fire triangle</b>). Remove one to put it out: fire blanket or CO₂ extinguisher removes oxygen, water removes heat</td></tr>\n<tr><td><b>Antacids</b></td><td>a base neutralises excess stomach acid</td></tr>\n<tr><td><b>Baking</b></td><td>baking powder (sodium hydrogencarbonate) releases carbon dioxide when heated, making cakes rise</td></tr>\n<tr><td><b>Fuels</b></td><td>combustion releases energy for cooking, transport and electricity</td></tr>\n<tr><td><b>Treating acidic soil</b></td><td>farmers add lime (a base) to neutralise it</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> never use water on an oil or electrical fire. Water spreads burning oil and conducts electricity.</div>"
+    },
+    {
+      "slug": "12-1-human-impact",
+      "strand": "ch12",
+      "badge": "12.1",
+      "title": "How do our actions impact the environment?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Human action</th><th>Impact</th></tr>\n<tr><td>Deforestation (for farms, timber, buildings)</td><td>habitat loss and extinction, soil erosion, less carbon dioxide absorbed</td></tr>\n<tr><td>Burning fossil fuels</td><td>more carbon dioxide → enhanced greenhouse effect → global warming, rising sea levels. Air pollution and haze</td></tr>\n<tr><td>Water pollution (sewage, fertilisers, oil, waste)</td><td>fertiliser runoff causes algae to grow fast. When algae die, decomposers use up oxygen and fish die</td></tr>\n<tr><td>Land pollution (plastic, litter)</td><td>animals eat or get trapped in plastic. Microplastics enter food chains</td></tr>\n<tr><td>Overfishing, hunting</td><td>populations fall faster than they can recover. Food webs are disrupted</td></tr>\n<tr><td>Introducing foreign (invasive) species</td><td>they compete with or eat native species</td></tr>\n</table></div>\n<p><b>Positive actions:</b> conservation, reforestation, recycling, using renewable energy. See 12.5.</p>\n<div class=\"warn\"><b>Watch out:</b> link each action to a specific effect on organisms (\"fewer trees → fewer habitats → fewer animals\"), not just \"it is bad for the environment\".</div>"
+    },
+    {
+      "slug": "12-2-environment-survival",
+      "strand": "ch12",
+      "badge": "12.2",
+      "title": "How does an environment influence the survival of organisms?",
+      "html": "<ul class=\"k\">\n<li><b>Environment:</b> the surroundings of an organism, made up of <b>biotic</b> (living: plants, animals, microorganisms) and <b>abiotic</b> (non-living) factors</li>\n<li><b>Abiotic factors:</b> light, temperature, water, air (oxygen, carbon dioxide), soil pH and minerals, salinity (saltiness)</li>\n<li><b>Habitat:</b> the place where an organism lives</li>\n<li><b>Adaptation:</b> a feature that helps an organism survive in its environment</li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Organism</th><th>Adaptation</th><th>How it helps</th></tr>\n<tr><td>Cactus (desert)</td><td>spines instead of leaves, thick waxy stem, long roots</td><td>reduce water loss, store water, reach water deep underground</td></tr>\n<tr><td>Camel</td><td>hump stores fat, long eyelashes, wide feet</td><td>energy and water when food is scarce, keeps sand out, walks on sand</td></tr>\n<tr><td>Mangrove trees (Singapore coasts)</td><td>breathing roots (pneumatophores) stick up out of mud. Prop roots</td><td>take in oxygen from air in waterlogged mud. Support in soft mud</td></tr>\n<tr><td>Polar bear</td><td>thick fur and fat, white coat</td><td>insulation, camouflage in snow</td></tr>\n<tr><td>Owl</td><td>large eyes, active at night</td><td>sees in low light, hunts when prey is active</td></tr>\n</table></div>\n<p><b>Structural</b> adaptations are body features. <b>Behavioural</b> adaptations are actions (e.g. animals sheltering in the heat of the day, migration).</p>\n<div class=\"warn\"><b>Watch out:</b> state the feature <u>and</u> explain how it helps survival. \"The cactus has spines\" alone scores half.</div>"
+    },
+    {
+      "slug": "12-3-types-of-interactions",
+      "strand": "ch12",
+      "badge": "12.3",
+      "title": "What types of interactions affect the stability of an ecosystem?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Interaction</th><th>Who benefits</th><th>Example</th></tr>\n<tr><td><b>Predator–prey</b></td><td>predator gains, prey is killed</td><td>eagle and snake, lion and zebra</td></tr>\n<tr><td><b>Competition</b></td><td>both are harmed (less resource for each)</td><td>plants competing for light and water. Animals for food, mates, space</td></tr>\n<tr><td><b>Mutualism</b></td><td>both benefit (+ +)</td><td>bee and flower (nectar / pollination), clownfish and sea anemone</td></tr>\n<tr><td><b>Commensalism</b></td><td>one benefits, the other is unaffected (+ 0)</td><td>barnacles on a whale, orchid growing on a tree</td></tr>\n<tr><td><b>Parasitism</b></td><td>parasite benefits, host is harmed (+ −)</td><td>tick or flea on a dog, tapeworm in a human</td></tr>\n</table></div>\n<p><b>Predator–prey cycle:</b> more prey → more food → predator numbers rise → more prey eaten → prey numbers fall → predators starve → predator numbers fall → prey recover. The predator graph peaks <b>after</b> the prey graph.</p>\n<p>These interactions keep population sizes in check, which keeps the ecosystem <b>stable</b>.</p>\n<div class=\"warn\"><b>Watch out:</b> commensalism and mutualism are often mixed up. Ask: does the second organism gain anything? If not, it's commensalism.</div>"
+    },
+    {
+      "slug": "12-4-processes-stable-ecosystem",
+      "strand": "ch12",
+      "badge": "12.4",
+      "title": "What are the processes involved in maintaining a stable ecosystem?",
+      "html": "<p><b>1. Energy flow through food chains and webs</b></p>\n<p class=\"flow\">Sun → Producer → Primary consumer → Secondary consumer → Tertiary consumer</p>\n<ul class=\"k\">\n<li><b>Producers</b> (green plants) make food by photosynthesis. <b>Consumers</b> eat other organisms. <b>Decomposers</b> (bacteria, fungi) break down dead matter and waste</li>\n<li>Arrows show the direction of <b>energy flow</b>: from the organism eaten to the eater</li>\n<li>Only about <b>10%</b> of energy passes to the next level. The rest is lost as heat (respiration), movement and waste. So food chains are short and there are fewer organisms at higher levels</li>\n<li>A <b>food web</b> is many linked food chains. More links make an ecosystem more stable</li>\n</ul>\n<p><b>2. Cycling of nutrients: the carbon cycle</b></p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Removes CO₂ from air</th><th>Adds CO₂ to air</th></tr>\n<tr><td>photosynthesis by plants</td><td>respiration by all living things, combustion of fuels, decomposition by decomposers</td></tr>\n</table></div>\n<span class=\"f\">Photosynthesis: carbon dioxide + water → glucose + oxygen &nbsp;(light, chlorophyll)<br>Respiration: glucose + oxygen → carbon dioxide + water + energy</span>\n<div class=\"ex\"><b>Example</b>In a food web, if snakes are removed, frogs increase (fewer eaten), so insects decrease (more eaten by frogs).</div>\n<div class=\"warn\"><b>Watch out:</b> energy flows <u>one way</u> and is not recycled. Nutrients like carbon <u>are</u> recycled.</div>"
+    },
+    {
+      "slug": "12-5-maintain-stable-ecosystem",
+      "strand": "ch12",
+      "badge": "12.5",
+      "title": "How can we help to maintain a stable ecosystem?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Action</th><th>How it helps</th><th>Example</th></tr>\n<tr><td>Protect habitats</td><td>keeps food webs complete and species safe</td><td>Central Catchment and Bukit Timah Nature Reserves, Sungei Buloh Wetland Reserve</td></tr>\n<tr><td>Replant and restore</td><td>creates habitats and absorbs carbon dioxide</td><td>mangrove replanting, OneMillionTrees movement</td></tr>\n<tr><td>Reduce, reuse, recycle</td><td>less waste and pollution, fewer resources used</td><td>bring own bag and bottle, recycling bins</td></tr>\n<tr><td>Save energy, use renewables</td><td>less carbon dioxide from burning fossil fuels</td><td>solar panels, switching off appliances</td></tr>\n<tr><td>Sustainable fishing and farming</td><td>populations can recover</td><td>fishing quotas, buying certified seafood</td></tr>\n<tr><td>Laws and education</td><td>stop illegal hunting, trade and dumping</td><td>bans on wildlife trade, campaigns</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> say <u>how</u> the action helps the ecosystem, e.g. \"recycling paper means fewer trees are cut down, so habitats are kept\".</div>"
+    },
+    {
+      "slug": "13-1-electrical-system",
+      "strand": "ch13",
+      "badge": "13.1",
+      "title": "What does an electrical system comprise?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Part</th><th>Job</th><th>Examples</th></tr>\n<tr><td>Source</td><td>provides electrical energy (pushes the current)</td><td>cell, battery, mains supply, solar panel</td></tr>\n<tr><td>Conductor</td><td>carries current between components</td><td>copper wires</td></tr>\n<tr><td>Load</td><td>converts electrical energy to other forms</td><td>bulb, motor, buzzer, heater</td></tr>\n<tr><td>Switch</td><td>opens or closes the circuit</td><td>push switch, light switch</td></tr>\n</table></div>\n<p>Current only flows in a <b>closed circuit</b> (a complete loop with no gaps).</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Quantity</th><th>Meaning</th><th>Unit</th><th>Measured with</th></tr>\n<tr><td>Current <i class=\"m\">I</i></td><td>rate of flow of electric charge</td><td>ampere (A)</td><td>ammeter, connected in <b>series</b></td></tr>\n<tr><td>Voltage <i class=\"m\">V</i></td><td>electrical \"push\" from the source, or energy used by a component</td><td>volt (V)</td><td>voltmeter, connected in <b>parallel</b></td></tr>\n<tr><td>Resistance <i class=\"m\">R</i></td><td>how much a component opposes current</td><td>ohm (Ω)</td><td>calculated: <i class=\"m\">R</i> = <i class=\"m\">V</i> ÷ <i class=\"m\">I</i></td></tr>\n<tr><td>Power <i class=\"m\">P</i></td><td>rate of converting electrical energy</td><td>watt (W)</td><td>calculated: <i class=\"m\">P</i> = <i class=\"m\">V</i> × <i class=\"m\">I</i> (see 13.4)</td></tr>\n</table></div>\n\n<div class=\"diag\">\n<svg viewBox=\"0 0 330 120\" width=\"330\" role=\"img\" aria-label=\"Series circuit with two bulbs in one loop, and parallel circuit with two bulbs on separate branches\">\n<g class=\"ln\"><rect x=\"10\" y=\"20\" width=\"130\" height=\"80\"/><rect x=\"190\" y=\"20\" width=\"130\" height=\"80\"/><line x1=\"190\" y1=\"60\" x2=\"320\" y2=\"60\"/></g>\n<g><line x1=\"65\" y1=\"100\" x2=\"75\" y2=\"100\" style=\"stroke:var(--card);stroke-width:5\"/><line x1=\"66\" y1=\"92\" x2=\"66\" y2=\"108\" class=\"ln\"/><line x1=\"74\" y1=\"96\" x2=\"74\" y2=\"104\" class=\"ln\" stroke-width=\"4\"/></g>\n<g><line x1=\"245\" y1=\"100\" x2=\"255\" y2=\"100\" style=\"stroke:var(--card);stroke-width:5\"/><line x1=\"246\" y1=\"92\" x2=\"246\" y2=\"108\" class=\"ln\"/><line x1=\"254\" y1=\"96\" x2=\"254\" y2=\"104\" class=\"ln\" stroke-width=\"4\"/></g>\n<g class=\"bulb\"><circle cx=\"45\" cy=\"20\" r=\"9\"/><path d=\"M39 14 L51 26 M51 14 L39 26\"/></g>\n<g class=\"bulb\"><circle cx=\"105\" cy=\"20\" r=\"9\"/><path d=\"M99 14 L111 26 M111 14 L99 26\"/></g>\n<g class=\"bulb\"><circle cx=\"255\" cy=\"20\" r=\"9\"/><path d=\"M249 14 L261 26 M261 14 L249 26\"/></g>\n<g class=\"bulb\"><circle cx=\"255\" cy=\"60\" r=\"9\"/><path d=\"M249 54 L261 66 M261 54 L249 66\"/></g>\n<text x=\"75\" y=\"60\" font-size=\"13\" text-anchor=\"middle\">Series</text>\n<text x=\"255\" y=\"88\" font-size=\"13\" text-anchor=\"middle\">Parallel</text>\n</svg>\n</div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Series</th><th>Parallel</th></tr>\n<tr><td>Layout</td><td>one loop</td><td>two or more branches</td></tr>\n<tr><td>Current</td><td>same everywhere</td><td>splits between branches, adds up to the total</td></tr>\n<tr><td>Voltage</td><td>shared between components</td><td>same across each branch</td></tr>\n<tr><td>One bulb blows</td><td>all go out</td><td>others stay on (used in homes)</td></tr>\n</table></div>\n<p><b>Conventional current</b> flows from the positive (+, long line) to the negative (−, short line) terminal. Electrons actually flow the other way.</p>\n<div class=\"warn\"><b>Watch out:</b> ammeter in <u>series</u>, voltmeter in <u>parallel</u>. Swapping them is a common lost mark in circuit diagrams.</div>"
+    },
+    {
+      "slug": "13-2-components-output",
+      "strand": "ch13",
+      "badge": "13.2",
+      "title": "How do electrical components affect the output of an electrical system?",
+      "html": "<p class=\"note\">Marked optional for G2 Science in the textbook.</p>\n<span class=\"f\"><i>V</i> = <i>I</i> × <i>R</i> &nbsp; (voltage = current × resistance)</span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Change</th><th>Effect on current</th><th>Effect on output</th></tr>\n<tr><td>Add more cells in series</td><td>increases</td><td>bulbs brighter, motor faster</td></tr>\n<tr><td>Add more bulbs in series</td><td>decreases (more resistance)</td><td>each bulb dimmer</td></tr>\n<tr><td>Add more bulbs in parallel</td><td>total current increases</td><td>each bulb as bright as one on its own (battery runs down faster)</td></tr>\n<tr><td>Increase resistance (e.g. variable resistor)</td><td>decreases</td><td>bulb dimmer, motor slower</td></tr>\n</table></div>\n<p><b>Resistance of a wire is higher when it is:</b> longer, thinner, made of a poorer conductor (e.g. nichrome rather than copper), or hotter.</p>\n<p>A <b>variable resistor (rheostat)</b> changes resistance to control the output, e.g. a dimmer switch or a fan speed control.</p>\n<div class=\"ex\"><b>Example</b>A bulb has 3 V across it and a current of 0.5 A. <i class=\"m\">R</i> = 3 ÷ 0.5 = 6 Ω.<br>A 12 V supply drives current through a 4 Ω resistor. <i class=\"m\">I</i> = 12 ÷ 4 = 3 A.</div>\n<div class=\"warn\"><b>Watch out:</b> rearrange the formula before substituting, and always write the unit (A, V or Ω).</div>"
+    },
+    {
+      "slug": "13-2b-series-parallel-resistance",
+      "strand": "ch13",
+      "badge": "13.2",
+      "title": "Total resistance in series and parallel circuits",
+      "html": "<p>How to find the <b>total (effective) resistance</b> of several resistors, and why the formulas work. Every step uses only <i class=\"m\">V</i> = <i class=\"m\">I</i> × <i class=\"m\">R</i>.</p>\n<div class=\"diag\">\n<svg viewBox=\"0 0 400 150\" width=\"400\" role=\"img\" aria-label=\"Series circuit: three resistors R1, R2, R3 in one loop with a cell of voltage V. Parallel circuit: three resistors on separate branches across a cell of voltage V.\">\n<g class=\"ln\">\n<path d=\"M15 25 H175 V115 H15 Z\"/>\n<path d=\"M225 20 H385 V140 H225 Z\"/>\n<line x1=\"225\" y1=\"60\" x2=\"385\" y2=\"60\"/><line x1=\"225\" y1=\"100\" x2=\"385\" y2=\"100\"/>\n</g>\n<line x1=\"88\" y1=\"25\" x2=\"102\" y2=\"25\" style=\"stroke:var(--card);stroke-width:6\"/>\n<line x1=\"90\" y1=\"16\" x2=\"90\" y2=\"34\" class=\"ln\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"30\" class=\"ln\" stroke-width=\"4\"/>\n<line x1=\"298\" y1=\"20\" x2=\"312\" y2=\"20\" style=\"stroke:var(--card);stroke-width:6\"/>\n<line x1=\"300\" y1=\"11\" x2=\"300\" y2=\"29\" class=\"ln\"/><line x1=\"310\" y1=\"15\" x2=\"310\" y2=\"25\" class=\"ln\" stroke-width=\"4\"/>\n<g class=\"res\">\n<rect x=\"30\" y=\"107\" width=\"30\" height=\"16\"/><rect x=\"80\" y=\"107\" width=\"30\" height=\"16\"/><rect x=\"130\" y=\"107\" width=\"30\" height=\"16\"/>\n<rect x=\"290\" y=\"52\" width=\"30\" height=\"16\"/><rect x=\"290\" y=\"92\" width=\"30\" height=\"16\"/><rect x=\"290\" y=\"132\" width=\"30\" height=\"16\"/>\n</g>\n<g font-size=\"12\" text-anchor=\"middle\">\n<text x=\"95\" y=\"12\">V</text><text x=\"305\" y=\"9\" >V</text>\n<text x=\"45\" y=\"140\">R₁</text><text x=\"95\" y=\"140\">R₂</text><text x=\"145\" y=\"140\">R₃</text>\n<text x=\"340\" y=\"56\">R₁</text><text x=\"340\" y=\"96\">R₂</text><text x=\"340\" y=\"136\">R₃</text>\n<text x=\"95\" y=\"75\" font-size=\"13\">Series</text><text x=\"250\" y=\"82\" font-size=\"13\">Parallel</text>\n</g>\n</svg>\n</div>\n<p><b>Series: same current through every resistor</b></p>\n<ol class=\"k\">\n<li>Each resistor: <i class=\"m\">V</i>₁ = <i class=\"m\">I</i><i class=\"m\">R</i>₁, &nbsp;<i class=\"m\">V</i>₂ = <i class=\"m\">I</i><i class=\"m\">R</i>₂, &nbsp;<i class=\"m\">V</i>₃ = <i class=\"m\">I</i><i class=\"m\">R</i>₃</li>\n<li>The voltages share the supply: <i class=\"m\">V</i> = <i class=\"m\">V</i>₁ + <i class=\"m\">V</i>₂ + <i class=\"m\">V</i>₃ = <i class=\"m\">I</i>(<i class=\"m\">R</i>₁ + <i class=\"m\">R</i>₂ + <i class=\"m\">R</i>₃)</li>\n<li>For the whole circuit, <i class=\"m\">V</i> = <i class=\"m\">I</i> × <i class=\"m\">R</i><sub>total</sub>, so</li>\n</ol>\n<span class=\"f\"><i>R</i><sub>total</sub> = <i>R</i>₁ + <i>R</i>₂ + <i>R</i>₃</span>\n<p><b>Parallel: same voltage across every branch</b></p>\n<ol class=\"k\">\n<li>Each branch has the full supply voltage: <i class=\"m\">V</i>₁ = <i class=\"m\">V</i>₂ = <i class=\"m\">V</i>₃ = <i class=\"m\">V</i></li>\n<li>Each branch current: <i class=\"m\">I</i>₁ = <span class=\"m\"><span class=\"frac\"><span><i>V</i></span><span><i>R</i>₁</span></span></span>, &nbsp;<i class=\"m\">I</i>₂ = <span class=\"m\"><span class=\"frac\"><span><i>V</i></span><span><i>R</i>₂</span></span></span>, &nbsp;<i class=\"m\">I</i>₃ = <span class=\"m\"><span class=\"frac\"><span><i>V</i></span><span><i>R</i>₃</span></span></span></li>\n<li>The currents add up: <i class=\"m\">I</i><sub>total</sub> = <i class=\"m\">I</i>₁ + <i class=\"m\">I</i>₂ + <i class=\"m\">I</i>₃</li>\n<li><i class=\"m\">R</i><sub>total</sub> = <span class=\"m\"><span class=\"frac\"><span><i>V</i></span><span><i>I</i><sub>total</sub></span></span> = <span class=\"frac\"><span><i>V</i></span><span><span class=\"frac\"><span><i>V</i></span><span><i>R</i>₁</span></span> + <span class=\"frac\"><span><i>V</i></span><span><i>R</i>₂</span></span> + <span class=\"frac\"><span><i>V</i></span><span><i>R</i>₃</span></span></span></span></span></li>\n<li>Flip both sides and divide through by <i class=\"m\">V</i>:</li>\n</ol>\n<span class=\"f\"><span class=\"frac\"><span>1</span><span><i>R</i><sub>total</sub></span></span> = <span class=\"frac\"><span>1</span><span><i>R</i>₁</span></span> + <span class=\"frac\"><span>1</span><span><i>R</i>₂</span></span> + <span class=\"frac\"><span>1</span><span><i>R</i>₃</span></span></span>\n<p><b>Shortcut for two resistors in parallel:</b> <span class=\"m\"><i>R</i><sub>total</sub> = <span class=\"frac\"><span><i>R</i>₁ × <i>R</i>₂</span><span><i>R</i>₁ + <i>R</i>₂</span></span></span> (product over sum)</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Series</th><th>Parallel</th></tr>\n<tr><td>Current</td><td>same everywhere: <i class=\"m\">I</i></td><td>adds up: <i class=\"m\">I</i><sub>total</sub> = <i class=\"m\">I</i>₁ + <i class=\"m\">I</i>₂ + <i class=\"m\">I</i>₃</td></tr>\n<tr><td>Voltage</td><td>adds up: <i class=\"m\">V</i> = <i class=\"m\">V</i>₁ + <i class=\"m\">V</i>₂ + <i class=\"m\">V</i>₃</td><td>same across each branch: <i class=\"m\">V</i></td></tr>\n<tr><td>Total resistance</td><td><i class=\"m\">R</i>₁ + <i class=\"m\">R</i>₂ + <i class=\"m\">R</i>₃ (bigger than any one)</td><td>1/<i class=\"m\">R</i> = 1/<i class=\"m\">R</i>₁ + 1/<i class=\"m\">R</i>₂ + 1/<i class=\"m\">R</i>₃ (smaller than the smallest)</td></tr>\n</table></div>\n<div class=\"ex\"><b>Example 1: series</b>2 Ω, 3 Ω and 5 Ω in series with a 12 V supply.<br><i class=\"m\">R</i><sub>total</sub> = 2 + 3 + 5 = <b>10 Ω</b>. &nbsp;<i class=\"m\">I</i> = 12 ÷ 10 = <b>1.2 A</b>.<br><i class=\"m\">V</i>₁ = 1.2 × 2 = 2.4 V, &nbsp;<i class=\"m\">V</i>₂ = 1.2 × 3 = 3.6 V, &nbsp;<i class=\"m\">V</i>₃ = 1.2 × 5 = 6.0 V. Check: 2.4 + 3.6 + 6.0 = 12 V ✓</div>\n<div class=\"ex\"><b>Example 2: two in parallel</b>6 Ω and 3 Ω in parallel with a 6 V supply.<br>1/<i class=\"m\">R</i> = 1/6 + 1/3 = 1/6 + 2/6 = 3/6, so <i class=\"m\">R</i><sub>total</sub> = <b>2 Ω</b> (shortcut: 18 ÷ 9 = 2 Ω).<br><i class=\"m\">I</i>₁ = 6 ÷ 6 = 1 A, &nbsp;<i class=\"m\">I</i>₂ = 6 ÷ 3 = 2 A, &nbsp;<i class=\"m\">I</i><sub>total</sub> = <b>3 A</b>. Check: 6 V ÷ 2 Ω = 3 A ✓</div>\n<div class=\"ex\"><b>Example 3: three in parallel</b>2 Ω, 3 Ω and 6 Ω in parallel.<br>1/<i class=\"m\">R</i> = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1, so <i class=\"m\">R</i><sub>total</sub> = <b>1 Ω</b>.</div>\n<div class=\"warn\"><b>Watch out:</b> in parallel, 1/<i class=\"m\">R</i><sub>total</sub> is not the answer. Remember to flip it at the end (1/<i class=\"m\">R</i> = 3/6 means <i class=\"m\">R</i> = 2 Ω, not 0.5 Ω). Check: the parallel total must be <u>smaller</u> than the smallest resistor.</div>"
+    },
+    {
+      "slug": "13-3-benefits-risks",
+      "strand": "ch13",
+      "badge": "13.3",
+      "title": "What are some benefits and risks associated with the applications of electrical systems?",
+      "html": "<p><b>Benefits:</b> lighting, cooking and heating, refrigeration of food and medicine, communication (phones, internet), transport (MRT, electric buses), medical equipment, entertainment.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Risk</th><th>Cause</th></tr>\n<tr><td>Electric shock</td><td>touching live wires, damaged insulation, wet hands or water near appliances</td></tr>\n<tr><td>Fire</td><td>overloading a socket (too many appliances), short circuit, wires overheating</td></tr>\n<tr><td>Short circuit</td><td>current takes a path with almost no resistance, so a very large current flows and wires overheat</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Safety feature</th><th>How it protects</th></tr>\n<tr><td><b>Fuse</b> (in the live wire)</td><td>thin wire melts when current is too large, breaking the circuit</td></tr>\n<tr><td><b>Circuit breaker</b></td><td>switch that trips off automatically when current is too large. Can be reset</td></tr>\n<tr><td><b>Earth wire</b></td><td>if a live wire touches a metal casing, current flows safely to earth instead of through the user, and the fuse blows</td></tr>\n<tr><td><b>Insulation / double insulation</b></td><td>plastic covering stops users touching live parts</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Wire in a 3-pin plug</th><th>Colour</th></tr>\n<tr><td>Live</td><td>brown</td></tr>\n<tr><td>Neutral</td><td>blue</td></tr>\n<tr><td>Earth</td><td>green and yellow stripes</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> the fuse and switch must be on the <u>live</u> wire, so the appliance is disconnected from the high voltage when they break the circuit.</div>"
+    },
+    {
+      "slug": "13-4-reduce-consumption",
+      "strand": "ch13",
+      "badge": "13.4",
+      "title": "How do we reduce the consumption of electrical energy?",
+      "html": "<p><b>Finding power from voltage and current</b></p>\n<p><b>Power</b> is how fast an appliance converts electrical energy, measured in <b>watts (W)</b>. 1 W = 1 joule per second.</p>\n<span class=\"f\">Power = voltage × current &nbsp; <i>P</i> = <i>V</i> × <i>I</i><br>watts (W) = volts (V) × amperes (A)</span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>To find</th><th>Use</th></tr>\n<tr><td>Power</td><td><i class=\"m\">P</i> = <i class=\"m\">V</i> × <i class=\"m\">I</i></td></tr>\n<tr><td>Current</td><td><i class=\"m\">I</i> = <i class=\"m\">P</i> ÷ <i class=\"m\">V</i></td></tr>\n<tr><td>Voltage</td><td><i class=\"m\">V</i> = <i class=\"m\">P</i> ÷ <i class=\"m\">I</i></td></tr>\n</table></div>\n<p><b>Steps:</b> (1) write the formula, (2) substitute the values, (3) calculate, (4) give the unit.</p>\n<div class=\"ex\"><b>Example 1: find power</b>A kettle on Singapore's 230 V mains draws a current of 8 A.<br><i class=\"m\">P</i> = <i class=\"m\">V</i> × <i class=\"m\">I</i> = 230 × 8 = <b>1840 W</b> (1.84 kW).</div>\n<div class=\"ex\"><b>Example 2: find current</b>A 2300 W air-conditioner runs on 230 V.<br><i class=\"m\">I</i> = <i class=\"m\">P</i> ÷ <i class=\"m\">V</i> = 2300 ÷ 230 = <b>10 A</b>.</div>\n<div class=\"ex\"><b>Example 3: torch bulb</b>A bulb has 3 V across it and 0.5 A through it.<br><i class=\"m\">P</i> = 3 × 0.5 = <b>1.5 W</b>.</div>\n<div class=\"ex\"><b>Example 4: power, then energy and cost</b>A 230 V heater draws 5 A for 2 hours at $0.30 per kWh.<br><i class=\"m\">P</i> = 230 × 5 = 1150 W = 1.15 kW.<br>Energy = 1.15 kW × 2 h = 2.3 kWh.<br>Cost = 2.3 × $0.30 = <b>$0.69</b>.</div>\n<p><b>Choosing a fuse:</b> work out the normal current with <i class=\"m\">I</i> = <i class=\"m\">P</i> ÷ <i class=\"m\">V</i>, then pick the fuse rated just above it. A 1840 W kettle draws 8 A, so use a 13 A fuse, not a 3 A or 5 A fuse.</p>\n<p><b>Linking with V = IR:</b> if you know the current and resistance, first find the voltage (<i class=\"m\">V</i> = <i class=\"m\">I</i> × <i class=\"m\">R</i>), then the power (<i class=\"m\">P</i> = <i class=\"m\">V</i> × <i class=\"m\">I</i>).</p>\n<div class=\"warn\"><b>Watch out:</b> current must be in amperes. Convert mA first (250 mA = 0.25 A). And kW ≠ W: divide by 1000 before working out kWh.</div>\n<hr class=\"div\">\n<p><b>Energy used and its cost</b></p>\n<span class=\"f\">Energy (kWh) = Power (kW) × time (h)<br>Cost = energy used (kWh) × price per kWh</span>\n<div class=\"ex\"><b>Example</b>A 2000 W air-conditioner runs 5 h a day. Energy = 2 kW × 5 h = 10 kWh per day. At $0.30 per kWh, it costs $3.00 a day, or about $90 a month.</div>\n<p><b>Ways to save electricity:</b></p>\n<ul class=\"k\">\n<li>Switch off lights and appliances when not in use, including at the wall socket (standby still uses power)</li>\n<li>Use LED bulbs: they convert more energy to light and less to heat than older bulbs</li>\n<li>Buy appliances with more ticks on the <b>Energy Label</b>: more ticks means more energy efficient</li>\n<li>Set the air-conditioner to 25 °C or higher, or use a fan instead</li>\n<li>Use natural light and ventilation, and keep fridge doors closed</li>\n</ul>\n<p><b>Why it matters:</b> most electricity in Singapore comes from burning natural gas, which releases carbon dioxide. Using less electricity lowers both the bill and emissions.</p>\n<div class=\"warn\"><b>Watch out:</b> convert W to kW (÷ 1000) and minutes to hours (÷ 60) before calculating kWh.</div>"
+    },
+    {
+      "slug": "14-1-why-digestion",
+      "strand": "ch14",
+      "badge": "14.1",
+      "title": "Why is a digestive system needed in humans?",
+      "html": "<p>Most food molecules (starch, proteins, fats) are <b>large and insoluble</b>. They cannot pass through the gut wall into the blood. <b>Digestion</b> breaks them down into <b>small, soluble</b> molecules that can be absorbed and used by cells.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Type</th><th>What happens</th><th>Examples</th></tr>\n<tr><td>Physical digestion</td><td>breaks food into smaller pieces, increasing surface area for enzymes. No new substance</td><td>chewing by teeth, churning in stomach, bile emulsifying fats</td></tr>\n<tr><td>Chemical digestion</td><td><b>enzymes</b> break large molecules into small ones</td><td>amylase breaking starch into maltose</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Nutrient</th><th>Broken down into</th></tr>\n<tr><td>Starch (carbohydrate)</td><td>glucose</td></tr>\n<tr><td>Protein</td><td>amino acids</td></tr>\n<tr><td>Fats</td><td>fatty acids and glycerol</td></tr>\n</table></div>\n<p>Vitamins, minerals and water are already small and are absorbed without digestion. <b>Fibre</b> is not digested but helps food move through the gut.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Food test</th><th>Reagent</th><th>Positive result</th></tr>\n<tr><td>Starch</td><td>iodine solution</td><td>brown → blue-black</td></tr>\n<tr><td>Reducing sugar</td><td>Benedict's solution, heated</td><td>blue → brick-red precipitate</td></tr>\n<tr><td>Protein</td><td>biuret solution</td><td>blue → violet</td></tr>\n<tr><td>Fats</td><td>ethanol, then water</td><td>white emulsion</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> the reason for digestion is size <u>and</u> solubility. Mention both.</div>"
+    },
+    {
+      "slug": "14-2-digestive-parts",
+      "strand": "ch14",
+      "badge": "14.2",
+      "title": "How do the parts of the human digestive system work together?",
+      "html": "<p class=\"flow\">Mouth → Oesophagus → Stomach → Small intestine → Large intestine → Rectum → Anus</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Part</th><th>What happens</th></tr>\n<tr><td>Mouth</td><td>teeth chew food. Saliva moistens it and contains <b>amylase</b> (starch → maltose)</td></tr>\n<tr><td>Oesophagus</td><td><b>peristalsis</b>: waves of muscle contraction push food to the stomach</td></tr>\n<tr><td>Stomach</td><td>churns food. Hydrochloric acid kills bacteria and gives the right pH for <b>protease</b> (protein digestion starts)</td></tr>\n<tr><td>Liver and gall bladder</td><td>liver makes <b>bile</b>, stored in the gall bladder. Bile emulsifies fats into tiny droplets</td></tr>\n<tr><td>Pancreas</td><td>releases pancreatic juice with amylase, protease and lipase into the small intestine</td></tr>\n<tr><td>Small intestine</td><td>digestion is completed. Digested food is <b>absorbed</b> into the blood through <b>villi</b></td></tr>\n<tr><td>Large intestine</td><td>absorbs water and minerals. Forms faeces</td></tr>\n<tr><td>Rectum, anus</td><td>stores faeces, then removes them (egestion)</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Enzyme</th><th>Substrate → product</th><th>Where</th></tr>\n<tr><td>Amylase</td><td>starch → maltose</td><td>mouth, small intestine</td></tr>\n<tr><td>Maltase</td><td>maltose → glucose</td><td>small intestine</td></tr>\n<tr><td>Protease</td><td>protein → amino acids</td><td>stomach, small intestine</td></tr>\n<tr><td>Lipase</td><td>fats → fatty acids + glycerol</td><td>small intestine</td></tr>\n</table></div>\n<p><b>Villi</b> are adapted for absorption: they give a very large surface area, have walls one cell thick, and contain many blood capillaries.</p>\n<p><b>Enzymes:</b> proteins that speed up reactions. Each works on one substance (lock and key). They work best at an optimum temperature (about 37 °C in humans) and pH, and are <b>denatured</b> at high temperatures.</p>\n<div class=\"warn\"><b>Watch out:</b> bile is <u>not</u> an enzyme. It breaks fat into droplets physically, which gives lipase a larger surface area to work on.</div>"
+    },
+    {
+      "slug": "14-3-end-products",
+      "strand": "ch14",
+      "badge": "14.3",
+      "title": "How do the end products of digestion affect the body?",
+      "html": "<p>After absorption, the end products are carried in the blood to every cell and used there (<b>assimilation</b>).</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>End product</th><th>Use in the body</th><th>If in excess</th></tr>\n<tr><td>Glucose</td><td>used in <b>respiration</b> to release energy</td><td>stored as glycogen in the liver and muscles, or converted to fat</td></tr>\n<tr><td>Amino acids</td><td>build new proteins for growth and repair, enzymes, hormones</td><td>broken down in the liver. The waste (urea) is removed by the kidneys</td></tr>\n<tr><td>Fatty acids and glycerol</td><td>make cell membranes, energy store, insulation, protect organs</td><td>stored as fat under the skin and around organs</td></tr>\n</table></div>\n<span class=\"f\">Aerobic respiration: glucose + oxygen → carbon dioxide + water + energy</span>\n<div class=\"warn\"><b>Watch out:</b> respiration releases energy in cells. It is not the same as breathing, which moves air in and out of the lungs.</div>"
+    },
+    {
+      "slug": "14-4-digestive-issues",
+      "strand": "ch14",
+      "badge": "14.4",
+      "title": "What are some issues that affect the human digestive system?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Issue</th><th>Cause</th><th>Prevention or care</th></tr>\n<tr><td>Constipation</td><td>too little fibre and water, so faeces become hard</td><td>eat vegetables, fruit, wholegrains, drink water</td></tr>\n<tr><td>Diarrhoea</td><td>infection from contaminated food or water. Large intestine absorbs too little water</td><td>wash hands, eat clean food, drink fluids to avoid dehydration</td></tr>\n<tr><td>Gastric ulcer, gastritis</td><td>stomach lining damaged by bacteria, too much acid, some painkillers, irregular meals</td><td>regular meals, medical treatment</td></tr>\n<tr><td>Tooth decay</td><td>bacteria feed on sugar and produce acid that dissolves enamel</td><td>brush twice a day, less sugary food and drinks</td></tr>\n<tr><td>Obesity</td><td>taking in more energy than the body uses</td><td>balanced diet, regular exercise</td></tr>\n</table></div>\n<p><b>A balanced diet</b> has the right amounts of carbohydrates, proteins, fats, vitamins, minerals, fibre and water (e.g. Singapore's \"My Healthy Plate\": half fruit and vegetables, a quarter wholegrains, a quarter protein).</p>\n<div class=\"warn\"><b>Watch out:</b> link the cause to the part of the gut affected, e.g. \"too little water is absorbed in the <u>large intestine</u>, so faeces are watery\".</div>"
+    },
+    {
+      "slug": "15-1-transport-functions",
+      "strand": "ch15",
+      "badge": "15.1",
+      "title": "What are the functions of a transport system and its parts?",
+      "html": "<p>A transport system carries useful substances (oxygen, food, water) to cells and removes waste (carbon dioxide, urea) from them.</p>\n<p><b>Humans: heart, blood vessels and blood</b></p>\n<p class=\"flow\">Vena cava → Right atrium → Right ventricle → Pulmonary artery → <b>Lungs</b> → Pulmonary vein → Left atrium → Left ventricle → Aorta → <b>Body</b></p>\n<ul class=\"k\">\n<li>Right side pumps deoxygenated blood to the lungs. Left side pumps oxygenated blood to the body</li>\n<li>The left ventricle has the thickest wall because it pumps blood all round the body. Valves stop blood flowing backwards</li>\n</ul>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Vessel</th><th>Direction</th><th>Features</th></tr>\n<tr><td>Artery</td><td>away from heart</td><td>thick, muscular, elastic wall. High pressure</td></tr>\n<tr><td>Vein</td><td>towards heart</td><td>thin wall, wide space inside, valves. Low pressure</td></tr>\n<tr><td>Capillary</td><td>links arteries and veins</td><td>wall one cell thick so substances pass in and out</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Blood part</th><th>Job</th></tr>\n<tr><td>Red blood cells</td><td>carry oxygen using haemoglobin. No nucleus, biconcave shape for more space and surface area</td></tr>\n<tr><td>White blood cells</td><td>fight germs (engulf them or make antibodies)</td></tr>\n<tr><td>Platelets</td><td>help blood clot at wounds</td></tr>\n<tr><td>Plasma</td><td>liquid that carries dissolved food, carbon dioxide, hormones and urea</td></tr>\n</table></div>\n<p><b>Plants:</b> <b>xylem</b> carries water and mineral salts up from the roots (one direction). <b>Phloem</b> carries sugars made in the leaves to all parts (up and down). <b>Transpiration</b> (water evaporating from leaves through stomata) pulls water up the xylem. It is faster when it is hot, windy, bright or dry.</p>\n<div class=\"warn\"><b>Watch out:</b> the pulmonary artery carries <u>deoxygenated</u> blood. Arteries are named by direction (away from the heart), not by oxygen.</div>"
+    },
+    {
+      "slug": "15-2-diffusion-osmosis",
+      "strand": "ch15",
+      "badge": "15.2",
+      "title": "What are the processes involved in the movement of substances in and out of cells?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Diffusion</th><th>Osmosis</th></tr>\n<tr><td>Definition</td><td>net movement of particles from a region of <b>higher</b> concentration to a region of <b>lower</b> concentration</td><td>net movement of <b>water</b> molecules from a dilute solution (more water) to a concentrated solution (less water) through a <b>partially permeable membrane</b></td></tr>\n<tr><td>What moves</td><td>any particles (gases, dissolved substances)</td><td>water only</td></tr>\n<tr><td>Examples</td><td>oxygen from air sacs into blood in the lungs. Carbon dioxide into a leaf. Digested food into villi</td><td>root hair cells taking in water from soil. Water moving between plant cells</td></tr>\n</table></div>\n<p><b>Diffusion is faster when:</b> the concentration difference is larger, the temperature is higher, the surface area is larger, or the distance is shorter.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Cell placed in</th><th>Plant cell</th><th>Red blood cell (animal)</th></tr>\n<tr><td>Pure water (dilute)</td><td>gains water, becomes firm (<b>turgid</b>). Cell wall stops it bursting</td><td>gains water, swells and <b>bursts</b></td></tr>\n<tr><td>Concentrated salt or sugar solution</td><td>loses water, becomes limp (<b>flaccid</b>). Plant wilts</td><td>loses water and <b>shrinks</b></td></tr>\n</table></div>\n<div class=\"ex\"><b>Example</b>Salted cucumber slices go soft: water leaves the cucumber cells by osmosis into the more concentrated salt solution outside.</div>\n<div class=\"warn\"><b>Watch out:</b> in osmosis, describe <u>water</u> moving, not salt or sugar. And always mention the partially permeable membrane.</div>"
+    },
+    {
+      "slug": "15-3-transport-issues",
+      "strand": "ch15",
+      "badge": "15.3",
+      "title": "What issues arise when parts of the human transport system do not work well?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Issue</th><th>What happens</th><th>Effect</th></tr>\n<tr><td><b>Coronary heart disease</b></td><td>fatty deposits build up inside the coronary arteries that supply the heart muscle, narrowing them</td><td>less oxygen reaches heart muscle, causing chest pain. A blocked artery causes a <b>heart attack</b></td></tr>\n<tr><td><b>High blood pressure</b></td><td>blood pushes too hard on artery walls</td><td>damages arteries, raises risk of heart attack and stroke</td></tr>\n<tr><td><b>Stroke</b></td><td>blood supply to part of the brain is blocked or a vessel bursts</td><td>brain cells die, can cause paralysis or speech problems</td></tr>\n<tr><td><b>Anaemia</b></td><td>too little haemoglobin or too few red blood cells, often from lack of iron</td><td>less oxygen carried, so tiredness and paleness</td></tr>\n<tr><td>Faulty heart valves</td><td>valves don't close properly, so blood flows backwards</td><td>heart pumps less efficiently</td></tr>\n</table></div>\n<p><b>Risk factors:</b> smoking, diet high in saturated fat and salt, lack of exercise, obesity, stress, family history.</p>\n<p><b>Prevention:</b> do not smoke, eat less fatty and salty food, exercise regularly, keep a healthy weight, have health check-ups.</p>\n<p><b>Treatment:</b> medicines, a <b>stent</b> (small tube that holds an artery open), bypass surgery, pacemaker or heart valve replacement.</p>\n<div class=\"warn\"><b>Watch out:</b> the coronary arteries supply blood to the heart <u>muscle itself</u>, not the blood inside the heart chambers.</div>"
+    },
+    {
+      "slug": "16-1-reproductive-function",
+      "strand": "ch16",
+      "badge": "16.1",
+      "title": "What is the function of the human sexual reproductive system?",
+      "html": "<ul class=\"k\">\n<li><b>Function:</b> to produce offspring, so the human species continues</li>\n<li><b>Sexual reproduction</b> involves two parents. A male gamete (<b>sperm</b>) fuses with a female gamete (<b>egg</b> or ovum). This is <b>fertilisation</b></li>\n<li>Offspring get genetic material from both parents, so they show <b>variation</b> (they are not identical)</li>\n</ul>\n<p><b>The system:</b> produces gametes, produces sex hormones (testosterone in males, oestrogen and progesterone in females), allows sperm to meet the egg, and (in females) protects and nourishes the developing baby.</p>\n<p><b>Puberty</b> is when the reproductive organs mature and secondary sexual characteristics develop, controlled by sex hormones.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Sperm</th><th>Egg</th></tr>\n<tr><td>Made in</td><td>testes</td><td>ovaries</td></tr>\n<tr><td>Size</td><td>very small</td><td>much larger (contains food store)</td></tr>\n<tr><td>Moves?</td><td>yes, swims with a tail</td><td>no, moved along the oviduct by cilia</td></tr>\n<tr><td>Number</td><td>millions produced</td><td>usually one released per month</td></tr>\n</table></div>"
+    },
+    {
+      "slug": "16-2-reproductive-parts",
+      "strand": "ch16",
+      "badge": "16.2",
+      "title": "How do the parts of each reproductive system work together?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Male organ</th><th>Job</th></tr>\n<tr><td>Testes</td><td>produce sperm and testosterone</td></tr>\n<tr><td>Scrotum</td><td>holds the testes outside the body, at a slightly lower temperature for sperm production</td></tr>\n<tr><td>Sperm duct</td><td>carries sperm from the testes to the urethra</td></tr>\n<tr><td>Prostate gland, seminal vesicle</td><td>add fluid that nourishes sperm and helps them swim (sperm + fluid = semen)</td></tr>\n<tr><td>Urethra, penis</td><td>carry semen out of the body</td></tr>\n</table></div>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Female organ</th><th>Job</th></tr>\n<tr><td>Ovaries</td><td>release an egg about once a month. Produce oestrogen and progesterone</td></tr>\n<tr><td>Oviduct (fallopian tube)</td><td>carries the egg to the uterus. <b>Fertilisation happens here</b></td></tr>\n<tr><td>Uterus</td><td>embryo implants in its thick lining and the fetus develops</td></tr>\n<tr><td>Cervix</td><td>ring of muscle at the neck of the uterus</td></tr>\n<tr><td>Vagina</td><td>receives sperm. Birth canal</td></tr>\n</table></div>\n<p class=\"flow\">Sperm + egg → <b>zygote</b> (in oviduct) → divides into an <b>embryo</b> → implants in uterus lining → <b>fetus</b> → birth (about 9 months)</p>\n<ul class=\"k\">\n<li><b>Placenta:</b> food and oxygen pass from mother to fetus. Carbon dioxide and wastes pass from fetus to mother. Their blood does not mix</li>\n<li><b>Umbilical cord:</b> connects the fetus to the placenta</li>\n<li><b>Amniotic fluid:</b> cushions the fetus from bumps</li>\n<li><b>Menstrual cycle (about 28 days):</b> days 1–5 menstruation (uterus lining breaks down). Lining thickens again. Ovulation (egg released) around day 14. Fertile period about days 11–17</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> fertilisation happens in the <u>oviduct</u>. The uterus is where implantation happens.</div>"
+    },
+    {
+      "slug": "16-3-reproductive-disruption",
+      "strand": "ch16",
+      "badge": "16.3",
+      "title": "How can the function of the human reproductive system be disrupted?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Disruption</th><th>Details</th></tr>\n<tr><td><b>Sexually transmitted infections (STIs)</b></td><td>spread through sexual contact. Examples: HIV (attacks the immune system and can lead to AIDS), syphilis and gonorrhoea (bacterial). Some can damage reproductive organs and cause infertility</td></tr>\n<tr><td><b>Infertility</b></td><td>unable to conceive, e.g. blocked oviducts, egg not released, low sperm count or sperm that swim poorly</td></tr>\n<tr><td><b>Harmful substances in pregnancy</b></td><td>smoking, alcohol and drugs cross the placenta and can cause low birth weight, birth defects or miscarriage</td></tr>\n<tr><td>Hormone imbalance</td><td>can stop ovulation or sperm production</td></tr>\n<tr><td>Age</td><td>fertility falls as people get older</td></tr>\n</table></div>\n<p><b>Preventing STIs:</b> abstinence is the only certain way. Condoms reduce the risk. Some STIs can spread by sharing needles, by blood, or from mother to baby.</p>\n<div class=\"warn\"><b>Watch out:</b> antibiotics treat <u>bacterial</u> STIs like syphilis and gonorrhoea, but not HIV, which is a virus.</div>"
+    },
+    {
+      "slug": "16-4-medical-advancements",
+      "strand": "ch16",
+      "badge": "16.4",
+      "title": "How do medical advancements impact human reproduction and survival?",
+      "html": "<div class=\"tw\"><table class=\"t\">\n<tr><th>Advancement</th><th>How it helps</th><th>Issue to consider</th></tr>\n<tr><td><b>In vitro fertilisation (IVF)</b></td><td>eggs are fertilised by sperm outside the body, and an embryo is placed in the uterus. Helps infertile couples</td><td>expensive, may need several attempts, raises ethical questions about unused embryos</td></tr>\n<tr><td><b>Contraception</b></td><td>prevents pregnancy, so families can plan. Barrier methods (condoms) stop sperm reaching the egg. Hormonal methods (pills) stop ovulation. Surgical methods (cutting the sperm ducts or oviducts) are permanent</td><td>no method is 100% effective. Only condoms reduce STI risk</td></tr>\n<tr><td><b>Ultrasound scans and prenatal tests</b></td><td>check the fetus's growth and detect problems early</td><td>results can lead to difficult decisions</td></tr>\n<tr><td><b>Vaccines</b></td><td>e.g. the HPV vaccine protects against a virus that can cause cervical cancer</td><td>must be given before exposure</td></tr>\n<tr><td><b>Medicines for STIs</b></td><td>antibiotics cure bacterial STIs. Antiretroviral drugs control HIV so people can live longer, healthier lives</td><td>HIV has no cure yet</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> \"evaluate\" questions want a benefit <u>and</u> a limitation or ethical issue, then a judgement.</div>"
+    },
+    {
+      "slug": "acids-and-alkalis",
+      "strand": "other",
+      "badge": "Sec 2",
+      "title": "Acids & alkalis",
+      "html": "<div class=\"ph\" role=\"img\" aria-label=\"pH scale from 0 to 14\">\n<div class=\"ph-bar\"></div>\n<div class=\"ph-n\"><span>0</span><span>7</span><span>14</span></div>\n<div class=\"ph-n lbl\"><span>strong acid</span><span>neutral</span><span>strong alkali</span></div>\n</div>\n<ul class=\"k\">\n<li><b>Litmus:</b> acid turns blue litmus red. Alkali turns red litmus blue</li>\n<li><b>Universal indicator:</b> red/orange/yellow = acid, green = neutral (pH 7), blue/purple = alkali</li>\n<li>Acids release H⁺ ions in water. Alkalis release OH⁻ ions</li>\n<li>An alkali is a base that dissolves in water</li>\n</ul>\n<span class=\"f\">acid + metal → salt + hydrogen<br>acid + carbonate → salt + water + carbon dioxide<br>acid + alkali → salt + water &nbsp;(neutralisation)</span>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Gas</th><th>Test</th><th>Result</th></tr>\n<tr><td>Hydrogen</td><td>lighted splint</td><td>\"pop\" sound</td></tr>\n<tr><td>Carbon dioxide</td><td>bubble through limewater</td><td>white precipitate</td></tr>\n<tr><td>Oxygen</td><td>glowing splint</td><td>relights</td></tr>\n</table></div>\n<p><b>Uses of neutralisation:</b> antacids for indigestion, lime (calcium hydroxide) for acidic soil, toothpaste against mouth acid.</p>\n<div class=\"ex\"><b>Example</b>hydrochloric acid + sodium hydroxide → sodium chloride + water</div>\n<div class=\"warn\"><b>Watch out:</b> copper and other unreactive metals do not react with dilute acids, so no hydrogen is given off.</div>"
+    }
+  ]
+}

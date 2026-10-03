@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+{% if missing %}
+  <p class="empty">That page doesn't exist. <a href="{{ url_for('index') }}">Back to all topics</a>.</p>
+{% elif q and not groups %}
+  <p class="empty">No topics match "{{ q }}". Try a shorter word, such as "graph" or "area".</p>
+{% else %}
+  {% if q %}<p class="empty">{{ count }} topic{{ 's' if count != 1 }} match "{{ q }}".</p>{% endif %}
+  {% for s, items in groups %}
+  <section class="strand" id="{{ s.slug }}">
+    <div class="strand-head"><h2>{{ s.name }}</h2><span>{{ items|length }} topic{{ 's' if items|length != 1 }}</span></div>
+    <div class="grid">
+      {% for t in items %}{% include "_card.html" %}{% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+{% endif %}
+{% endblock %}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sec 2 Study Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Secondary 2 · 2026</div>
+  <h1>Sec 2 Study Hub</h1>
+  <p class="lede">Revision cheat sheets for the end-of-year exam, plus the school's Sec 2 parents' briefing.</p>
+</header>
+
+<section aria-labelledby="dates-h" class="block">
+  <h2 id="dates-h">Coming up</h2>
+  <ol class="dates">
+    {% for d in dates %}
+    <li class="date {{ d.status }}">
+      <span class="when">{{ d.when }}</span>
+      <span class="what"><b>{{ d.what }}</b><small>{{ d.note }}</small></span>
+      <span class="pill">{{ d.label }}</span>
+    </li>
+    {% endfor %}
+  </ol>
+  <p class="src">Dates from the Sec 2 Parents' e-Engagement Session slides.</p>
+</section>
+
+<section aria-labelledby="study-h" class="block">
+  <h2 id="study-h">Study</h2>
+  <a class="doc plan-link" href="{{ url_for('revision_plan') }}">
+    <span class="doc-icon plan" aria-hidden="true">PLAN</span>
+    <span class="doc-body">
+      <b>EOY revision plan</b>
+      <small>Day-by-day tasks for 28–29 Sep, the exam-week routine and a night-before checklist for every subject. Tick tasks off as you go.</small>
+    </span>
+    <span class="go">Open plan →</span>
+  </a>
+  <div class="tiles">
+    <a class="tile math" href="/math/">
+      <span class="kicker">Cheat sheet</span>
+      <span class="name">Mathematics</span>
+      <span class="desc">17 topics across Numbers &amp; Algebra, Geometry &amp; Measurement, and Statistics &amp; Probability. Formulas, worked examples and common mistakes.</span>
+      <span class="go">Open math →</span>
+    </a>
+    <a class="tile sci" href="/science/">
+      <span class="kicker">Cheat sheet</span>
+      <span class="name">Science</span>
+      <span class="desc">Sec 1 (Books 1A, 1B) and Sec 2 (Books 2A, 2B), Chapters 1–16, one card per sub-chapter. Filter to the EOY scope (Book 1A Ch 2–4 and Book 1B Ch 7–8) in one tap.</span>
+      <span class="go">Open science →</span>
+    </a>
+    <a class="tile geo" href="/geography/">
+      <span class="kicker">Cheat sheet</span>
+      <span class="name">Geography</span>
+      <span class="desc">Chapters 7–11 on cities, housing and transport, investigation skills, how to answer each question type, and 20 practice questions with model answers.</span>
+      <span class="go">Open geography →</span>
+    </a>
+  </div>
+</section>
+
+<section aria-labelledby="school-h" class="block">
+  <h2 id="school-h">From school</h2>
+  {% if briefing_ok %}
+  <a class="doc" href="{{ url_for('files', filename=briefing_file) }}" target="_blank" rel="noopener">
+    <span class="doc-icon" aria-hidden="true">PDF</span>
+    <span class="doc-body">
+      <b>Sec 2 Parents' e-Engagement Session 2026</b>
+      <small>Slides from 19 May 2026 · 83 pages · Assessment weighting, promotion criteria, Sec 3 subject combinations, JC and poly admission changes</small>
+    </span>
+    <span class="go">Open PDF ↗</span>
+  </a>
+  {% else %}
+  <p class="empty">The briefing PDF wasn't found. Put <code>{{ briefing_file }}</code> in the O-LEVEL folder.</p>
+  {% endif %}
+  {% if scope_ok %}
+  <a class="doc" href="{{ url_for('files', filename=scope_file) }}" target="_blank" rel="noopener">
+    <span class="doc-icon" aria-hidden="true">PDF</span>
+    <span class="doc-body">
+      <b>2026 Sec 2 EOY Exam Scope &amp; Format</b>
+      <small>Topics and paper format for every subject</small>
+    </span>
+    <span class="go">Open PDF ↗</span>
+  </a>
+  {% endif %}
+  <div class="facts">
+    <div><span class="k">Assessment weighting</span><span>Term 1 WA 10% · Term 2 WA 15% · Term 3 WA 15% · End-of-year exam 60%</span></div>
+    <div><span class="k">Promotion to Sec 3</span><span>Pass English, and 50% or more on the average of all subjects</span></div>
+    <div><span class="k">Triple Science guide</span><span>At least A2 in Science and A2 in Mathematics</span></div>
+  </div>
+</section>
+
+<footer>Run from the <code>sec2-home</code> folder with <code>python app.py</code>, then open http://127.0.0.1:8000. The cheat sheets are served at /math, /science and /geography.</footer>
+</div>
+</body>
+</html>

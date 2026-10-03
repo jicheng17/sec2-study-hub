@@ -24,3 +24,15 @@ Open http://127.0.0.1:8000
 See [GUIDELINES.md](GUIDELINES.md) for project structure, content rules and how to add a subject.
 
 School documents (the parents' briefing and the EOY scope sheet) are not included in this repository. Put them in the project folder to enable the links on the home page.
+
+## Deploy on Render
+
+The repo includes a `render.yaml` Blueprint, so Render reads the settings automatically.
+
+1. Push this repo to GitHub.
+2. Sign in at [render.com](https://render.com) with your GitHub account.
+3. Click **New → Blueprint**, choose this repository, and click **Apply**.
+   For a public repo you can instead open `https://render.com/deploy?repo=https://github.com/YOUR-USERNAME/sec2-study-hub`.
+4. When the build finishes, Render gives you a link like `https://sec2-study-hub.onrender.com`.
+
+Every `git push` to `main` redeploys automatically. On the free plan the site sleeps after about 15 minutes without visitors, so the first visit after that takes up to a minute to load.

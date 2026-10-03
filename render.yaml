@@ -1,0 +1,10 @@
+# Render Blueprint: deploys the Sec 2 Study Hub (home page + math, science and geography sites)
+services:
+  - type: web
+    name: sec2-study-hub
+    runtime: python
+    plan: free
+    buildCommand: pip install -r sec2-home/requirements.txt
+    startCommand: cd sec2-home && gunicorn app:app --bind 0.0.0.0:$PORT --workers 2
+    healthCheckPath: /
+    autoDeploy: true

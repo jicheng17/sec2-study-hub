@@ -1,20 +1,23 @@
-# Sec 2 Study Hub — Project Guidelines
+# CLAUDE.md — Sec 2 Study Hub
 
-How this project is organised, how to run it, and the rules for adding or changing content. Read this before starting a new subject or editing an existing one.
+Project context and rules for Claude (and anyone else) working in this folder. Read this first before adding or changing anything.
 
-## 1. Purpose
+## 1. Context and purpose
 
-Revision material for a Singapore Secondary 2 (G3 / Express) student, built around the school's end-of-year (EOY) exam.
+**Context:** this project is for a **Secondary 2 student in a Singapore secondary school** (G3 / Express, following the MOE Lower Secondary syllabus).
 
-- **Reader:** a Sec 2 student revising alone, often the night before a paper. Content must be quick to scan and accurate.
-- **Goal:** one place for cheat sheets, practice questions, the revision plan and school documents.
+**Purpose:** to **prepare for the final-year exam**, the school's Sec 2 end-of-year (EOY) exam, 30 Sep – 8 Oct 2026, worth 60% of the year's result and the basis for promotion to Sec 3 and subject combination.
+
+- **Reader:** a 14-year-old revising alone, often the night before a paper. Content must be quick to scan, accurate and exam-focused.
+- **Goal:** one place for cheat sheets, practice questions with model answers, the revision plan and school documents.
 - **Source of truth:** the school's *2026 S2 EOY Exam Scope & Format* sheet decides what is in scope. The MOE syllabus and textbook come second.
+- **What good looks like:** every card helps the student score marks: key facts, a worked example or model answer, and the common mistake to avoid.
 
 ## 2. Folder structure
 
 ```
 O-LEVEL/
-├── GUIDELINES.md                 ← this file
+├── CLAUDE.md                     ← this file (project context and rules)
 ├── tools/
 │   └── export_pdf.py             ← exports a cheat sheet site to PDF
 ├── sec2-home/                    ← Study Hub: home page, revision plan, mounts all subject sites

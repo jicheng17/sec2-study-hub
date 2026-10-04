@@ -21,7 +21,7 @@ python app.py
 
 Open http://127.0.0.1:8000
 
-See [GUIDELINES.md](GUIDELINES.md) for project structure, content rules and how to add a subject.
+See [CLAUDE.md](CLAUDE.md) for project context, project structure, content rules and how to add a subject.
 
 School documents (the parents' briefing and the EOY scope sheet) are not included in this repository. Put them in the project folder to enable the links on the home page.
 

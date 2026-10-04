@@ -142,3 +142,7 @@ svg.pd .pc{fill:#E0B062;stroke:var(--ink);stroke-width:1}
 .single.single-wide{max-width:none}
 .pd-cell{display:flex;flex-wrap:wrap;gap:6px;align-items:flex-start}
 .pd-cell small{flex-basis:100%}
+table.sep td:first-child{min-width:150px}
+table.sep td:nth-child(2){min-width:190px}
+table.sep td:last-child{min-width:220px}
+table.sep .eg{color:var(--muted);font-size:.92em}

@@ -146,3 +146,11 @@ table.sep td:first-child{min-width:150px}
 table.sep td:nth-child(2){min-width:190px}
 table.sep td:last-child{min-width:220px}
 table.sep .eg{color:var(--muted);font-size:.92em}
+/* chromatography diagrams */
+svg .cg-paper{fill:var(--card);stroke:var(--muted);stroke-width:1.5}
+svg .cg-solvent{fill:var(--accent-soft);stroke:none}
+svg .cg-pencil{stroke:var(--ink);stroke-width:2}
+svg .cg-front{stroke:var(--muted);stroke-width:1.5;stroke-dasharray:4 3}
+svg .cg-spot{fill:#333}
+svg .cg-lead{stroke:var(--muted);stroke-width:1}
+svg .cg-small{fill:var(--muted)}

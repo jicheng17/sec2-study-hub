@@ -1,4 +1,4 @@
-<article class="card {{ t.css }}">
+<article class="card {{ t.css }}{% if t.wide %} wide{% endif %}">
   <h3><a href="{{ url_for('topic', slug=t.slug) }}">{{ t.title }}</a>
     <span class="badge">{{ t.badge }}</span>{% if t.eoy %}<span class="badge eoy">EOY</span>{% endif %}</h3>
   {{ t.html }}

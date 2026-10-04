@@ -20,7 +20,6 @@ O-LEVEL/
 ├── sec2-home/                    ← Study Hub: home page, revision plan, mounts all subject sites
 │   ├── app.py
 │   ├── plan.py                   ← revision plan data (tasks, routines, subject checklists)
-│   ├── livereload.py             ← auto-refresh pages when files change (local only)
 │   ├── templates/  home.html, plan.html
 │   └── static/style.css
 ├── sec2-math-site/               ← one folder per subject, all with the same layout
@@ -60,7 +59,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open **http://127.0.0.1:8000**. **No restart, no refresh:** save any content (`.json`), template (`.html`) or style (`.css`) file and open pages update by themselves within about 2 seconds. The sites re-read `topics.json` and templates on the next request, and each page checks `/__livereload` once a second. Python (`.py`) changes restart the server automatically under `python app.py`. Live reload is off on Render (where `RENDER` is set); the Render site updates on `git push` instead.
+Open **http://127.0.0.1:8000**. **No restart needed:** save any content (`.json`), template (`.html`) or style (`.css`) file, then refresh the page to see the change. The sites re-read `topics.json` and templates on the next request. Python (`.py`) changes restart the server automatically under `python app.py`. The Render site updates on `git push`.
 
 | Site | Port when run on its own | Path inside the hub |
 |---|---|---|

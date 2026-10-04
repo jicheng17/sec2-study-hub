@@ -21,4 +21,4 @@ Open http://127.0.0.1:5003
 
 ## Editing content
 
-Topics live in `data/topics.json` (`slug`, `strand`, `badge`, `title`, `html`). Save the file and open pages update by themselves, no restart needed.
+Topics live in `data/topics.json` (`slug`, `strand`, `badge`, `title`, `html`). Save the file and refresh the page, no restart needed.

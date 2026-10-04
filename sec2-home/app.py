@@ -13,7 +13,6 @@ Then open http://127.0.0.1:8000
     /files/...   the parents' briefing and exam scope PDFs
 """
 import importlib.util
-import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -103,14 +102,8 @@ def files(filename):
 
 app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {"/math": math_app, "/science": science_app, "/geography": geography_app})
 
-# No restart, no manual refresh:
-# - content (topics.json), templates and CSS are re-read on the next request (see each site's app.py)
-# - open pages refresh themselves when any file changes (livereload.py)
-# Switched off on Render, where pages only change on deploy.
-if not os.environ.get("RENDER"):
-    from livereload import LiveReload
-
-    app.wsgi_app = LiveReload(app.wsgi_app, ROOT)
+# Content (topics.json), templates and CSS are re-read on the next request (see each site's
+# app.py), so refreshing the page shows changes without restarting the server.
 
 if __name__ == "__main__":
     # debug=True also restarts the server by itself if a .py file changes

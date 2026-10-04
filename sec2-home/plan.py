@@ -140,7 +140,7 @@ SUBJECTS = [
         "slug": "literature", "name": "English Literature", "color": "lit",
         "paper": "Section A Emily of Emerald Hill 25 marks (essay or passage-based) · Section B unseen poetry 25 marks (both parts)",
         "scope": "Emily of Emerald Hill and unseen poetry.",
-        "link": None,
+        "link": "/literature/",
         "tasks": [
             ("l-1", "Emily of Emerald Hill: 3–4 short quotes each for the main themes and for Emily's character."),
             ("l-2", "Plan one essay answer and one passage-based answer."),

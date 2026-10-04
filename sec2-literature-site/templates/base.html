@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Sec 2 Literature Cheat Sheet{% endblock %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">Lower Secondary English Literature · Sec 2 end-of-year exam</div>
+  <h1><a href="{{ url_for('index') }}" style="color:inherit;text-decoration:none">Sec 2 Literature Cheat Sheet</a></h1>
+  <p class="lede">Both sections of the EOY paper: <i>Emily of Emerald Hill</i> by Stella Kon (Section A, 25 marks) and unseen poetry (Section B, 25 marks). Plot, characters, themes, drama and poetry techniques, how to write each answer, and practice questions with model answers.</p>
+</header>
+
+{% if config.HOME_URL %}<a class="back" href="{{ config.HOME_URL }}">← Sec 2 Study Hub</a>{% endif %}
+<nav class="jump" aria-label="Filter topics">
+  <a href="{{ url_for('index') }}" class="{{ 'on' if not active and not q }}">All topics</a>
+  {% for s in strands %}
+  <a href="{{ url_for('theme', slug=s.slug) }}" class="{{ 'on' if active == s.slug }}"><i style="background:var(--{{ s.css }})"></i>{{ s.name }}</a>
+  {% endfor %}
+  <form class="search" action="{{ url_for('index') }}" method="get" role="search">
+    <input id="q" type="search" name="q" value="{{ q or '' }}" placeholder="Search e.g. Richard, tone, simile" aria-label="Search topics">
+  </form>
+</nav>
+
+{% block content %}{% endblock %}
+
+<footer>Based on the 2026 Sec 2 EOY Exam Scope &amp; Format sheet (<i>Emily of Emerald Hill</i> and unseen poetry). Written from published summaries and studies of the play, not the school's notes: check details against your copy of the text and class notes, and copy quotations exactly from the text.</footer>
+</div>
+<script>window.addEventListener("beforeprint",function(){document.querySelectorAll("details.qa").forEach(function(d){d.open=true})});</script>
+</body>
+</html>

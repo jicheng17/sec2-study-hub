@@ -28,6 +28,7 @@ O-LEVEL/
 ├── sec2-math-site/               ← one folder per subject, all with the same layout
 ├── sec2-science-site/
 ├── sec2-geography-site/
+├── sec2-literature-site/
 │   ├── app.py
 │   ├── data/topics.json          ← all content lives here
 │   ├── templates/  base.html, index.html, topic.html, _card.html
@@ -49,7 +50,7 @@ O-LEVEL/
 | Styling | One plain CSS file per site | No CSS framework, no JavaScript framework |
 | Fonts | Google Fonts | Bricolage Grotesque (headings), Atkinson Hyperlegible (body), STIX Two Text (maths) |
 | PDF export | Playwright + Chromium | `tools/export_pdf.py` |
-| Combining sites | Werkzeug `DispatcherMiddleware` | The hub mounts each subject at `/math`, `/science`, `/geography` |
+| Combining sites | Werkzeug `DispatcherMiddleware` | The hub mounts each subject at `/math`, `/science`, `/geography`, `/literature` |
 
 No database and no login. Ticks on the revision plan are saved in the browser (`localStorage`) only.
 
@@ -70,6 +71,7 @@ Open **http://127.0.0.1:8000**. **No restart needed:** save any content (`.json`
 | Science | 5001 | `/science/` |
 | Maths | 5002 | `/math/` |
 | Geography | 5003 | `/geography/` |
+| Literature | 5004 | `/literature/` |
 
 **Never use port 5000.** macOS AirPlay Receiver uses it and the browser shows "Access to localhost was denied".
 
@@ -110,6 +112,7 @@ Use these classes inside `html`. Don't add inline styles.
 | Flow | `<p class="flow">A → B → C</p>` | Pathways and chains |
 | Example | `<div class="ex"><b>Example</b>…</div>` | Worked example or model answer. The first `<b>` is the label |
 | Watch out | `<div class="warn"><b>Watch out:</b> …</div>` | The most common mistake. **Every topic card ends with one** |
+| Poem | `<div class="poem">lines…<cite>"Title", Poet (year)</cite></div>` | Literature: keeps the poem's line breaks. Practice poems must be public domain |
 | Practice question | `<details class="qa"><summary><span class="qm">4m</span>Question</summary><div class="qa-body">Answer<p class="qa-tip"><b>Marking tip:</b> …</p></div></details>` | Hidden answer on the web, always shown in the PDF |
 
 **Standard topic card:** key facts → table(s) → example → Watch out.
@@ -150,7 +153,7 @@ Use these classes inside `html`. Don't add inline styles.
 ## 9. Adding a new subject
 
 1. Copy an existing site folder (geography is the most complete) and rename it, e.g. `sec2-history-site`.
-2. In `app.py`, update the docstring and pick an unused port (5004 and up).
+2. In `app.py`, update the docstring and pick an unused port (5005 and up).
 3. In `templates/base.html`, update the eyebrow, title, intro and search placeholder.
 4. In `static/style.css`, replace the strand colour variables and `.<code> h3` rules.
 5. Write `data/topics.json` following sections 5–7.
@@ -164,12 +167,12 @@ Use these classes inside `html`. Don't add inline styles.
 ```bash
 cd ~/Documents/O-LEVEL
 pip install playwright && playwright install chromium   # first time only
-python tools/export_pdf.py geography                     # or math, science
+python tools/export_pdf.py geography                     # or math, science, literature
 ```
 
 - Output: A4, light theme, page numbers, all practice answers shown, saved as `Sec 2 <Subject> Cheat Sheet.pdf`.
 - **grid** layout (maths, science): two columns, cards never split. Best for short cards.
-- **column** layout (geography): one column, each section starts on a new page, long cards may continue on the next page but tables and tip boxes never split. Best for text-heavy subjects.
+- **column** layout (geography, literature): one column, each section starts on a new page, long cards may continue on the next page but tables and tip boxes never split. Best for text-heavy subjects.
 - Look through the PDF before printing: no empty card outlines at page bottoms, no headings alone at the bottom of a page.
 
 ## 11. Checks before you finish
@@ -196,11 +199,13 @@ Promotion to Sec 3: pass English, and 50% or more on the average of all subjects
 - **Maths:** the cheat sheet still includes probability (not tested) and is missing the quadratic formula, graphical solution of quadratics, congruence proofs, angles of elevation and depression, and Sec 1 topics such as standard form.
 - **Science:** the site covers Sec 1 (Books 1A, 1B, Chapters 1–8) and Sec 2 (Books 2A, 2B, Chapters 9–16), one card per sub-chapter. The EOY scope (Chapters 2–4 and 7–8) matches Book 1A Ch 2–4 and Book 1B Ch 7–8; those cards carry an EOY badge and the `/science/eoy` filter. Cards are written from the contents pages and the MOE syllabus, not the textbook text.
 - **Geography:** written from the scope sheet's chapter titles and public school papers, not the school textbook. Check examples against class notes.
-- **Not yet built:** English, Higher Chinese, History, English Literature cheat sheets.
+- **Literature:** covers *Emily of Emerald Hill* and unseen poetry. Written from published summaries and studies of the play, not the textbook or class notes. Apart from one widely quoted line, it lists *moments* to quote rather than quotations: the student copies exact quotes from their own text. Practice poems are public domain (Tennyson, Dickinson, Rossetti).
+- **Not yet built:** English, Higher Chinese, History cheat sheets.
 - **Revision plan:** exam-week days follow a routine because the paper-by-paper timetable wasn't available.
 
 ## 14. Useful sources
 
 - MOE Lower Secondary Geography syllabus: <https://www.moe.gov.sg/-/media/files/secondary/syllabuses/humanities/2021-lower-secondary-geography-syllabus.pdf>
 - MOE Lower Secondary Science syllabus (G2/G3): <https://www.moe.gov.sg/-/media/files/secondary/fsbb/syllabus/2021-g2g3-lower-secondary-science-syllabus-updated-apr-2024.pdf>
+- Emily of Emerald Hill background: NLB BiblioAsia, "From Betty of Balmoral Road to Emily of Emerald Hill" (2024): <https://biblioasia.nlb.gov.sg/vol-20/issue-2/jul-sep-2024/emily-of-emerald-hill-stella-kon/>; play structure: <https://www.emilyofemeraldhill.com/time-structure-of-the-play>
 - Holy Grail (free past papers, Sec 1–2): <https://grail.moe/notes/sec-1-2/geography>

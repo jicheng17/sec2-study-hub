@@ -9,6 +9,7 @@ Then open http://127.0.0.1:8000
     /math/       Sec 2 Math Cheat Sheet
     /science/    Sec 2 Science Cheat Sheet
     /geography/  Sec 2 Geography Cheat Sheet
+    /literature/ Sec 2 English Literature Cheat Sheet
     /plan        EOY revision plan
     /files/...   the parents' briefing and exam scope PDFs
 """
@@ -43,6 +44,7 @@ def load_site(folder, name):
 math_app = load_site("sec2-math-site", "sec2_math_site")
 science_app = load_site("sec2-science-site", "sec2_science_site")
 geography_app = load_site("sec2-geography-site", "sec2_geography_site")
+literature_app = load_site("sec2-literature-site", "sec2_literature_site")
 
 app = Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -100,7 +102,7 @@ def files(filename):
     return send_from_directory(ROOT, filename)
 
 
-app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {"/math": math_app, "/science": science_app, "/geography": geography_app})
+app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {"/math": math_app, "/science": science_app, "/geography": geography_app, "/literature": literature_app})
 
 # Content (topics.json), templates and CSS are re-read on the next request (see each site's
 # app.py), so refreshing the page shows changes without restarting the server.

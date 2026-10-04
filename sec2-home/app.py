@@ -13,6 +13,7 @@ Then open http://127.0.0.1:8000
     /files/...   the parents' briefing and exam scope PDFs
 """
 import importlib.util
+import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -45,6 +46,9 @@ science_app = load_site("sec2-science-site", "sec2_science_site")
 geography_app = load_site("sec2-geography-site", "sec2_geography_site")
 
 app = Flask(__name__)
+app.config["TEMPLATES_AUTO_RELOAD"] = True
+app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0
+app.jinja_env.auto_reload = True
 
 # Key dates taken from the Sec 2 Parents' e-Engagement Session slides (19 May 2026)
 KEY_DATES = [
@@ -99,10 +103,15 @@ def files(filename):
 
 app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {"/math": math_app, "/science": science_app, "/geography": geography_app})
 
-if __name__ == "__main__":
-    # Local development: the server restarts when any content, template, CSS or Python file
-    # changes, and open pages reload themselves (see livereload.py). Render uses gunicorn instead.
-    from livereload import LiveReload, watched_files
+# No restart, no manual refresh:
+# - content (topics.json), templates and CSS are re-read on the next request (see each site's app.py)
+# - open pages refresh themselves when any file changes (livereload.py)
+# Switched off on Render, where pages only change on deploy.
+if not os.environ.get("RENDER"):
+    from livereload import LiveReload
 
     app.wsgi_app = LiveReload(app.wsgi_app, ROOT)
-    app.run(debug=True, port=8000, extra_files=[str(p) for p in watched_files(ROOT)])
+
+if __name__ == "__main__":
+    # debug=True also restarts the server by itself if a .py file changes
+    app.run(debug=True, port=8000)

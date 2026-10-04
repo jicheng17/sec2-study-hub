@@ -12,15 +12,25 @@ from flask import Flask, abort, render_template, request
 from markupsafe import Markup
 
 BASE = Path(__file__).parent
-DATA = json.loads((BASE / "data" / "topics.json").read_text(encoding="utf-8"))
+DATA_FILE = BASE / "data" / "topics.json"
 
-STRANDS = {s["slug"]: s for s in DATA["strands"]}
-TOPICS = DATA["topics"]
-for t in TOPICS:
-    t["html"] = Markup(t["html"])  # trusted content from our own data file
-    t["css"] = STRANDS[t["strand"]]["css"]
-    t["eoy"] = STRANDS[t["strand"]].get("eoy", False)
-    t["text"] = Markup(t["html"]).striptags().lower() + " " + t["title"].lower()
+
+def load_data():
+    """(Re)load data/topics.json. Called at start-up and again whenever the file changes,
+    so edits show up on the next page load without restarting the server."""
+    global DATA, STRANDS, TOPICS, DATA_MTIME
+    DATA_MTIME = DATA_FILE.stat().st_mtime_ns
+    DATA = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+    STRANDS = {s["slug"]: s for s in DATA["strands"]}
+    TOPICS = DATA["topics"]
+    for t in TOPICS:
+        t["html"] = Markup(t["html"])  # trusted content from our own data file
+        t["css"] = STRANDS[t["strand"]]["css"]
+        t["eoy"] = STRANDS[t["strand"]].get("eoy", False)
+        t["text"] = Markup(t["html"]).striptags().lower() + " " + t["title"].lower()
+
+
+load_data()
 
 BOOKS = {
     "1a": {"code": "1A", "name": "Book 1A", "theme": "Scientific Endeavour · Diversity", "level": "sec1"},
@@ -34,6 +44,16 @@ LEVELS = {
 }
 
 app = Flask(__name__)
+app.config["TEMPLATES_AUTO_RELOAD"] = True      # template edits show without a restart
+app.config["SEND_FILE_MAX_AGE_DEFAULT"] = 0     # browsers always fetch the latest CSS
+app.jinja_env.auto_reload = True
+
+
+@app.before_request
+def refresh_data():
+    """Pick up changes to data/topics.json on the next request."""
+    if DATA_FILE.stat().st_mtime_ns != DATA_MTIME:
+        load_data()
 
 
 def grouped(topics):

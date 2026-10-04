@@ -43,7 +43,7 @@ O-LEVEL/
 |---|---|---|
 | Web framework | **Flask** (Python 3) | Same stack as the PSLE project. Keep it. |
 | Templates | Jinja2 | `base.html` shell, `_card.html` per topic |
-| Content | JSON (`data/topics.json`) | HTML snippets inside JSON, loaded once at start-up |
+| Content | JSON (`data/topics.json`) | HTML snippets inside JSON, re-read automatically when the file changes |
 | Styling | One plain CSS file per site | No CSS framework, no JavaScript framework |
 | Fonts | Google Fonts | Bricolage Grotesque (headings), Atkinson Hyperlegible (body), STIX Two Text (maths) |
 | PDF export | Playwright + Chromium | `tools/export_pdf.py` |
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open **http://127.0.0.1:8000**. **Live reload is on:** when you save any content (`.json`), template (`.html`), style (`.css`) or Python file, the server restarts itself and open pages refresh within about a second. No manual restart needed (only a brand-new file needs one). This only applies to `python app.py`; the Render site updates on `git push` instead.
+Open **http://127.0.0.1:8000**. **No restart, no refresh:** save any content (`.json`), template (`.html`) or style (`.css`) file and open pages update by themselves within about 2 seconds. The sites re-read `topics.json` and templates on the next request, and each page checks `/__livereload` once a second. Python (`.py`) changes restart the server automatically under `python app.py`. Live reload is off on Render (where `RENDER` is set); the Render site updates on `git push` instead.
 
 | Site | Port when run on its own | Path inside the hub |
 |---|---|---|

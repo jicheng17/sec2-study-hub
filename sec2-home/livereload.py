@@ -1,10 +1,10 @@
 """Live reload for local development.
 
-When you run `python app.py`, every page polls /__livereload about once a second.
-If any watched file (content JSON, templates, CSS, Python) changes, the server restarts
-(Flask's reloader, via `extra_files`) and the browser reloads the page by itself.
+Every page polls /__livereload about once a second. If any watched file (content JSON,
+templates, CSS, Python) is edited, added or removed, the browser reloads the page by itself.
+The sites re-read their content and templates on each request, so no server restart is needed.
 
-Not used on Render: gunicorn imports `app` directly, so this middleware is never switched on.
+Switched off on Render (the RENDER environment variable is set there).
 """
 import json
 from pathlib import Path

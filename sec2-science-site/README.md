@@ -24,4 +24,4 @@ Open http://127.0.0.1:5001
 
 ## Editing content
 
-Cards live in `data/topics.json` (`slug`, `strand`, `badge`, `title`, `html`). Strands also have `book`, `level` (`sec1` / `sec2` / `other`) and `eoy`. Edit and restart.
+Cards live in `data/topics.json` (`slug`, `strand`, `badge`, `title`, `html`). Strands also have `book`, `level` (`sec1` / `sec2` / `other`) and `eoy`. Save the file and open pages update by themselves, no restart needed.

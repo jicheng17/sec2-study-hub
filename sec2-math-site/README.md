@@ -22,4 +22,4 @@ Open http://127.0.0.1:5002 (not 5000, which macOS AirPlay Receiver uses)
 
 ## Editing content
 
-All topics live in `data/topics.json`. Each entry has a `slug`, `strand`, `title` and an `html` body. Edit or add entries there and restart the app. Styling is in `static/style.css` (light and dark mode follow your system setting).
+All topics live in `data/topics.json`. Each entry has a `slug`, `strand`, `title` and an `html` body. Edit or add entries there and save: open pages update by themselves, no restart needed. Styling is in `static/style.css` (light and dark mode follow your system setting).

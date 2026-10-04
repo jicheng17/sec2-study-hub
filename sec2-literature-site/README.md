@@ -14,7 +14,7 @@ Open http://127.0.0.1:5004
 
 ## Pages
 
-- `/`: all 27 cards
+- `/`: all 29 cards, including last year's (2025) paper with suggested answers
 - `/theme/drama`, `/theme/characters`, `/theme/themes`, `/theme/emily-answers`, `/theme/poetry`, `/theme/poetry-practice`: one section
 - `/topic/<name>`, e.g. `/topic/themes`: a single topic
 - `/?q=Richard`: search

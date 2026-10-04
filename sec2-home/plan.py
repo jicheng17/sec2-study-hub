@@ -138,13 +138,13 @@ SUBJECTS = [
     },
     {
         "slug": "literature", "name": "English Literature", "color": "lit",
-        "paper": "Section A Emily of Emerald Hill 25 marks (essay or passage-based) · Section B unseen poetry 25 marks (both parts)",
+        "paper": "Section A Emily of Emerald Hill 25 marks (choose 1: essay or 2-part passage-based) · Section B unseen poetry 25 marks (2-part question, like WA3) · no pencil, no correction tape, label (i) and (ii)",
         "scope": "Emily of Emerald Hill and unseen poetry.",
         "link": "/literature/",
         "tasks": [
             ("l-1", "Emily of Emerald Hill: 3–4 short quotes each for the main themes and for Emily's character."),
             ("l-2", "Plan one essay answer and one passage-based answer."),
-            ("l-3", "Unseen poem: practise one, covering what it's about, the tone, and 2 techniques with their effect."),
+            ("l-3", "Unseen poem: practise one with the 4-Quadrant Routine (see, mean, how, big idea)."),
             ("l-4", "Each paragraph: point, quote, explain the word choice, link to the question."),
         ],
     },

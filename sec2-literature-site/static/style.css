@@ -1,21 +1,21 @@
 :root{
   --paper:#F5F7F4; --grid:#E3E9E3; --card:#FFFFFF; --ink:#1B2430; --muted:#5A6570;
   --rule:#D6DDD6; --accent:#1F5FA8; --accent-soft:#E6EEF8; --red:#B3372C; --red-soft:#FBECEA;
-  --pl:#8A3B5C; --ct:#6B4FA0; --ea:#A0452F; --po:#2F6F7E; --pp:#2F5FA8;
+  --pl:#8A3B5C; --ct:#6B4FA0; --ea:#A0452F; --po:#2F6F7E; --pp:#2F5FA8; --th:#94650F;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     color-scheme:dark;
     --paper:#11151A; --grid:#1A2027; --card:#182029; --ink:#E4E8EC; --muted:#9BA6B1;
     --rule:#2A333D; --accent:#7EB1EC; --accent-soft:#1D2B3C; --red:#F08B7F; --red-soft:#35211F;
-    --pl:#E79BBB; --ct:#B9A4EC; --ea:#F0A08A; --po:#83C8D6; --pp:#86B2EE;
+    --pl:#E79BBB; --ct:#B9A4EC; --ea:#F0A08A; --po:#83C8D6; --pp:#86B2EE; --th:#E3B867;
   }
 }
 :root[data-theme="dark"]{
   color-scheme:dark;
   --paper:#11151A; --grid:#1A2027; --card:#182029; --ink:#E4E8EC; --muted:#9BA6B1;
   --rule:#2A333D; --accent:#7EB1EC; --accent-soft:#1D2B3C; --red:#F08B7F; --red-soft:#35211F;
-  --pl:#E79BBB; --ct:#B9A4EC; --ea:#F0A08A; --po:#83C8D6; --pp:#86B2EE;
+  --pl:#E79BBB; --ct:#B9A4EC; --ea:#F0A08A; --po:#83C8D6; --pp:#86B2EE; --th:#E3B867;
 }
 *{box-sizing:border-box}
 body{
@@ -46,7 +46,7 @@ section.strand{margin-bottom:34px;scroll-margin-top:70px}
 .card h3{font-size:18px;display:flex;gap:10px;align-items:baseline}
 .card h3 .tag{font-family:"Atkinson Hyperlegible",sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-left:auto;white-space:nowrap}
 .card p{margin:0}
-.pl h3{color:var(--pl)} .ct h3{color:var(--ct)} .ea h3{color:var(--ea)} .po h3{color:var(--po)} .pp h3{color:var(--pp)}
+.pl h3{color:var(--pl)} .ct h3{color:var(--ct)} .ea h3{color:var(--ea)} .po h3{color:var(--po)} .pp h3{color:var(--pp)} .th h3{color:var(--th)}
 .m{font-family:"STIX Two Text","Cambria Math","Times New Roman",serif;font-size:1.08em}
 .m i{font-style:italic}
 .f{display:block;font-family:"STIX Two Text","Cambria Math",serif;font-size:19px;background:var(--accent-soft);
@@ -112,3 +112,6 @@ details.qa[open] summary::after{content:"Hide answer"}
 /* Poem text: keeps the poet's line breaks */
 .poem{white-space:pre-line;font-family:"STIX Two Text",Georgia,serif;font-size:17px;line-height:1.6;margin:10px 0;padding:10px 14px;border-left:3px solid var(--po);background:var(--accent-soft);border-radius:0 8px 8px 0}
 .poem cite{display:block;margin-top:6px;font-size:13px;font-style:normal;color:var(--muted);font-family:"Atkinson Hyperlegible",system-ui,sans-serif}
+/* Wide cards span all columns (for tables with long evidence) */
+.card.wide{column-span:all;margin-bottom:16px}
+.single-wide{max-width:none}

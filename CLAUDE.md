@@ -10,7 +10,7 @@ Project context and rules for Claude (and anyone else) working in this folder. R
 
 - **Reader:** a 14-year-old revising alone, often the night before a paper. Content must be quick to scan, accurate and exam-focused.
 - **Goal:** one place for cheat sheets, practice questions with model answers, the revision plan and school documents.
-- **Source of truth:** the school's *2026 S2 EOY Exam Scope & Format* sheet decides what is in scope. The MOE syllabus and textbook come second.
+- **Source of truth:** the school's *2026 S2 EOY Exam Scope & Format* sheet decides what is in scope, with subject briefings and class notes in `resources/`. The MOE syllabus and textbook come second.
 - **What good looks like:** every card helps the student score marks: key facts, a worked example or model answer, and the common mistake to avoid.
 
 ## 2. Folder structure
@@ -35,6 +35,7 @@ O-LEVEL/
 │   ├── static/style.css
 │   ├── requirements.txt
 │   └── README.md
+├── resources/                    ← school notes and briefings per subject (not in git)
 ├── Sec 2 <Subject> Cheat Sheet.pdf          ← exported PDFs
 ├── 2026 S2 EOY Exam Scope  Format_….pdf     ← school documents (keep file names unchanged;
 └── Sec 2 Parents e-Engagement Session ….pdf    the hub links to them by name)
@@ -199,7 +200,7 @@ Promotion to Sec 3: pass English, and 50% or more on the average of all subjects
 - **Maths:** the cheat sheet still includes probability (not tested) and is missing the quadratic formula, graphical solution of quadratics, congruence proofs, angles of elevation and depression, and Sec 1 topics such as standard form.
 - **Science:** the site covers Sec 1 (Books 1A, 1B, Chapters 1–8) and Sec 2 (Books 2A, 2B, Chapters 9–16), one card per sub-chapter. The EOY scope (Chapters 2–4 and 7–8) matches Book 1A Ch 2–4 and Book 1B Ch 7–8; those cards carry an EOY badge and the `/science/eoy` filter. Cards are written from the contents pages and the MOE syllabus, not the textbook text.
 - **Geography:** written from the scope sheet's chapter titles and public school papers, not the school textbook. Check examples against class notes.
-- **Literature:** covers *Emily of Emerald Hill* and unseen poetry. Written from published summaries and studies of the play, not the textbook or class notes. Apart from one widely quoted line, it lists *moments* to quote rather than quotations: the student copies exact quotes from their own text. Practice poems are public domain (Tennyson, Dickinson, Rossetti).
+- **Literature:** organised by the topics in the school's *2026 Sec 2 Literature EOY Briefing* (in `resources/s2.literature/`). Quotes and page numbers come from the class notes there (student-written, so check wording against the text). Plot background comes from published studies of the play. Practice poems are public domain (Tennyson, Dickinson, Rossetti).
 - **Not yet built:** English, Higher Chinese, History cheat sheets.
 - **Revision plan:** exam-week days follow a routine because the paper-by-paper timetable wasn't available.
 

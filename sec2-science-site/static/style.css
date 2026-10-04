@@ -154,3 +154,6 @@ svg .cg-front{stroke:var(--muted);stroke-width:1.5;stroke-dasharray:4 3}
 svg .cg-spot{fill:#333}
 svg .cg-lead{stroke:var(--muted);stroke-width:1}
 svg .cg-small{fill:var(--muted)}
+table.eqtable td.eqn{font-family:"STIX Two Text","Cambria Math",serif;font-size:1.05em;white-space:nowrap}
+table.eqtable td.eqn small{font-family:"Atkinson Hyperlegible",sans-serif;color:var(--muted);font-size:12px;white-space:normal}
+table.eqtable td:nth-child(3){min-width:200px}

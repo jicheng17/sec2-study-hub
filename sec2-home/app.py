@@ -100,4 +100,9 @@ def files(filename):
 app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {"/math": math_app, "/science": science_app, "/geography": geography_app})
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8000)
+    # Local development: the server restarts when any content, template, CSS or Python file
+    # changes, and open pages reload themselves (see livereload.py). Render uses gunicorn instead.
+    from livereload import LiveReload, watched_files
+
+    app.wsgi_app = LiveReload(app.wsgi_app, ROOT)
+    app.run(debug=True, port=8000, extra_files=[str(p) for p in watched_files(ROOT)])

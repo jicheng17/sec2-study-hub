@@ -20,6 +20,7 @@ O-LEVEL/
 ├── sec2-home/                    ← Study Hub: home page, revision plan, mounts all subject sites
 │   ├── app.py
 │   ├── plan.py                   ← revision plan data (tasks, routines, subject checklists)
+│   ├── livereload.py             ← auto-refresh pages when files change (local only)
 │   ├── templates/  home.html, plan.html
 │   └── static/style.css
 ├── sec2-math-site/               ← one folder per subject, all with the same layout
@@ -59,7 +60,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Open **http://127.0.0.1:8000**. Restart (Ctrl+C, then `python app.py`) after editing any `.json` or `.py` file.
+Open **http://127.0.0.1:8000**. **Live reload is on:** when you save any content (`.json`), template (`.html`), style (`.css`) or Python file, the server restarts itself and open pages refresh within about a second. No manual restart needed (only a brand-new file needs one). This only applies to `python app.py`; the Render site updates on `git push` instead.
 
 | Site | Port when run on its own | Path inside the hub |
 |---|---|---|

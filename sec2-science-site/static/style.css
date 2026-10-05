@@ -157,3 +157,27 @@ svg .cg-small{fill:var(--muted)}
 table.eqtable td.eqn{font-family:"STIX Two Text","Cambria Math",serif;font-size:1.05em;white-space:nowrap}
 table.eqtable td.eqn small{font-family:"Atkinson Hyperlegible",sans-serif;color:var(--muted);font-size:12px;white-space:normal}
 table.eqtable td:nth-child(3){min-width:200px}
+
+/* Digestive system diagram (14-2) */
+:root{--dg-skin:#F4E6DC;--dg-tube:#C9566B;--dg-liver:#8E3B2E;--dg-gall:#5E9B4E;--dg-pan:#E3B45A;--dg-small:#E58C7A;--dg-large:#B9705A}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--dg-skin:#2A2420;--dg-tube:#E07A8C;--dg-liver:#C26A5A;--dg-gall:#86C276;--dg-pan:#E8C47A;--dg-small:#F0A595;--dg-large:#D3927C}}
+:root[data-theme="dark"]{--dg-skin:#2A2420;--dg-tube:#E07A8C;--dg-liver:#C26A5A;--dg-gall:#86C276;--dg-pan:#E8C47A;--dg-small:#F0A595;--dg-large:#D3927C}
+.dg{display:block;margin:4px 0 12px}
+.dg svg{display:block;width:100%;max-width:480px;height:auto;margin:0 auto}
+.dg .dg-body{fill:var(--dg-skin);stroke:var(--rule);stroke-width:2}
+.dg .dg-mouth{fill:var(--dg-tube)}
+.dg .dg-tube{fill:none;stroke:var(--dg-tube);stroke-width:12;stroke-linecap:round}
+.dg .dg-liver{fill:var(--dg-liver)}
+.dg .dg-gall{fill:var(--dg-gall)}
+.dg .dg-stomach{fill:var(--dg-tube)}
+.dg .dg-pancreas{fill:var(--dg-pan)}
+.dg .dg-large{fill:none;stroke:var(--dg-large);stroke-width:18;stroke-linecap:round;stroke-linejoin:round}
+.dg .dg-small{fill:none;stroke:var(--dg-small);stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+.dg .dg-anus{fill:var(--ink)}
+.dg .dg-lead line{stroke:var(--muted);stroke-width:1.2}
+.dg .dg-num circle{fill:var(--accent)}
+.dg .dg-num text{fill:var(--card);font:700 12px "Atkinson Hyperlegible",system-ui,sans-serif;text-anchor:middle}
+.dg .dg-lab text{font:700 15px "Atkinson Hyperlegible",system-ui,sans-serif;fill:var(--ink)}
+.dg .dg-lab text.dg-acc{fill:var(--muted);font-style:italic}
+.dg figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.dg .dg-key{font-style:italic}

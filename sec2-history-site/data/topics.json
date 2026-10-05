@@ -2,15 +2,15 @@
  "strands": [
   {
    "slug": "ch8",
-   "name": "Ch 8: Becoming independent",
+   "name": "Ch 8: How did Singapore become an independent nation?",
    "css": "hm",
-   "blurb": "Merger 1961–1963 and separation 1965"
+   "blurb": "Unit 3 · textbook pp. 84–121 · merger 1961–1963, separation 1965"
   },
   {
    "slug": "ch9",
-   "name": "Ch 9: Safeguarding independence",
+   "name": "Ch 9: How did Singapore safeguard its independence after 1965?",
    "css": "hs",
-   "blurb": "Challenges after 1965, deterrence, diplomacy"
+   "blurb": "Unit 4 · textbook pp. 124–153 · threats, deterrence, diplomacy"
   },
   {
    "slug": "skills",
@@ -37,8 +37,16 @@
    "strand": "ch8",
    "badge": "Exam",
    "title": "The paper at a glance",
-   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Section</th><th>Marks</th><th>What you do</th></tr>\n<tr><td>A: Source-based case study</td><td>17</td><td>Read several sources on one issue from Ch 8 or 9. Questions test <b>inferring purpose</b>, <b>comparing sources</b> and <b>assessing reliability</b></td></tr>\n<tr><td>B: Essay</td><td>8</td><td><b>Explain two reasons</b> for a historical event</td></tr>\n</table></div>\n<ul class=\"k\">\n<li><b>Content:</b> Chapter 8 (How did Singapore become an independent nation?) and Chapter 9 (How did Singapore safeguard its independence after 1965?)</li>\n<li><b>Time:</b> about two-thirds of your time on Section A, one-third on the essay</li>\n<li>Your <b>contextual knowledge</b> from Ch 8–9 is what lets you explain purpose and check reliability, so learn the events and dates</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> source answers that only describe what a source says score low. Every answer needs a <b>judgement</b> backed by evidence from the source.</div>\n",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Section</th><th>Marks</th><th>What you do</th></tr>\n<tr><td>A: Source-based case study</td><td>17</td><td>Read several sources on one issue from Ch 8 or 9. Questions test <b>inferring purpose</b>, <b>comparing sources</b> and <b>assessing reliability</b></td></tr>\n<tr><td>B: Essay</td><td>8</td><td><b>Explain two reasons</b> for a historical event</td></tr>\n</table></div>\n<ul class=\"k\">\n<li><b>Content:</b> Chapter 8, <i>How Did Singapore Become an Independent Nation?</i> (textbook pp. 84–121), and Chapter 9, <i>How Did Singapore Safeguard Its Independence After 1965?</i> (pp. 124–153)</li>\n<li><b>Time:</b> about two-thirds of your time on Section A, one-third on the essay</li>\n<li>Your <b>contextual knowledge</b> from Ch 8–9 is what lets you explain purpose and check reliability, so learn the events and dates</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> source answers that only describe what a source says score low. Every answer needs a <b>judgement</b> backed by evidence from the source.</div>\n",
    "wide": true
+  },
+  {
+   "slug": "scope-map",
+   "strand": "ch8",
+   "badge": "Scope",
+   "wide": true,
+   "title": "Where Chapters 8 and 9 fit in the textbook",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Textbook section</th><th>Pages</th><th>In the EOY?</th></tr>\n<tr><td><b>Unit 3: Singapore's Struggle for Independence (1942–1965)</b></td><td>2</td><td>overview</td></tr>\n<tr><td>Ch 6: What Did the People in Singapore Experience During the Japanese Occupation?</td><td>4–37</td><td>no</td></tr>\n<tr><td>Ch 7: How Did the People in Singapore Respond to British Rule After World War II?</td><td>38–83</td><td>no (background only)</td></tr>\n<tr><td><b>Ch 8: How Did Singapore Become an Independent Nation?</b></td><td><b>84–121</b></td><td><b>yes</b></td></tr>\n<tr><td><b>Unit 4: Surviving as an Independent Nation-State (1965–Late 1970s)</b></td><td>122</td><td>overview</td></tr>\n<tr><td><b>Ch 9: How Did Singapore Safeguard Its Independence After 1965?</b></td><td><b>124–153</b></td><td><b>yes</b></td></tr>\n<tr><td>Ch 10: To What Extent Did People's Lives Change After Independence?</td><td>154 onwards</td><td>no</td></tr>\n</table></div>\n<p class=\"flow\">Ch 7: post-war politics, self-government (1959) → <b>Ch 8: merger and separation (1961–1965)</b> → <b>Ch 9: defending the new nation (1965–late 1970s)</b></p>\n<ul class=\"k\">\n<li><b>Background from Ch 7</b> you can use: Singapore gained full internal self-government in 1959 and the PAP formed the government. That is where Ch 8 begins</li>\n<li><b>Revise from the textbook:</b> read pp. 84–121 and pp. 124–153, then use these cards to test yourself</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> Ch 6 (Japanese Occupation) and Ch 10 (lives after independence) are <b>not</b> in the EOY scope. Don't spend revision time on them.</div>\n"
   },
   {
    "slug": "ch8-timeline",
@@ -51,7 +59,7 @@
   {
    "slug": "why-merger",
    "strand": "ch8",
-   "badge": "8.1",
+   "badge": "Ch 8",
    "title": "Why did Singapore want merger?",
    "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Reason</th><th>Explanation</th></tr>\n<tr><td><b>Economic survival</b></td><td>Singapore had no natural resources, a fast-growing population and rising unemployment. Entrepôt trade was declining as neighbours traded directly. A <b>common market</b> with Malaya would give Singapore's new industries a bigger market and Malaya's resources (rubber, tin)</td></tr>\n<tr><td><b>Political independence</b></td><td>The British were unlikely to give Singapore independence on its own. Most leaders believed Singapore, too small to survive alone, would gain independence from Britain <b>through merger</b></td></tr>\n<tr><td><b>Security</b></td><td>The PAP leaders believed that being part of a larger, anti-communist federation would help deal with the communist threat</td></tr>\n</table></div>\n<div class=\"ex\"><b>Exam sentence</b>One reason Singapore wanted merger was economic. With few natural resources and high unemployment, Singapore needed a common market with Malaya so that its industries could sell to a bigger market and create jobs.</div>\n<div class=\"warn\"><b>Watch out:</b> \"Singapore was small\" is not a reason on its own. Explain <b>what problem</b> being small caused (no resources, no market, no defence).</div>\n",
    "wide": true
@@ -59,7 +67,7 @@
   {
    "slug": "malaya-view",
    "strand": "ch8",
-   "badge": "8.1",
+   "badge": "Ch 8",
    "title": "Why did Malaya change its mind about merger?",
    "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Malaya's view</th></tr>\n<tr><td><b>Before 1961: reluctant</b></td><td>The Tunku worried that adding Singapore's large Chinese population would upset the <b>racial balance</b>, and feared communist influence among Singapore's Chinese-educated left wing</td></tr>\n<tr><td><b>1961: changed mind</b></td><td>The <b>Hong Lim by-election</b> (April 1961) and the PAP split suggested the moderate PAP government could fall to the pro-communist left. An independent, <b>communist Singapore</b> next door was a greater danger than merger</td></tr>\n<tr><td><b>Solution to racial balance</b></td><td>Include the Borneo territories (Sabah, Sarawak, and Brunei at first) so the overall population would not have a Chinese majority</td></tr>\n</table></div>\n<p class=\"flow\">Fear of a communist Singapore → merger lets the federal government control internal security → Borneo states balance the population</p>\n<div class=\"warn\"><b>Watch out:</b> merger was proposed by the <b>Tunku</b> (1961), not forced by Singapore. Know why Malaya agreed, not just why Singapore wanted it.</div>\n",
    "wide": true
@@ -67,7 +75,7 @@
   {
    "slug": "battle-for-merger",
    "strand": "ch8",
-   "badge": "8.2",
+   "badge": "Ch 8",
    "title": "The battle for merger: opposition, referendum, Coldstore",
    "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Event</th><th>What happened</th><th>Why it matters</th></tr>\n<tr><td><b>Barisan Sosialis</b> (1961)</td><td>Left-wing PAP members, led by <b>Lim Chin Siong</b>, broke away. They opposed the merger terms: Singapore had only 15 of 159 federal seats, and they argued Singaporeans would become second-class citizens</td><td>a strong, popular opposition to merger</td></tr>\n<tr><td><b>\"The Battle for Merger\"</b> radio talks (Sep–Oct 1961)</td><td>Lee Kuan Yew gave a series of radio talks in several languages explaining why merger was needed and warning of communist plans</td><td>the PAP used mass media to win public support</td></tr>\n<tr><td><b>Referendum</b> (1 Sep 1962)</td><td>People chose between three forms of merger; there was no option to reject merger. Barisan urged blank votes; about 71% chose Option A and about a quarter cast blank votes</td><td>gave the PAP a mandate for merger</td></tr>\n<tr><td><b>Operation Coldstore</b> (2 Feb 1963)</td><td>The Internal Security Council detained over 100 people suspected of communist activity, including Lim Chin Siong</td><td>weakened the opposition before Malaysia was formed</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> source questions on this topic often show <b>bias</b>: PAP materials support merger, Barisan materials oppose it. Always check who made a source and why.</div>\n",
    "wide": true
@@ -75,14 +83,14 @@
   {
    "slug": "forming-malaysia",
    "strand": "ch8",
-   "badge": "8.2",
+   "badge": "Ch 8",
    "title": "Forming Malaysia and reactions from neighbours",
    "html": "\n<ul class=\"k\">\n<li><b>Cobbold Commission</b> (1962) found that about two-thirds of people in North Borneo and Sarawak supported Malaysia</li>\n<li><b>Brunei</b> decided not to join</li>\n<li><b>Indonesia</b> (President Sukarno) opposed Malaysia as a British \"neo-colonial\" plan and launched <b>Konfrontasi</b> (1963–1966), with raids and bombings</li>\n<li><b>The Philippines</b> objected because it claimed Sabah</li>\n<li><b>16 September 1963:</b> Malaysia formed: Malaya, Singapore, Sabah and Sarawak</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> Konfrontasi begins in Ch 8 (opposition to Malaysia) but its bombings, like MacDonald House in 1965, are a <b>security challenge</b> in Ch 9. Be ready to use it in both chapters.</div>\n"
   },
   {
    "slug": "why-separation",
    "strand": "ch8",
-   "badge": "8.3",
+   "badge": "Ch 8",
    "title": "Why did Singapore separate from Malaysia in 1965?",
    "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Reason</th><th>Explanation</th></tr>\n<tr><td><b>Economic disagreements</b></td><td>The promised <b>common market</b> was slow to happen, so Singapore's goods still faced tariffs. There were disputes over how much of its revenue Singapore should pay to the federal government, especially as Konfrontasi raised defence costs</td></tr>\n<tr><td><b>Political differences</b></td><td>The ruling Alliance was organised by race (UMNO, MCA, MIC: <b>communal politics</b>). The PAP believed in <b>multiracial politics</b> and a \"<b>Malaysian Malaysia</b>\" where all races were equal, which challenged Malay special rights. Each side contested the other's elections (1963 Singapore election, 1964 federal election), creating distrust</td></tr>\n<tr><td><b>Racial tensions</b></td><td>Communal politics and newspapers such as the <i>Utusan Melayu</i> stirred racial feelings. The <b>1964 racial riots</b> in Singapore (July and September) killed and injured many people</td></tr>\n</table></div>\n<p class=\"flow\">Economic disputes + political rivalry → racial tension and riots → Tunku decides separation is the only way to avoid more bloodshed → 9 Aug 1965</p>\n<div class=\"warn\"><b>Watch out:</b> in an essay, <b>link</b> the reasons: political rivalry worsened racial tension, which made the Tunku decide separation was the only solution.</div>\n",
    "wide": true
@@ -97,7 +105,7 @@
   {
    "slug": "ch9-challenges",
    "strand": "ch9",
-   "badge": "9.1",
+   "badge": "Ch 9",
    "title": "Threats to Singapore after independence",
    "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Threat</th><th>Examples</th></tr>\n<tr><td><b>Konfrontasi</b> (until 1966)</td><td>Indonesian saboteurs bombed <b>MacDonald House</b> (10 March 1965), killing 3 people and injuring 33</td></tr>\n<tr><td><b>Communist threat</b></td><td>the underground communist movement continued; bombings in the 1970s</td></tr>\n<tr><td><b>British military withdrawal</b></td><td>in 1967–68 Britain announced it would withdraw its forces from Singapore by 1971. The bases gave security <i>and</i> about a fifth of Singapore's economy and many jobs</td></tr>\n<tr><td><b>Regional instability</b></td><td>the <b>Vietnam War</b> and fear of communism spreading in Southeast Asia</td></tr>\n<tr><td><b>Transnational terrorism</b></td><td><b>Laju hijacking</b> (1974): foreign terrorists attacked the Shell refinery on Pulau Bukom and seized the ferry <i>Laju</i></td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> British withdrawal was both a <b>security</b> problem (no protection) and an <b>economic</b> problem (lost jobs). Mention both.</div>\n",
    "wide": true
@@ -105,7 +113,7 @@
   {
    "slug": "deterrence",
    "strand": "ch9",
-   "badge": "9.2",
+   "badge": "Ch 9",
    "title": "Deterrence: building a defence force",
    "html": "\n<p><b>Deterrence</b> means having enough military strength that others think twice before attacking.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Measure</th><th>What and when</th><th>Why it helped</th></tr>\n<tr><td><b>National Service</b></td><td>introduced in 1967 for 18-year-old men</td><td>built a large citizen army quickly and cheaply; built national loyalty across races</td></tr>\n<tr><td><b>Singapore Armed Forces (SAF)</b></td><td>expanded from two infantry battalions; army, then air force and navy</td><td>a credible defence as the British left</td></tr>\n<tr><td><b>People's Defence Force (PDF)</b></td><td>volunteer part-time force (1965)</td><td>more manpower, involved the public</td></tr>\n<tr><td><b>Defence industry</b></td><td>Chartered Industries of Singapore (1967) made ammunition and rifles</td><td>less reliance on other countries for weapons</td></tr>\n<tr><td><b>Foreign help</b></td><td>Israeli advisers helped train the early SAF</td><td>gave expertise quickly</td></tr>\n<tr><td><b>Five Power Defence Arrangements</b> (1971)</td><td>Singapore, Malaysia, Britain, Australia, New Zealand</td><td>consultation and support after British withdrawal</td></tr>\n</table></div>\n<div class=\"ex\"><b>Exam sentence</b>National Service helped safeguard independence because it let Singapore build a large army quickly as the British withdrew, which deterred possible attackers.</div>\n<div class=\"warn\"><b>Watch out:</b> explain <b>how</b> each measure protected independence. Listing \"NS, SAF, PDF\" without effects earns few marks.</div>\n",
    "wide": true
@@ -113,7 +121,7 @@
   {
    "slug": "diplomacy",
    "strand": "ch9",
-   "badge": "9.3",
+   "badge": "Ch 9",
    "title": "Diplomacy: making friends and gaining recognition",
    "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Measure</th><th>What and when</th><th>Why it helped</th></tr>\n<tr><td><b>United Nations</b></td><td>joined 21 September 1965</td><td>international recognition as a sovereign state; a voice for small states</td></tr>\n<tr><td><b>Commonwealth</b></td><td>joined October 1965</td><td>ties with Britain and former colonies</td></tr>\n<tr><td><b>ASEAN</b></td><td>founding member, 8 August 1967 (with Indonesia, Malaysia, the Philippines, Thailand)</td><td>regional peace and cooperation; ended Konfrontasi tensions; united response to regional crises (e.g. Vietnam's invasion of Cambodia, 1978)</td></tr>\n<tr><td><b>Bilateral relations</b></td><td>building ties with many countries, near and far</td><td>more friends and trade partners means more security</td></tr>\n<tr><td><b>Indonesia</b></td><td>1968: two Indonesian marines who bombed MacDonald House were executed, straining ties; 1973: Lee Kuan Yew visited Indonesia and scattered flowers on their graves</td><td>repaired relations with a large neighbour</td></tr>\n</table></div>\n<p class=\"flow\">Deterrence (strong defence) + Diplomacy (many friends) = safeguarding independence</p>\n<div class=\"warn\"><b>Watch out:</b> \"Singapore joined ASEAN\" is a fact, not an explanation. Add <b>how</b> it helped: regional peace, cooperation, a united voice.</div>\n",
    "wide": true

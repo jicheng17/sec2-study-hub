@@ -1,6 +1,6 @@
 # Sec 2 History Cheat Sheet (Flask)
 
-Covers the 2026 Sec 2 EOY History scope: Chapter 8 (How did Singapore become an independent nation?) and Chapter 9 (How did Singapore safeguard its independence after 1965?), the three source skills (inferring purpose, comparing sources, assessing reliability) and the "explain two reasons" essay.
+Covers the 2026 Sec 2 EOY History scope: Chapter 8, How Did Singapore Become an Independent Nation? (textbook pp. 84–121), and Chapter 9, How Did Singapore Safeguard Its Independence After 1965? (pp. 124–153), the three source skills (inferring purpose, comparing sources, assessing reliability) and the "explain two reasons" essay.
 
 The easiest way to use it is through the Study Hub (`sec2-home`), where it appears at `/history`. To run it on its own:
 
@@ -14,7 +14,7 @@ Open http://127.0.0.1:5005
 
 ## Pages
 
-- `/`: all 19 cards
+- `/`: all 20 cards
 - `/theme/ch8`, `/theme/ch9`, `/theme/skills`, `/theme/essay`, `/theme/practice`: one section
 - `/topic/<name>`, e.g. `/topic/why-separation`: a single topic
 - `/?q=Coldstore`: search

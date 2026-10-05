@@ -29,6 +29,7 @@ O-LEVEL/
 ├── sec2-science-site/
 ├── sec2-geography-site/
 ├── sec2-literature-site/
+├── sec2-history-site/
 │   ├── app.py
 │   ├── data/topics.json          ← all content lives here
 │   ├── templates/  base.html, index.html, topic.html, _card.html
@@ -51,7 +52,7 @@ O-LEVEL/
 | Styling | One plain CSS file per site | No CSS framework, no JavaScript framework |
 | Fonts | Google Fonts | Bricolage Grotesque (headings), Atkinson Hyperlegible (body), STIX Two Text (maths) |
 | PDF export | Playwright + Chromium | `tools/export_pdf.py` |
-| Combining sites | Werkzeug `DispatcherMiddleware` | The hub mounts each subject at `/math`, `/science`, `/geography`, `/literature` |
+| Combining sites | Werkzeug `DispatcherMiddleware` | The hub mounts each subject at `/math`, `/science`, `/geography`, `/literature`, `/history` |
 
 No database and no login. Ticks on the revision plan are saved in the browser (`localStorage`) only.
 
@@ -73,6 +74,7 @@ Open **http://127.0.0.1:8000**. **No restart needed:** save any content (`.json`
 | Maths | 5002 | `/math/` |
 | Geography | 5003 | `/geography/` |
 | Literature | 5004 | `/literature/` |
+| History | 5005 | `/history/` |
 
 **Never use port 5000.** macOS AirPlay Receiver uses it and the browser shows "Access to localhost was denied".
 
@@ -149,16 +151,16 @@ Use these classes inside `html`. Don't add inline styles.
 - Background is a faint graph-paper grid. Cards are white with a thin border. No shadows except focus states.
 - Layout must work at phone width (about 400 px) with a 16 px side margin and no sideways scrolling. Wide tables sit inside `.tw` so they scroll on their own.
 - Each subject keeps the same header, navigation (All topics, strand filters, search) and footer, so the sites feel like one product.
-- Subject colours on the hub: Maths blue, Science green, Geography teal.
+- Subject colours on the hub: Maths blue, Science green, Geography teal, Literature plum, History brick red.
 
 ## 9. Adding a new subject
 
-1. Copy an existing site folder (geography is the most complete) and rename it, e.g. `sec2-history-site`.
-2. In `app.py`, update the docstring and pick an unused port (5005 and up).
+1. Copy an existing site folder (geography is the most complete) and rename it, e.g. `sec2-english-site`.
+2. In `app.py`, update the docstring and pick an unused port (5006 and up).
 3. In `templates/base.html`, update the eyebrow, title, intro and search placeholder.
 4. In `static/style.css`, replace the strand colour variables and `.<code> h3` rules.
 5. Write `data/topics.json` following sections 5–7.
-6. Add the site to the hub. In `sec2-home/app.py`: `history_app = load_site("sec2-history-site", "sec2_history_site")`, then add `"/history": history_app` to the `DispatcherMiddleware` map.
+6. Add the site to the hub. In `sec2-home/app.py`: `english_app = load_site("sec2-english-site", "sec2_english_site")`, then add `"/english": english_app` to the `DispatcherMiddleware` map.
 7. Add a tile in `sec2-home/templates/home.html`, and set the subject's `link` in `sec2-home/plan.py`.
 8. Add the subject to `SITES` in `tools/export_pdf.py`.
 9. Run the checks in section 11.
@@ -168,12 +170,12 @@ Use these classes inside `html`. Don't add inline styles.
 ```bash
 cd ~/Documents/O-LEVEL
 pip install playwright && playwright install chromium   # first time only
-python tools/export_pdf.py geography                     # or math, science, literature
+python tools/export_pdf.py geography                     # or math, science, literature, history
 ```
 
 - Output: A4, light theme, page numbers, all practice answers shown, saved as `Sec 2 <Subject> Cheat Sheet.pdf`.
 - **grid** layout (maths, science): two columns, cards never split. Best for short cards.
-- **column** layout (geography, literature): one column, each section starts on a new page, long cards may continue on the next page but tables and tip boxes never split. Best for text-heavy subjects.
+- **column** layout (geography, literature, history): one column, each section starts on a new page, long cards may continue on the next page but tables and tip boxes never split. Best for text-heavy subjects.
 - Look through the PDF before printing: no empty card outlines at page bottoms, no headings alone at the bottom of a page.
 
 ## 11. Checks before you finish
@@ -201,7 +203,8 @@ Promotion to Sec 3: pass English, and 50% or more on the average of all subjects
 - **Science:** the site covers Sec 1 (Books 1A, 1B, Chapters 1–8) and Sec 2 (Books 2A, 2B, Chapters 9–16), one card per sub-chapter. The EOY scope (Chapters 2–4 and 7–8) matches Book 1A Ch 2–4 and Book 1B Ch 7–8; those cards carry an EOY badge and the `/science/eoy` filter. Cards are written from the contents pages and the MOE syllabus, not the textbook text.
 - **Geography:** written from the scope sheet's chapter titles and public school papers, not the school textbook. Check examples against class notes.
 - **Literature:** organised by the topics in the school's *2026 Sec 2 Literature EOY Briefing* (in `resources/s2.literature/`). Quotes and page numbers come from the class notes and the 2025 EOY paper's suggested answers there (class notes are student-written, so check wording against the text). The 2025 paper's modern poem ("circles", Angeline Yap) is summarised and quoted briefly, not reproduced, because it is under copyright. Plot background comes from published studies of the play. Practice poems are public domain (Tennyson, Dickinson, Rossetti).
-- **Not yet built:** English, Higher Chinese, History cheat sheets.
+- **History:** Chapters 8–9 written from the MOE syllabus and published revision notes, not the school textbook; no school History notes in `resources/` yet. Source-skill drills describe sources instead of quoting real ones. Check dates and figures against the textbook.
+- **Not yet built:** English and Higher Chinese cheat sheets.
 - **Revision plan:** exam-week days follow a routine because the paper-by-paper timetable wasn't available.
 
 ## 14. Useful sources

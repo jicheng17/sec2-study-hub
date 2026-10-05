@@ -100,6 +100,7 @@ nav.jump a.on{border-color:var(--accent);color:var(--accent)}
 .tile.sci{border-top-color:#2F7D5B}
 .tile.geo{border-top-color:#3C8C8C}
 .tile.lit{border-top-color:#8A3B5C}
+.tile.his{border-top-color:#A33A2B}
 .tile:hover,.tile:focus-visible{border-color:var(--accent);outline:none}
 .tile .kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .tile .name{font-family:"Bricolage Grotesque",sans-serif;font-size:28px;font-weight:800}

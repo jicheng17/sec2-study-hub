@@ -128,7 +128,7 @@ SUBJECTS = [
         "slug": "history", "name": "History", "color": "his",
         "paper": "Section A source-based case study 17 marks (purpose, comparison, reliability) · Section B essay 8 marks (explain two reasons)",
         "scope": "Chapters 8 and 9.",
-        "link": None,
+        "link": "/history/",
         "tasks": [
             ("hi-1", "Chapters 8–9: list the main events in order, with causes."),
             ("hi-2", "Practise one purpose question: who wrote it, to whom, why, and what they wanted the audience to do."),

@@ -1,0 +1,180 @@
+{
+ "strands": [
+  {
+   "slug": "ch8",
+   "name": "Ch 8: Becoming independent",
+   "css": "hm",
+   "blurb": "Merger 1961–1963 and separation 1965"
+  },
+  {
+   "slug": "ch9",
+   "name": "Ch 9: Safeguarding independence",
+   "css": "hs",
+   "blurb": "Challenges after 1965, deterrence, diplomacy"
+  },
+  {
+   "slug": "skills",
+   "name": "Source skills",
+   "css": "sk",
+   "blurb": "Section A · purpose, comparison, reliability"
+  },
+  {
+   "slug": "essay",
+   "name": "Explanation essay",
+   "css": "es",
+   "blurb": "Section B · explain two reasons"
+  },
+  {
+   "slug": "practice",
+   "name": "Practice questions",
+   "css": "pr",
+   "blurb": "Exam-style questions with model answers"
+  }
+ ],
+ "topics": [
+  {
+   "slug": "exam-format",
+   "strand": "ch8",
+   "badge": "Exam",
+   "title": "The paper at a glance",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Section</th><th>Marks</th><th>What you do</th></tr>\n<tr><td>A: Source-based case study</td><td>17</td><td>Read several sources on one issue from Ch 8 or 9. Questions test <b>inferring purpose</b>, <b>comparing sources</b> and <b>assessing reliability</b></td></tr>\n<tr><td>B: Essay</td><td>8</td><td><b>Explain two reasons</b> for a historical event</td></tr>\n</table></div>\n<ul class=\"k\">\n<li><b>Content:</b> Chapter 8 (How did Singapore become an independent nation?) and Chapter 9 (How did Singapore safeguard its independence after 1965?)</li>\n<li><b>Time:</b> about two-thirds of your time on Section A, one-third on the essay</li>\n<li>Your <b>contextual knowledge</b> from Ch 8–9 is what lets you explain purpose and check reliability, so learn the events and dates</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> source answers that only describe what a source says score low. Every answer needs a <b>judgement</b> backed by evidence from the source.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "ch8-timeline",
+   "strand": "ch8",
+   "badge": "Timeline",
+   "title": "Key dates, 1959–1965",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Date</th><th>Event</th></tr>\n<tr><td>1959</td><td>Singapore gains full internal self-government; PAP wins the election; Lee Kuan Yew becomes Prime Minister</td></tr>\n<tr><td>Apr 1961</td><td><b>Hong Lim by-election</b>: Ong Eng Guan (expelled from PAP) beats the PAP candidate</td></tr>\n<tr><td>27 May 1961</td><td>Tunku Abdul Rahman proposes a closer association: the <b>Malaysia</b> idea</td></tr>\n<tr><td>Aug 1961</td><td>Lee Kuan Yew and the Tunku agree on the broad terms of merger</td></tr>\n<tr><td>Jul–Aug 1961</td><td>PAP splits; the left wing forms <b>Barisan Sosialis</b></td></tr>\n<tr><td>Sep–Oct 1961</td><td>\"The Battle for Merger\" radio talks by Lee Kuan Yew</td></tr>\n<tr><td>1 Sep 1962</td><td><b>Referendum</b> on the type of merger: about 71% choose Option A</td></tr>\n<tr><td>Jan 1963</td><td>Indonesia begins <b>Konfrontasi</b> (Confrontation)</td></tr>\n<tr><td>2 Feb 1963</td><td><b>Operation Coldstore</b>: over 100 people detained, including Lim Chin Siong</td></tr>\n<tr><td>16 Sep 1963</td><td><b>Malaysia</b> formed: Malaya, Singapore, Sabah (North Borneo), Sarawak</td></tr>\n<tr><td>Sep 1963</td><td>Singapore state election: PAP wins; Alliance candidates win no seats</td></tr>\n<tr><td>Apr 1964</td><td>Malaysian federal election: PAP contests on the mainland, wins 1 seat</td></tr>\n<tr><td>Jul &amp; Sep 1964</td><td><b>Racial riots</b> in Singapore</td></tr>\n<tr><td>9 Aug 1965</td><td><b>Separation</b>: Singapore becomes an independent republic</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> don't mix up the <b>referendum</b> (1962, choosing the <i>type</i> of merger) with the <b>formation of Malaysia</b> (1963). Check exact dates against your textbook.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "why-merger",
+   "strand": "ch8",
+   "badge": "8.1",
+   "title": "Why did Singapore want merger?",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Reason</th><th>Explanation</th></tr>\n<tr><td><b>Economic survival</b></td><td>Singapore had no natural resources, a fast-growing population and rising unemployment. Entrepôt trade was declining as neighbours traded directly. A <b>common market</b> with Malaya would give Singapore's new industries a bigger market and Malaya's resources (rubber, tin)</td></tr>\n<tr><td><b>Political independence</b></td><td>The British were unlikely to give Singapore independence on its own. Most leaders believed Singapore, too small to survive alone, would gain independence from Britain <b>through merger</b></td></tr>\n<tr><td><b>Security</b></td><td>The PAP leaders believed that being part of a larger, anti-communist federation would help deal with the communist threat</td></tr>\n</table></div>\n<div class=\"ex\"><b>Exam sentence</b>One reason Singapore wanted merger was economic. With few natural resources and high unemployment, Singapore needed a common market with Malaya so that its industries could sell to a bigger market and create jobs.</div>\n<div class=\"warn\"><b>Watch out:</b> \"Singapore was small\" is not a reason on its own. Explain <b>what problem</b> being small caused (no resources, no market, no defence).</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "malaya-view",
+   "strand": "ch8",
+   "badge": "8.1",
+   "title": "Why did Malaya change its mind about merger?",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th></th><th>Malaya's view</th></tr>\n<tr><td><b>Before 1961: reluctant</b></td><td>The Tunku worried that adding Singapore's large Chinese population would upset the <b>racial balance</b>, and feared communist influence among Singapore's Chinese-educated left wing</td></tr>\n<tr><td><b>1961: changed mind</b></td><td>The <b>Hong Lim by-election</b> (April 1961) and the PAP split suggested the moderate PAP government could fall to the pro-communist left. An independent, <b>communist Singapore</b> next door was a greater danger than merger</td></tr>\n<tr><td><b>Solution to racial balance</b></td><td>Include the Borneo territories (Sabah, Sarawak, and Brunei at first) so the overall population would not have a Chinese majority</td></tr>\n</table></div>\n<p class=\"flow\">Fear of a communist Singapore → merger lets the federal government control internal security → Borneo states balance the population</p>\n<div class=\"warn\"><b>Watch out:</b> merger was proposed by the <b>Tunku</b> (1961), not forced by Singapore. Know why Malaya agreed, not just why Singapore wanted it.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "battle-for-merger",
+   "strand": "ch8",
+   "badge": "8.2",
+   "title": "The battle for merger: opposition, referendum, Coldstore",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Event</th><th>What happened</th><th>Why it matters</th></tr>\n<tr><td><b>Barisan Sosialis</b> (1961)</td><td>Left-wing PAP members, led by <b>Lim Chin Siong</b>, broke away. They opposed the merger terms: Singapore had only 15 of 159 federal seats, and they argued Singaporeans would become second-class citizens</td><td>a strong, popular opposition to merger</td></tr>\n<tr><td><b>\"The Battle for Merger\"</b> radio talks (Sep–Oct 1961)</td><td>Lee Kuan Yew gave a series of radio talks in several languages explaining why merger was needed and warning of communist plans</td><td>the PAP used mass media to win public support</td></tr>\n<tr><td><b>Referendum</b> (1 Sep 1962)</td><td>People chose between three forms of merger; there was no option to reject merger. Barisan urged blank votes; about 71% chose Option A and about a quarter cast blank votes</td><td>gave the PAP a mandate for merger</td></tr>\n<tr><td><b>Operation Coldstore</b> (2 Feb 1963)</td><td>The Internal Security Council detained over 100 people suspected of communist activity, including Lim Chin Siong</td><td>weakened the opposition before Malaysia was formed</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> source questions on this topic often show <b>bias</b>: PAP materials support merger, Barisan materials oppose it. Always check who made a source and why.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "forming-malaysia",
+   "strand": "ch8",
+   "badge": "8.2",
+   "title": "Forming Malaysia and reactions from neighbours",
+   "html": "\n<ul class=\"k\">\n<li><b>Cobbold Commission</b> (1962) found that about two-thirds of people in North Borneo and Sarawak supported Malaysia</li>\n<li><b>Brunei</b> decided not to join</li>\n<li><b>Indonesia</b> (President Sukarno) opposed Malaysia as a British \"neo-colonial\" plan and launched <b>Konfrontasi</b> (1963–1966), with raids and bombings</li>\n<li><b>The Philippines</b> objected because it claimed Sabah</li>\n<li><b>16 September 1963:</b> Malaysia formed: Malaya, Singapore, Sabah and Sarawak</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> Konfrontasi begins in Ch 8 (opposition to Malaysia) but its bombings, like MacDonald House in 1965, are a <b>security challenge</b> in Ch 9. Be ready to use it in both chapters.</div>\n"
+  },
+  {
+   "slug": "why-separation",
+   "strand": "ch8",
+   "badge": "8.3",
+   "title": "Why did Singapore separate from Malaysia in 1965?",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Reason</th><th>Explanation</th></tr>\n<tr><td><b>Economic disagreements</b></td><td>The promised <b>common market</b> was slow to happen, so Singapore's goods still faced tariffs. There were disputes over how much of its revenue Singapore should pay to the federal government, especially as Konfrontasi raised defence costs</td></tr>\n<tr><td><b>Political differences</b></td><td>The ruling Alliance was organised by race (UMNO, MCA, MIC: <b>communal politics</b>). The PAP believed in <b>multiracial politics</b> and a \"<b>Malaysian Malaysia</b>\" where all races were equal, which challenged Malay special rights. Each side contested the other's elections (1963 Singapore election, 1964 federal election), creating distrust</td></tr>\n<tr><td><b>Racial tensions</b></td><td>Communal politics and newspapers such as the <i>Utusan Melayu</i> stirred racial feelings. The <b>1964 racial riots</b> in Singapore (July and September) killed and injured many people</td></tr>\n</table></div>\n<p class=\"flow\">Economic disputes + political rivalry → racial tension and riots → Tunku decides separation is the only way to avoid more bloodshed → 9 Aug 1965</p>\n<div class=\"warn\"><b>Watch out:</b> in an essay, <b>link</b> the reasons: political rivalry worsened racial tension, which made the Tunku decide separation was the only solution.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "ch8-people",
+   "strand": "ch8",
+   "badge": "People",
+   "title": "Key people and terms (Ch 8)",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Person or term</th><th>Who or what</th></tr>\n<tr><td><b>Lee Kuan Yew</b></td><td>Prime Minister of Singapore (PAP); led the campaign for merger</td></tr>\n<tr><td><b>Tunku Abdul Rahman</b></td><td>Prime Minister of Malaya, then Malaysia; proposed merger (1961) and decided on separation (1965)</td></tr>\n<tr><td><b>Lim Chin Siong</b></td><td>Barisan Sosialis leader; opposed merger terms; detained in Operation Coldstore</td></tr>\n<tr><td><b>Ong Eng Guan</b></td><td>former PAP minister who won the 1961 Hong Lim by-election</td></tr>\n<tr><td><b>Sukarno</b></td><td>President of Indonesia; launched Konfrontasi</td></tr>\n<tr><td><b>Yusof bin Ishak</b></td><td>Singapore's first President after independence</td></tr>\n<tr><td><b>Common market</b></td><td>an area where goods move with no tariffs (taxes on imports)</td></tr>\n<tr><td><b>Referendum</b></td><td>a vote by the people on one issue</td></tr>\n<tr><td><b>Communal vs multiracial politics</b></td><td>parties organised by race vs one party for all races</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> spell names correctly: <b>Tunku</b> (not Tunku Rahman), <b>Barisan Sosialis</b>, <b>Konfrontasi</b>.</div>\n"
+  },
+  {
+   "slug": "ch9-challenges",
+   "strand": "ch9",
+   "badge": "9.1",
+   "title": "Threats to Singapore after independence",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Threat</th><th>Examples</th></tr>\n<tr><td><b>Konfrontasi</b> (until 1966)</td><td>Indonesian saboteurs bombed <b>MacDonald House</b> (10 March 1965), killing 3 people and injuring 33</td></tr>\n<tr><td><b>Communist threat</b></td><td>the underground communist movement continued; bombings in the 1970s</td></tr>\n<tr><td><b>British military withdrawal</b></td><td>in 1967–68 Britain announced it would withdraw its forces from Singapore by 1971. The bases gave security <i>and</i> about a fifth of Singapore's economy and many jobs</td></tr>\n<tr><td><b>Regional instability</b></td><td>the <b>Vietnam War</b> and fear of communism spreading in Southeast Asia</td></tr>\n<tr><td><b>Transnational terrorism</b></td><td><b>Laju hijacking</b> (1974): foreign terrorists attacked the Shell refinery on Pulau Bukom and seized the ferry <i>Laju</i></td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> British withdrawal was both a <b>security</b> problem (no protection) and an <b>economic</b> problem (lost jobs). Mention both.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "deterrence",
+   "strand": "ch9",
+   "badge": "9.2",
+   "title": "Deterrence: building a defence force",
+   "html": "\n<p><b>Deterrence</b> means having enough military strength that others think twice before attacking.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Measure</th><th>What and when</th><th>Why it helped</th></tr>\n<tr><td><b>National Service</b></td><td>introduced in 1967 for 18-year-old men</td><td>built a large citizen army quickly and cheaply; built national loyalty across races</td></tr>\n<tr><td><b>Singapore Armed Forces (SAF)</b></td><td>expanded from two infantry battalions; army, then air force and navy</td><td>a credible defence as the British left</td></tr>\n<tr><td><b>People's Defence Force (PDF)</b></td><td>volunteer part-time force (1965)</td><td>more manpower, involved the public</td></tr>\n<tr><td><b>Defence industry</b></td><td>Chartered Industries of Singapore (1967) made ammunition and rifles</td><td>less reliance on other countries for weapons</td></tr>\n<tr><td><b>Foreign help</b></td><td>Israeli advisers helped train the early SAF</td><td>gave expertise quickly</td></tr>\n<tr><td><b>Five Power Defence Arrangements</b> (1971)</td><td>Singapore, Malaysia, Britain, Australia, New Zealand</td><td>consultation and support after British withdrawal</td></tr>\n</table></div>\n<div class=\"ex\"><b>Exam sentence</b>National Service helped safeguard independence because it let Singapore build a large army quickly as the British withdrew, which deterred possible attackers.</div>\n<div class=\"warn\"><b>Watch out:</b> explain <b>how</b> each measure protected independence. Listing \"NS, SAF, PDF\" without effects earns few marks.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "diplomacy",
+   "strand": "ch9",
+   "badge": "9.3",
+   "title": "Diplomacy: making friends and gaining recognition",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Measure</th><th>What and when</th><th>Why it helped</th></tr>\n<tr><td><b>United Nations</b></td><td>joined 21 September 1965</td><td>international recognition as a sovereign state; a voice for small states</td></tr>\n<tr><td><b>Commonwealth</b></td><td>joined October 1965</td><td>ties with Britain and former colonies</td></tr>\n<tr><td><b>ASEAN</b></td><td>founding member, 8 August 1967 (with Indonesia, Malaysia, the Philippines, Thailand)</td><td>regional peace and cooperation; ended Konfrontasi tensions; united response to regional crises (e.g. Vietnam's invasion of Cambodia, 1978)</td></tr>\n<tr><td><b>Bilateral relations</b></td><td>building ties with many countries, near and far</td><td>more friends and trade partners means more security</td></tr>\n<tr><td><b>Indonesia</b></td><td>1968: two Indonesian marines who bombed MacDonald House were executed, straining ties; 1973: Lee Kuan Yew visited Indonesia and scattered flowers on their graves</td><td>repaired relations with a large neighbour</td></tr>\n</table></div>\n<p class=\"flow\">Deterrence (strong defence) + Diplomacy (many friends) = safeguarding independence</p>\n<div class=\"warn\"><b>Watch out:</b> \"Singapore joined ASEAN\" is a fact, not an explanation. Add <b>how</b> it helped: regional peace, cooperation, a united voice.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "ch9-timeline",
+   "strand": "ch9",
+   "badge": "Timeline",
+   "title": "Key dates, 1965–1978",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Date</th><th>Event</th></tr>\n<tr><td>10 Mar 1965</td><td>MacDonald House bombing</td></tr>\n<tr><td>9 Aug 1965</td><td>Independence</td></tr>\n<tr><td>Sep–Oct 1965</td><td>Joins the UN and the Commonwealth</td></tr>\n<tr><td>1966</td><td>Konfrontasi ends</td></tr>\n<tr><td>1967</td><td>National Service begins; ASEAN founded; Britain announces withdrawal</td></tr>\n<tr><td>1968</td><td>MacDonald House bombers executed</td></tr>\n<tr><td>1971</td><td>British forces withdraw; Five Power Defence Arrangements</td></tr>\n<tr><td>1973</td><td>Lee Kuan Yew visits Indonesia</td></tr>\n<tr><td>1974</td><td>Laju hijacking</td></tr>\n<tr><td>1978</td><td>Vietnam invades Cambodia; ASEAN responds together</td></tr>\n</table></div>\n<div class=\"warn\"><b>Watch out:</b> source dates matter. A source from <b>before</b> an event can't describe its results, so use dates to check reliability.</div>\n"
+  },
+  {
+   "slug": "source-basics",
+   "strand": "skills",
+   "badge": "Basics",
+   "title": "Reading a source: content and provenance",
+   "html": "\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Look at</th><th>Ask</th></tr>\n<tr><td><b>Provenance</b> (the caption)</td><td>Who made it? When? What type (speech, newspaper, cartoon, government report)? For whom?</td></tr>\n<tr><td><b>Content</b></td><td>What does it say or show? What is the main message?</td></tr>\n<tr><td><b>Tone</b></td><td>Is it positive, critical, worried, mocking? Which words show this?</td></tr>\n<tr><td><b>Context</b></td><td>What was happening at that time (from your Ch 8–9 knowledge)?</td></tr>\n</table></div>\n<ul class=\"k\">\n<li><b>Inference:</b> what the source <i>suggests</i>, not just what it says. \"Source A suggests that…\"</li>\n<li><b>Cartoons:</b> identify each figure and symbol, then the cartoonist's message</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> copying the source is not an answer. Quote a short phrase, then explain what it shows.</div>\n"
+  },
+  {
+   "slug": "skill-purpose",
+   "strand": "skills",
+   "badge": "Purpose",
+   "title": "Inferring purpose",
+   "html": "\n<p><b>Purpose</b> = why the source was made: what the author wanted the <b>audience</b> to think or do.</p>\n<ol class=\"k\">\n<li><b>Message:</b> what is the author saying? Support with the source</li>\n<li><b>Context:</b> what was happening then, and who was the author?</li>\n<li><b>Audience:</b> who was it for?</li>\n<li><b>Intended outcome:</b> what did the author want them to think, feel or <b>do</b>?</li>\n</ol>\n<div class=\"ex\"><b>Example: Lee Kuan Yew's \"Battle for Merger\" radio talks (1961)</b>Message: merger was needed and the communists were trying to stop it. Context: the PAP had just split and Barisan Sosialis was campaigning against the merger terms before the referendum. Audience: the people of Singapore. Purpose: to persuade people to <b>support merger and the PAP's plan, and reject Barisan Sosialis</b>.</div>\n<div class=\"warn\"><b>Watch out:</b> \"to inform\" or \"to show what happened\" is too weak. A good purpose answer says what the author wanted the audience to <b>do or believe</b>, and why at that time.</div>\n"
+  },
+  {
+   "slug": "skill-comparison",
+   "strand": "skills",
+   "badge": "Compare",
+   "title": "Comparing sources",
+   "html": "\n<ol class=\"k\">\n<li><b>Pick one criterion</b> and compare both sources on it: message, view of a person or event, tone, or purpose</li>\n<li>State the <b>similarity or difference</b> clearly</li>\n<li>Support with evidence from <b>both</b> sources</li>\n<li>For top marks: compare on a <b>deeper level</b> (tone, purpose or provenance), or give both a similarity and a difference</li>\n</ol>\n<div class=\"ex\"><b>Answer frame</b>Sources A and B are similar/different in their view of [issue]. Source A shows that… as seen in \"…\". However, Source B shows that… as seen in \"…\". Therefore, they differ in…</div>\n<div class=\"warn\"><b>Watch out:</b> comparing <b>different things</b> doesn't work, e.g. A's view of the Tunku with B's view of the riots. Compare both sources on the <b>same</b> point.</div>\n"
+  },
+  {
+   "slug": "skill-reliability",
+   "strand": "skills",
+   "badge": "Reliable",
+   "title": "Assessing reliability",
+   "html": "\n<p>Is the source <b>reliable</b> (trustworthy) as evidence about [the issue]?</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Method</th><th>How</th></tr>\n<tr><td><b>Cross-reference</b> with other sources</td><td>does another source in the paper agree? Quote both</td></tr>\n<tr><td><b>Check against your contextual knowledge</b></td><td>do the facts match what you know (dates, events, figures)?</td></tr>\n<tr><td><b>Examine provenance and purpose</b></td><td>did the author have a reason to exaggerate or leave things out? E.g. a party's own campaign material, or a newspaper with a political side</td></tr>\n</table></div>\n<div class=\"ex\"><b>Answer frame</b>Source C is (not) reliable about [issue]. Its claim that… is supported by Source D, which says… / matches the fact that… However, it was written by… whose purpose was to…, so it may exaggerate… Overall, Source C is (partly) reliable because…</div>\n<div class=\"warn\"><b>Watch out:</b> \"It is biased, so it's unreliable\" is not enough. Bias doesn't automatically make facts false: <b>check the content</b> against other evidence, then judge.</div>\n",
+   "wide": true
+  },
+  {
+   "slug": "essay-how",
+   "strand": "essay",
+   "badge": "8m",
+   "title": "Writing the \"explain two reasons\" essay",
+   "html": "\n<p>Section B asks you to <b>explain two reasons</b> for a historical event (8 marks). One well-developed paragraph per reason.</p>\n<div class=\"tw\"><table class=\"t\">\n<tr><th>Step</th><th>What to write</th></tr>\n<tr><td><b>P</b>oint</td><td>state the reason, linked to the question: \"One reason why… was…\"</td></tr>\n<tr><td><b>E</b>vidence</td><td>specific facts: names, dates, events, figures</td></tr>\n<tr><td><b>E</b>xplain</td><td>show <b>how</b> this caused the event: \"This led to… because…\"</td></tr>\n<tr><td><b>L</b>ink</td><td>\"Therefore, this was a reason why…\"</td></tr>\n</table></div>\n<ul class=\"k\">\n<li>Spend about 5 minutes planning: choose the two reasons you know the most facts about</li>\n<li>Higher marks need <b>specific evidence</b> and a clear chain of cause and effect</li>\n</ul>\n<div class=\"warn\"><b>Watch out:</b> telling the story in order (narrative) scores low. Every paragraph must start with a <b>reason</b>, not a date.</div>\n"
+  },
+  {
+   "slug": "essay-model",
+   "strand": "essay",
+   "badge": "Model",
+   "title": "Model essay: why did Singapore separate from Malaysia?",
+   "html": "\n<div class=\"ex\"><b>Paragraph 1: political differences</b>One reason why Singapore separated from Malaysia was political differences between the PAP and the Alliance government. The Alliance was made up of race-based parties, while the PAP believed in multiracial politics and called for a \"Malaysian Malaysia\" in which all races had equal rights. The PAP also contested the 1964 federal election on the mainland, after the Alliance had contested the 1963 Singapore election. This made UMNO leaders see the PAP as a threat to Malay special rights and to their power. Therefore, political rivalry created deep distrust that made it hard for Singapore to remain in Malaysia.</div>\n<div class=\"ex\"><b>Paragraph 2: racial tensions</b>Another reason was rising racial tension. Communal politics and newspapers such as the <i>Utusan Melayu</i> stirred up racial feelings, and riots broke out in Singapore in July and September 1964, killing and injuring many people. The Tunku feared that more violence would spread across Malaysia. Therefore, he decided that separation was the only way to prevent further bloodshed, and Singapore became independent on 9 August 1965.</div>\n<div class=\"warn\"><b>Watch out:</b> notice that each paragraph ends by <b>linking back</b> to separation. Without the link, you lose the top level.</div>\n"
+  },
+  {
+   "slug": "practice-all",
+   "strand": "practice",
+   "badge": "Practice",
+   "title": "Practice questions with model answers",
+   "html": "<p class=\"qa-intro\">Try each question first, then tap it to see the model answer.</p><details class=\"qa\"><summary><span class=\"qm\">8m</span>Explain two reasons why Singapore wanted merger with Malaya.</summary><div class=\"qa-body\"><p><b>Economic:</b> few natural resources, rising unemployment and declining entrepôt trade meant Singapore needed a common market with Malaya so its industries could grow and create jobs.</p><p><b>Political:</b> the British were unlikely to grant independence to Singapore alone; merger was seen as the way to end colonial rule, and a larger anti-communist federation would help handle the communist threat.</p><p class=\"qa-tip\"><b>Marking tip:</b> two developed reasons, each with specific evidence and a link back to merger.</p></div></details><details class=\"qa\"><summary><span class=\"qm\">8m</span>Explain two reasons why Malaya agreed to merger in 1961.</summary><div class=\"qa-body\"><p><b>Fear of a communist Singapore:</b> the Hong Lim by-election (1961) and the PAP split suggested the pro-communist left could take power. Merger would let the federal government control internal security.</p><p><b>Racial balance solved:</b> including the Borneo territories meant the Chinese would not outnumber the Malays in the new federation.</p><p class=\"qa-tip\"><b>Marking tip:</b> explain the change: why the Tunku had been unwilling, and what changed in 1961.</p></div></details><details class=\"qa\"><summary><span class=\"qm\">8m</span>Explain two ways Singapore safeguarded its independence after 1965.</summary><div class=\"qa-body\"><p><b>Deterrence:</b> National Service (1967) built a large citizen army quickly as the British prepared to leave; with the SAF and a local defence industry, it discouraged attack.</p><p><b>Diplomacy:</b> joining the UN (1965) gave recognition as a sovereign state, and ASEAN (1967) built regional cooperation and peace with neighbours, including Indonesia after Konfrontasi.</p><p class=\"qa-tip\"><b>Marking tip:</b> explain how each measure protected independence, not just what it was.</p></div></details><details class=\"qa\"><summary><span class=\"qm\">8m</span>Explain two challenges Singapore faced after independence.</summary><div class=\"qa-body\"><p><b>Security:</b> British withdrawal (announced 1967–68) left Singapore without a strong defence while Konfrontasi and the communist threat had shown it was vulnerable.</p><p><b>Economic:</b> the British bases provided many jobs and a large part of the economy, so their closure threatened unemployment.</p><p class=\"qa-tip\"><b>Marking tip:</b> use specific examples (MacDonald House, withdrawal by 1971, Laju hijacking).</p></div></details><details class=\"qa\"><summary><span class=\"qm\">Purpose</span>Source-skill drill: a 1962 Barisan Sosialis leaflet urges voters to cast blank votes in the referendum. What is its purpose?</summary><div class=\"qa-body\"><p>Message: the referendum is unfair because none of the options allows people to reject merger. Context: the PAP's referendum offered three forms of merger. Audience: Singapore voters. <b>Purpose:</b> to persuade voters to cast blank votes as a protest, to show rejection of the PAP's merger terms and support Barisan Sosialis.</p><p class=\"qa-tip\"><b>Marking tip:</b> message + context + audience + intended action. \"To inform\" gets little credit.</p></div></details><details class=\"qa\"><summary><span class=\"qm\">Reliable</span>Source-skill drill: a 1964 newspaper with a strong communal stand blames the PAP for the racial riots. Is it reliable about the causes of the riots?</summary><div class=\"qa-body\"><p>Partly unreliable. It matches the fact that riots took place in July 1964 and that PAP–UMNO relations were tense. But the paper had a political side and a purpose of stirring feelings against the PAP, so it gives one-sided blame. Other evidence shows several causes, including communal politics and provocative reports. Overall, it is useful as evidence of the tension, but not reliable on who was to blame.</p><p class=\"qa-tip\"><b>Marking tip:</b> test the content (cross-reference, context) and the provenance, then give a final judgement.</p></div></details><div class=\"warn\"><b>Watch out:</b> in the real paper, quote the actual sources given. These drills describe sources so you can practise the reasoning.</div>",
+   "wide": true
+  }
+ ]
+}

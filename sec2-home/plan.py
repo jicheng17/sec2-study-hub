@@ -127,11 +127,12 @@ SUBJECTS = [
     {
         "slug": "history", "name": "History", "color": "his",
         "paper": "Section A source-based case study 17 marks (purpose, comparison, reliability) · Section B essay 8 marks (explain two reasons)",
-        "scope": "Chapters 8 and 9.",
+        "scope": "Chapters 8 and 9 (textbook pp. 84–121, 124–153). Skills: inferring purpose, comparing sources, assessing reliability, crafting explanations.",
         "link": "/history/",
         "tasks": [
             ("hi-1", "Chapters 8–9: list the main events in order, with causes."),
             ("hi-2", "Practise one purpose question: who wrote it, to whom, why, and what they wanted the audience to do."),
+            ("hi-5", "Comparison: compare two sources on the same point (view, tone or purpose), quoting both."),
             ("hi-3", "Reliability: check the source against provenance and other sources, then give a clear answer."),
             ("hi-4", "Essay: write two paragraphs, one reason each, with evidence and a link back to the question."),
         ],

@@ -209,3 +209,27 @@ table.eqtable td:nth-child(3){min-width:200px}
 .cc .cc-de-line{stroke:var(--cc-de);stroke-width:6}
 .cc .cc-ox-line{stroke:var(--cc-ox);stroke-width:6}
 .cc figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+
+/* Food exchange diagram (14-3) */
+:root{--fx-in:#2E8B57;--fx-villus:#F6DCD4}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--fx-in:#6FCF97;--fx-villus:#3A2622}}
+:root[data-theme="dark"]{--fx-in:#6FCF97;--fx-villus:#3A2622}
+.fx{display:block;margin:4px 0 12px}
+.fx svg{display:block;width:100%;max-width:440px;height:auto;margin:0 auto}
+.fx text{font-family:"Atkinson Hyperlegible",system-ui,sans-serif;fill:var(--ink)}
+.fx .fx-title{font-size:15px;font-weight:700}
+.fx .fx-lab{font-size:13px;font-weight:700}
+.fx .fx-small{font-size:12px;fill:var(--muted)}
+.fx .fx-onblood{fill:var(--ink)}
+.fx .fx-villus{fill:var(--fx-villus);stroke:var(--dg-tube);stroke-width:3}
+.fx .fx-cap{fill:none;stroke:var(--cc-ox);stroke-width:8;stroke-linecap:butt}
+.fx .fx-wall{fill:var(--dg-small);opacity:.55}
+.fx .fx-food{fill:var(--fx-in)}
+.fx .fx-lead{stroke:var(--muted);stroke-width:1.2}
+.fx .fx-in line{stroke:var(--fx-in);stroke-width:2.5}.fx .fx-in polygon{fill:var(--fx-in)}
+.fx .fx-out line{stroke:var(--cc-de);stroke-width:2.5}.fx .fx-out polygon{fill:var(--cc-de)}
+.fx .fx-flow line{stroke:var(--card);stroke-width:2}.fx .fx-flow polygon{fill:var(--card)}
+.fx .fx-cell{fill:var(--accent-soft);stroke:var(--rule);stroke-width:2}
+.fx .fx-nuc{fill:var(--muted);opacity:.6}
+.fx .fx-capb{fill:var(--cc-ox-soft);stroke:var(--cc-ox);stroke-width:3}
+.fx figcaption{font-size:14px;color:var(--muted);margin-top:6px}

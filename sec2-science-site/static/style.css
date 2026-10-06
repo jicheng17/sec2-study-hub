@@ -203,6 +203,9 @@ table.eqtable td:nth-child(3){min-width:200px}
 .cc .cc-ox polygon{fill:var(--cc-ox)}
 .cc .cc-lab text{font-size:14px;font-weight:700}
 .cc .cc-key text{font-size:13px}
+.cc .cc-lab text.cc-type{font-size:11px;letter-spacing:.1em}
+.cc .cc-lab text.cc-type-de{fill:var(--cc-de)}
+.cc .cc-lab text.cc-type-ox{fill:var(--cc-ox)}
 .cc .cc-de-line{stroke:var(--cc-de);stroke-width:6}
 .cc .cc-ox-line{stroke:var(--cc-ox);stroke-width:6}
 .cc figcaption{font-size:14px;color:var(--muted);margin-top:6px}

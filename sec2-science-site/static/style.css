@@ -181,3 +181,28 @@ table.eqtable td:nth-child(3){min-width:200px}
 .dg .dg-lab text.dg-acc{fill:var(--muted);font-style:italic}
 .dg figcaption{font-size:14px;color:var(--muted);margin-top:6px}
 .dg .dg-key{font-style:italic}
+
+/* Blood circulation diagram (15-1) */
+:root{--cc-ox:#C0392B;--cc-de:#2F5FA8;--cc-ox-soft:#F7DEDA;--cc-de-soft:#DDE6F4}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--cc-ox:#F08B7F;--cc-de:#86B2EE;--cc-ox-soft:#3A2522;--cc-de-soft:#1E2A3C}}
+:root[data-theme="dark"]{--cc-ox:#F08B7F;--cc-de:#86B2EE;--cc-ox-soft:#3A2522;--cc-de-soft:#1E2A3C}
+.cc{display:block;margin:4px 0 12px}
+.cc svg{display:block;width:100%;max-width:480px;height:auto;margin:0 auto}
+.cc text{font-family:"Atkinson Hyperlegible",system-ui,sans-serif;fill:var(--ink)}
+.cc .cc-organ{fill:var(--accent-soft);stroke:var(--rule);stroke-width:2}
+.cc .cc-big{font-size:16px;font-weight:700;text-anchor:middle}
+.cc .cc-small{font-size:12px;text-anchor:middle;fill:var(--muted)}
+.cc .cc-side{font-size:11px;font-weight:700;letter-spacing:.08em;text-anchor:middle;fill:var(--muted)}
+.cc .cc-ch{font-size:12px;font-weight:700;text-anchor:middle}
+.cc .cc-de-ch{fill:var(--cc-de-soft);stroke:var(--cc-de);stroke-width:2}
+.cc .cc-ox-ch{fill:var(--cc-ox-soft);stroke:var(--cc-ox);stroke-width:2}
+.cc .cc-thick{stroke-width:6}
+.cc .cc-de path{fill:none;stroke:var(--cc-de);stroke-width:6;stroke-linejoin:round}
+.cc .cc-ox path{fill:none;stroke:var(--cc-ox);stroke-width:6;stroke-linejoin:round}
+.cc .cc-de polygon{fill:var(--cc-de)}
+.cc .cc-ox polygon{fill:var(--cc-ox)}
+.cc .cc-lab text{font-size:14px;font-weight:700}
+.cc .cc-key text{font-size:13px}
+.cc .cc-de-line{stroke:var(--cc-de);stroke-width:6}
+.cc .cc-ox-line{stroke:var(--cc-ox);stroke-width:6}
+.cc figcaption{font-size:14px;color:var(--muted);margin-top:6px}

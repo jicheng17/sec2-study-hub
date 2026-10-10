@@ -48,7 +48,9 @@
     </article>
     <article class="card"><h3>CLEP-JC bonus</h3>
       <p>Students who apply for the <b>Chinese Language Elective Programme (CLEP)</b> at a JC through the JAE get <b>2 extra bonus points</b> for admission to <b>that JC</b>. These are added on top of the usual maximum, so the total can reach <b>6</b> (or 5 from 2028).</p>
-      <p>CLEP is for students strong in Chinese language and culture. Only some JCs offer it, so check each JC's website, and ask the school about selection.</p>
+      <p><b>JCs offering CLEP:</b> Dunman High, Hwa Chong Institution, Nanyang, Temasek, Jurong Pioneer.</p>
+      <p><b>Eligibility (O-Level):</b> at least B3 in Higher Chinese; or B4 in Higher Chinese and B3 in Literature in Chinese; or A2 in Chinese.</p>
+      <p>The points count only if <b>selected</b> for CLEP. Students admitted through CLEP must stay in the programme, or they may be asked to leave the JC.</p>
     </article>
     <article class="card"><h3>3. Example</h3>
       <div class="ex"><b>Worked example</b>Grades A1, A1, A2, A1, A2, B3 → gross score 1+1+2+1+2+3 = <strong>10</strong>. With an Excellent CCA (2) and Higher Chinese passed (2), the bonus is 4. <strong>Net score = 10 − 4 = 6</strong>, which met the 2026 Science cut-off for Dunman High, National, St Joseph's and Victoria.</div>
@@ -98,7 +100,7 @@
 </section>
 
 <footer>Sources:
-  {% for title, url in jc.SOURCES %}<a href="{{ url }}" target="_blank" rel="noopener">{{ title }}</a>{{ '; ' if not loop.last else '.' }}{% endfor %}
+  <a href="https://www.moe.gov.sg/education-in-sg/our-programmes/clep-jc" target="_blank" rel="noopener">MOE: CLEP at the pre-university level</a>; {% for title, url in jc.SOURCES %}<a href="{{ url }}" target="_blank" rel="noopener">{{ title }}</a>{{ '; ' if not loop.last else '.' }}{% endfor %}
   Cut-off table from a school briefing slide (2026 JAE, 2025 cohort). Edit <code>sec2-home/jc.py</code> to update the numbers.</footer>
 </div>
 </body>

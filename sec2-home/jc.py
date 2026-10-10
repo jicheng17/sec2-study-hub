@@ -43,7 +43,8 @@ BONUS_NOW = [
     ("English and Higher Mother Tongue, grade A1 to C6", "2"),
     ("Chinese or Malay Special Programme, grade A1 to C6", "2"),
     ("Choosing an affiliated JC as 1st choice", "2"),
-    ("Maximum (any combination)", "4"),
+    ("Maximum (any combination of the above)", "4"),
+    ("CLEP-JC: applying through the JAE to a JC that offers the Chinese Language Elective Programme, for admission to that JC", "+2 on top of the cap"),
 ]
 
 # Your child's path (Sec 1 in 2025)

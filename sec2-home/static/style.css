@@ -189,3 +189,16 @@ code{font-size:.92em}
 .clep-when{font-weight:700}
 @media (max-width:560px){.clep-steps li{grid-template-columns:auto 1fr}.clep-steps li>span:last-child{grid-column:2}}
 .clep-tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:1px 6px;border-radius:4px;background:var(--accent);color:var(--card);vertical-align:1px}
+
+/* Notification banner (NOTICES in app.py) */
+.notice{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:center;background:var(--accent-soft);border:2px solid var(--accent);border-radius:12px;padding:12px 16px;margin-bottom:18px}
+.notice.urgent{background:var(--red-soft);border-color:var(--red)}
+.notice-icon{font-size:22px}
+.notice-body{display:grid;gap:2px}
+.notice-body b{font-size:16.5px}
+.notice-when{font-weight:700;color:var(--accent)}
+.notice.urgent .notice-when,.notice.urgent .notice-status{color:var(--red)}
+.notice-status{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--accent)}
+.notice-body small{color:var(--muted);font-size:14px}
+.notice .go{white-space:nowrap}
+@media (max-width:560px){.notice{grid-template-columns:auto 1fr}.notice .go{grid-column:2}}

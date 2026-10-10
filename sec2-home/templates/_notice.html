@@ -1,0 +1,11 @@
+{% for n in notices %}
+<aside class="notice{% if n.urgent %} urgent{% endif %}" role="status">
+  <span class="notice-icon" aria-hidden="true">🔔</span>
+  <div class="notice-body">
+    <b>{{ n.title }}</b> <span class="notice-when">{{ n.when }}</span>
+    <span class="notice-status">{{ n.status }}</span>
+    <small>{{ n.note }}</small>
+  </div>
+  {% if n.link %}<a class="go" href="{{ n.link }}">{{ n.link_text }}</a>{% endif %}
+</aside>
+{% endfor %}

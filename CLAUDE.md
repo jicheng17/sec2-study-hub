@@ -24,7 +24,7 @@ O-LEVEL/
 │   ├── app.py
 │   ├── plan.py                   ← revision plan data (tasks, routines, subject checklists)
 │   ├── jc.py                     ← JC admission page data (cut-offs, bonus points, L1R4 changes)
-│   ├── templates/  home.html, plan.html, jc.html
+│   ├── templates/  home.html, plan.html, jc.html, _notice.html (notification banner)
 │   └── static/style.css
 ├── sec2-math-site/               ← one folder per subject, all with the same layout
 ├── sec2-science-site/
@@ -56,6 +56,8 @@ O-LEVEL/
 | Combining sites | Werkzeug `DispatcherMiddleware` | The hub mounts each subject at `/math`, `/science`, `/geography`, `/literature`, `/history` |
 
 No database and no login. Ticks on the revision plan are saved in the browser (`localStorage`) only.
+
+**Notification banners:** add an entry to `NOTICES` in `sec2-home/app.py` (title, start, end, show_from, note, link). The banner shows on the hub home, plan and JC pages from `show_from`, counts down to `start`, turns red when 3 days away or under way, and hides itself after `end`.
 
 ## 4. Running it
 

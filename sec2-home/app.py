@@ -63,6 +63,36 @@ KEY_DATES = [
 ]
 
 
+# Notification banners shown at the top of the hub pages. Each shows from `show_from`
+# and disappears automatically after `end`.
+NOTICES = [
+    {"title": "Sec 3 Subject Combinations Option Exercise", "start": date(2026, 10, 22), "end": date(2026, 10, 26),
+     "show_from": date(2026, 10, 1),
+     "note": "Choose your Sec 3 subjects. For CLEP, ask the Chinese department about CLEP-Sec and Literature in Chinese before you submit.",
+     "link": "/jc#clep-h", "link_text": "CLEP plan →"},
+]
+
+
+@app.context_processor
+def notice_data():
+    today = date.today()
+    active = []
+    for n in NOTICES:
+        if not (n["show_from"] <= today <= n["end"]):
+            continue
+        if today < n["start"]:
+            days = (n["start"] - today).days
+            status = f"starts in {days} day{'s' if days != 1 else ''}"
+            urgent = days <= 3
+        else:
+            left = (n["end"] - today).days
+            status = "last day today" if left == 0 else f"happening now · closes in {left} day{'s' if left != 1 else ''}"
+            urgent = True
+        when = fmt(n["start"]) + " – " + fmt(n["end"])
+        active.append({**n, "when": when, "status": status, "urgent": urgent})
+    return {"notices": active}
+
+
 def fmt(d):
     return d.strftime("%-d %b")
 

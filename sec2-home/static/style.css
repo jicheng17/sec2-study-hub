@@ -175,3 +175,17 @@ code{font-size:.92em}
 .jc-barcol{width:30%}
 .jc-bar{display:block;height:10px;width:var(--w);background:var(--accent);border-radius:5px;opacity:.75}
 @media (max-width:560px){.jc-barcol{display:none}}
+
+/* CLEP goal highlight on /jc */
+.clep-goal{background:var(--accent-soft);border:2px solid var(--accent);border-radius:14px;padding:18px 20px 20px}
+.clep-flag{justify-self:start;background:var(--accent);color:var(--card);font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:3px 10px;border-radius:999px}
+.clep-lede{margin:0;max-width:80ch}
+.clep-card{border-color:var(--accent)}
+.clep-small{font-size:14px;color:var(--muted);margin:0}
+.clep-steps-h{font-size:17px;margin:6px 0 0}
+.clep-steps{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:cs}
+.clep-steps li{counter-increment:cs;display:grid;grid-template-columns:auto minmax(150px,200px) 1fr;gap:10px;align-items:start;background:var(--card);border:1px solid var(--rule);border-radius:10px;padding:10px 12px}
+.clep-steps li::before{content:counter(cs);display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--card);font-weight:700;font-size:13px}
+.clep-when{font-weight:700}
+@media (max-width:560px){.clep-steps li{grid-template-columns:auto 1fr}.clep-steps li>span:last-child{grid-column:2}}
+.clep-tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;padding:1px 6px;border-radius:4px;background:var(--accent);color:var(--card);vertical-align:1px}

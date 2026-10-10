@@ -18,6 +18,31 @@
   <p class="lede">What JC cut-off points mean, how the score is worked out, how competitive each JC was in 2026, and what changes before your turn to apply in 2029.</p>
 </header>
 
+<section class="block clep-goal" aria-labelledby="clep-h">
+  <div class="clep-flag">★ Our goal</div>
+  <h2 id="clep-h">We're applying for CLEP: Chinese Language Elective Programme</h2>
+  <p class="clep-lede">Two stages: <b>CLEP-Sec</b> at Nan Chiau High (Sec 3–4), then <b>CLEP-JC</b> through the JAE, which gives <b>2 extra bonus points</b> on top of the usual cap.</p>
+  <div class="jc-grid">
+    <article class="card clep-card"><h3>CLEP-Sec at NCHS</h3>
+      <ul class="k">{% for item in jc.CLEP_NCHS %}<li>{{ item|safe }}</li>{% endfor %}</ul>
+      <p class="clep-small">Entry to CLEP-Sec: at least <b>A2 in Chinese</b> or <b>B3 in Higher Chinese</b> in the Sec 2 exams.</p>
+    </article>
+    <article class="card clep-card"><h3>CLEP-JC: 5 junior colleges</h3>
+      <div class="tw"><table class="t">
+        <tr><th>JC</th><th>2026 cut-off (Sci / Arts)</th></tr>
+        {% for name, sci, art, b in rows if name.split(' (')[0].replace(' Institution','') in ['Dunman High','Hwa Chong','Nanyang','Temasek','Jurong Pioneer'] %}
+        <tr><td>{{ name }}</td><td>{{ sci }} / {{ art if art is not none else '–' }}</td></tr>{% endfor %}
+      </table></div>
+      <p class="clep-small">With CLEP's 2 points on top of other bonus points, a net score can drop by up to 6 (5 from 2028).</p>
+    </article>
+  </div>
+  <h3 class="clep-steps-h">Steps and dates</h3>
+  <ol class="clep-steps">
+    {% for when, what in jc.CLEP_STEPS %}<li><span class="clep-when">{{ when }}</span><span>{{ what|safe }}</span></li>{% endfor %}
+  </ol>
+  <div class="warn"><b>Watch out:</b> students admitted to a JC through CLEP <b>must stay in the programme</b>, or they may be asked to leave the JC. The commitment is two years of H2 Chinese Language and Literature.</div>
+</section>
+
 <section class="block" aria-labelledby="what-h">
   <h2 id="what-h">What a cut-off point is</h2>
   <div class="jc-grid">
@@ -60,12 +85,12 @@
 
 <section class="block" aria-labelledby="cut-h">
   <h2 id="cut-h">2026 cut-off points (L1R5)</h2>
-  <p class="lead-note">{{ jc.SOURCE }}. Sorted from most to least competitive by the Science cut-off.</p>
+  <p class="lead-note">{{ jc.SOURCE }}. Sorted from most to least competitive by the Science cut-off. <span class="clep-tag">CLEP</span> marks the JCs offering CLEP-JC.</p>
   <div class="tw"><table class="t jc-table">
     <tr><th>Junior college</th><th>Science</th><th>Arts</th><th>How competitive</th><th class="jc-barcol" aria-hidden="true">Science cut-off</th></tr>
     {% for name, sci, art, b in rows %}
     <tr>
-      <td>{{ name }}</td>
+      <td>{{ name }}{% if name.split(' (')[0].replace(' Institution','') in ['Dunman High','Hwa Chong','Nanyang','Temasek','Jurong Pioneer'] %} <span class="clep-tag">CLEP</span>{% endif %}</td>
       <td class="jc-num">{{ sci }}</td>
       <td class="jc-num">{{ art if art is not none else '–' }}</td>
       <td><span class="jc-band jc-{{ b|lower|replace(' ', '-') }}">{{ b }}</span></td>

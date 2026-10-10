@@ -69,3 +69,24 @@ SOURCES = [
     ("L1R4 JC admission from 2028: parent guide (Ancourage Academy)", "https://ancourage.academy/articles/l1r4-jc-admission-2028-parent-guide-singapore"),
     ("How L1R5 works and how to read cut-off points (EDU FIRST)", "https://www.edufirst.com.sg/blog/jc-cut-off-points-how-l1r5-works-and-how-to-read-the-numbers/"),
 ]
+
+
+# ---- Our plan: CLEP (Chinese Language Elective Programme) ----
+CLEP_JCS = ["Dunman High", "Hwa Chong Institution", "Nanyang", "Temasek", "Jurong Pioneer"]
+
+# From the Nan Chiau High School (NCHS) "MOE Special Programmes @ NCHS" slide
+CLEP_NCHS = [
+    "Offered at NCHS since 2020 (华文语文特选课程)",
+    "Students must read <b>Literature in Chinese</b> as an anchor subject, either full or elective",
+    "Outstanding students are awarded <b>MOE CLEP-Sec scholarships</b>",
+    "Students who apply for CLEP-JC through the JAE get <b>2 CLEP bonus points</b> for admission to that JC",
+]
+
+# (when, step, done-by)
+CLEP_STEPS = [
+    ("Now: Sec 2 EOY (Oct 2026)", "Aim for <b>A2 or better in Chinese</b>, or <b>B3 or better in Higher Chinese</b>. CLEP-Sec selection uses Sec 2 results"),
+    ("Oct 2026", "Ask the NCHS Chinese department how and when Sec 2 students are invited or apply for CLEP-Sec. Do this before or during the Sec 3 option exercise (22–26 Oct)"),
+    ("2027–2028: Sec 3–4", "Take <b>Literature in Chinese</b> (full or elective) and keep Higher Chinese strong. Look out for the MOE CLEP-Sec scholarship"),
+    ("SEC results (2028)", "To qualify for CLEP-JC: B3 in Higher Chinese; or B4 in Higher Chinese and B3 in Literature in Chinese; or A2 in Chinese"),
+    ("JAE (Jan 2029)", "On the JAE form, <b>indicate interest in CLEP</b> and put a CLEP JC as <b>first choice</b>. If selected: +2 bonus points for that JC"),
+]

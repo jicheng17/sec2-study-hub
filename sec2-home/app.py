@@ -12,6 +12,7 @@ Then open http://127.0.0.1:8000
     /literature/ Sec 2 English Literature Cheat Sheet
     /history/    Sec 2 History Cheat Sheet
     /plan        EOY revision plan
+    /jc          Junior college admission guide
     /files/...   the parents' briefing and exam scope PDFs
 """
 import importlib.util
@@ -30,6 +31,7 @@ SCOPE_FILE = "2026 S2 EOY Exam Scope  Format_20260928_161016.pdf"
 SHARED_FILES = {BRIEFING_FILE, SCOPE_FILE}
 
 import plan  # noqa: E402  (revision plan data, edit plan.py to change it)
+import jc  # noqa: E402  (JC admission data, edit jc.py to change it)
 
 
 def load_site(folder, name):
@@ -95,6 +97,12 @@ def revision_plan():
         "plan.html", plan=plan, today=today, in_exams=in_exams,
         scope_file=SCOPE_FILE, scope_ok=(ROOT / SCOPE_FILE).exists(),
     )
+
+
+@app.route("/jc")
+def jc_admission():
+    rows = sorted(((n, s, a, jc.band(s)) for n, s, a in jc.CUTOFFS_2026), key=lambda r: (r[1], r[2] or 99, r[0]))
+    return render_template("jc.html", jc=jc, rows=rows)
 
 
 @app.route("/files/<path:filename>")

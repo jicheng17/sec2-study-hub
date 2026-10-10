@@ -9,7 +9,7 @@ Project context and rules for Claude (and anyone else) working in this folder. R
 **Purpose:** to **prepare for the final-year exam**, the school's Sec 2 end-of-year (EOY) exam, 30 Sep – 8 Oct 2026, worth 60% of the year's result and the basis for promotion to Sec 3 and subject combination.
 
 - **Reader:** a 14-year-old revising alone, often the night before a paper. Content must be quick to scan, accurate and exam-focused.
-- **Goal:** one place for cheat sheets, practice questions with model answers, the revision plan and school documents.
+- **Goal:** one place for cheat sheets, practice questions with model answers, the revision plan, school documents, and a JC admission guide (`/jc`) for planning ahead.
 - **Source of truth:** the school's *2026 S2 EOY Exam Scope & Format* sheet decides what is in scope, with subject briefings and class notes in `resources/`. The MOE syllabus and textbook come second.
 - **What good looks like:** every card helps the student score marks: key facts, a worked example or model answer, and the common mistake to avoid.
 
@@ -23,7 +23,8 @@ O-LEVEL/
 ├── sec2-home/                    ← Study Hub: home page, revision plan, mounts all subject sites
 │   ├── app.py
 │   ├── plan.py                   ← revision plan data (tasks, routines, subject checklists)
-│   ├── templates/  home.html, plan.html
+│   ├── jc.py                     ← JC admission page data (cut-offs, bonus points, L1R4 changes)
+│   ├── templates/  home.html, plan.html, jc.html
 │   └── static/style.css
 ├── sec2-math-site/               ← one folder per subject, all with the same layout
 ├── sec2-science-site/

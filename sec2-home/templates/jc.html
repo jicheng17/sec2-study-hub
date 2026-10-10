@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JC Admission Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+<a class="back" href="{{ url_for('home') }}">← Sec 2 Study Hub</a>
+<header class="top">
+  <div class="eyebrow">Planning ahead · Junior college admission</div>
+  <h1>JC Admission Guide</h1>
+  <p class="lede">What JC cut-off points mean, how the score is worked out, how competitive each JC was in 2026, and what changes before your turn to apply in 2029.</p>
+</header>
+
+<section class="block" aria-labelledby="what-h">
+  <h2 id="what-h">What a cut-off point is</h2>
+  <div class="jc-grid">
+    <article class="card"><h3>Lower is better</h3>
+      <p>The <b>cut-off</b> is the score of the <b>last student admitted</b> to a JC. Students with that score or better had a good chance of getting in. Cut-offs move a little every year with demand.</p></article>
+    <article class="card"><h3>Science vs Arts</h3>
+      <p>Each JC has separate cut-offs for its <b>Science</b> and <b>Arts</b> streams. Science is usually a little harder to get into. A "–" means that stream isn't offered through the JAE.</p></article>
+    <article class="card"><h3>Net score</h3>
+      <p>Published cut-offs are <b>net</b> scores: the raw (gross) score <b>minus bonus points</b>. A cut-off of 3 usually means a raw score of about 6–7 with 3–4 bonus points.</p></article>
+  </div>
+</section>
+
+<section class="block" aria-labelledby="calc-h">
+  <h2 id="calc-h">How the score is worked out (L1R5, until the 2027 admissions)</h2>
+  <div class="jc-grid">
+    <article class="card"><h3>1. Grade points</h3>
+      <div class="tw"><table class="t">
+        <tr>{% for g, p in jc.GRADES %}<th>{{ g }}</th>{% endfor %}</tr>
+        <tr>{% for g, p in jc.GRADES %}<td>{{ p }}</td>{% endfor %}</tr>
+      </table></div>
+      <p><b>L1R5</b> = <b>L1</b> (English, or Higher Mother Tongue) + <b>R5</b> (5 relevant subjects). Add the 6 grade points. Best possible: <b>6</b>.</p>
+    </article>
+    <article class="card"><h3>2. Bonus points</h3>
+      <div class="tw"><table class="t">
+        <tr><th>For</th><th>Points off</th></tr>
+        {% for what, pts in jc.BONUS_NOW %}<tr{% if loop.last %} class="jc-total"{% endif %}><td>{{ what }}</td><td>{{ pts }}</td></tr>{% endfor %}
+      </table></div>
+    </article>
+    <article class="card"><h3>3. Example</h3>
+      <div class="ex"><b>Worked example</b>Grades A1, A1, A2, A1, A2, B3 → gross score 1+1+2+1+2+3 = <strong>10</strong>. With an Excellent CCA (2) and Higher Chinese passed (2), the bonus is 4. <strong>Net score = 10 − 4 = 6</strong>, which met the 2026 Science cut-off for Dunman High, National, St Joseph's and Victoria.</div>
+    </article>
+  </div>
+</section>
+
+<section class="block" aria-labelledby="cut-h">
+  <h2 id="cut-h">2026 cut-off points (L1R5)</h2>
+  <p class="lead-note">{{ jc.SOURCE }}. Sorted from most to least competitive by the Science cut-off.</p>
+  <div class="tw"><table class="t jc-table">
+    <tr><th>Junior college</th><th>Science</th><th>Arts</th><th>How competitive</th><th class="jc-barcol" aria-hidden="true">Science cut-off</th></tr>
+    {% for name, sci, art, b in rows %}
+    <tr>
+      <td>{{ name }}</td>
+      <td class="jc-num">{{ sci }}</td>
+      <td class="jc-num">{{ art if art is not none else '–' }}</td>
+      <td><span class="jc-band jc-{{ b|lower|replace(' ', '-') }}">{{ b }}</span></td>
+      <td class="jc-barcol" aria-hidden="true"><span class="jc-bar" style="--w:{{ (sci / 20 * 100)|round|int }}%"></span></td>
+    </tr>
+    {% endfor %}
+  </table></div>
+  <div class="warn"><b>Watch out:</b> these are last year's numbers for O-Level students. They show how competitive each JC is, which stays fairly similar year to year, but they can't be compared directly with a future L1R4 score (see below).</div>
+</section>
+
+<section class="block" aria-labelledby="change-h">
+  <h2 id="change-h">What changes before your turn</h2>
+  <p class="lead-note">Sec 1 in 2025 means the <b>SEC</b> exam in 2028 and JC applications in 2029. From the <b>2028</b> admissions exercise, JCs use <b>L1R4</b> instead of L1R5.</p>
+  <div class="tw"><table class="t">
+    <tr><th>Year</th><th>Level</th><th>What happens</th></tr>
+    {% for y, lvl, what in jc.TIMELINE %}<tr><td><b>{{ y }}</b></td><td>{{ lvl }}</td><td>{{ what }}</td></tr>{% endfor %}
+  </table></div>
+  <div class="tw"><table class="t">
+    <tr><th></th><th>Now (until 2027)</th><th>From 2028 (your turn)</th></tr>
+    {% for what, before, after in jc.CHANGES %}<tr><td><b>{{ what }}</b></td><td>{{ before }}</td><td>{{ after }}</td></tr>{% endfor %}
+  </table></div>
+</section>
+
+<section class="block" aria-labelledby="now-h">
+  <h2 id="now-h">What to do in Sec 2</h2>
+  <div class="jc-grid">
+    <article class="card"><h3>Sec 3 subject choice</h3><p>The option exercise (22–26 Oct) decides which subjects can count. L1R4 needs <b>one humanities</b> and <b>one maths or science</b>, plus one more of either. Keep strong maths and science options open.</p></article>
+    <article class="card"><h3>CCA record</h3><p>A sustained CCA with participation, leadership and achievement can give <b>1–2 bonus points</b>.</p></article>
+    <article class="card"><h3>Higher Mother Tongue</h3><p>Passing English and Higher Mother Tongue (A1–C6) gives <b>2 bonus points</b>, and Higher MT can count as L1.</p></article>
+  </div>
+  <div class="warn"><b>Watch out:</b> the 2028 rules above come from a tuition centre's summary of MOE's announcement. Check the details with the school or MOE before the option exercise.</div>
+</section>
+
+<footer>Sources:
+  {% for title, url in jc.SOURCES %}<a href="{{ url }}" target="_blank" rel="noopener">{{ title }}</a>{{ '; ' if not loop.last else '.' }}{% endfor %}
+  Cut-off table from a school briefing slide (2026 JAE, 2025 cohort). Edit <code>sec2-home/jc.py</code> to update the numbers.</footer>
+</div>
+</body>
+</html>

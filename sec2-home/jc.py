@@ -1,0 +1,70 @@
+"""Junior college admission data for the /jc page. Edit here to update the page."""
+
+SOURCE = "2026 JAE (2025 O-Level cohort) L1R5 cut-off points, from a Singapore Hokkien Huay Kuan / Nan Chiau High School slide"
+
+# (JC, Science cut-off, Arts cut-off). None = stream not offered through the JAE.
+CUTOFFS_2026 = [
+    ("Anderson Serangoon", 9, 10),
+    ("Anglo-Chinese", 7, 9),
+    ("ACS (Independent)", 5, None),
+    ("Catholic", 11, 12),
+    ("Dunman High", 6, 8),
+    ("Eunoia", 5, 6),
+    ("Hwa Chong Institution", 3, 5),
+    ("Jurong Pioneer", 14, 14),
+    ("Nanyang", 5, 7),
+    ("National", 6, 8),
+    ("Raffles", 3, 5),
+    ("River Valley High", 8, 9),
+    ("St. Andrew's", 8, 10),
+    ("St. Joseph's Institution", 6, None),
+    ("Tampines Meridian", 12, 12),
+    ("Temasek", 7, 7),
+    ("Victoria", 6, 8),
+    ("Yishun Innova", 19, 18),
+]
+
+
+def band(score):
+    if score <= 4:
+        return "Most competitive"
+    if score <= 6:
+        return "Very competitive"
+    if score <= 9:
+        return "Competitive"
+    return "Moderate"
+
+
+GRADES = [("A1", 1), ("A2", 2), ("B3", 3), ("B4", 4), ("C5", 5), ("C6", 6), ("D7", 7), ("E8", 8), ("F9", 9)]
+
+BONUS_NOW = [
+    ("CCA: Excellent", "2"),
+    ("CCA: Good", "1"),
+    ("English and Higher Mother Tongue, grade A1 to C6", "2"),
+    ("Chinese or Malay Special Programme, grade A1 to C6", "2"),
+    ("Choosing an affiliated JC as 1st choice", "2"),
+    ("Maximum (any combination)", "4"),
+]
+
+# Your child's path (Sec 1 in 2025)
+TIMELINE = [
+    ("2026", "Sec 2", "EOY exam; Sec 3 subject option exercise 22–26 Oct"),
+    ("2027", "Sec 3", "Start of the 2-year SEC subjects"),
+    ("2028", "Sec 4", "Sits the SEC exam (replaces O-Levels)"),
+    ("2029", "Post-sec", "Applies to JC using L1R4"),
+]
+
+CHANGES = [
+    ("Score", "L1R5: 6 subjects", "L1R4: 5 subjects"),
+    ("Subjects", "L1 + R1 humanities, R2 maths/science, R3 humanities or maths/science, R4 and R5 any", "L1 + R1 humanities, R2 maths/science, R3 humanities or maths/science, R4 one more listed subject"),
+    ("Best possible score", "6", "5"),
+    ("JC qualifying score", "20 or better", "16 or better"),
+    ("Bonus point cap", "4", "3 (Language Elective Programme still adds 2 extra)"),
+    ("Exam", "O-Level", "SEC (Singapore-Cambridge Secondary Education Certificate)"),
+]
+
+SOURCES = [
+    ("MOE: JAE admission criteria and bonus points", "https://beta.moe.gov.sg/post-secondary/admissions/jae/admission-criteria/"),
+    ("L1R4 JC admission from 2028: parent guide (Ancourage Academy)", "https://ancourage.academy/articles/l1r4-jc-admission-2028-parent-guide-singapore"),
+    ("How L1R5 works and how to read cut-off points (EDU FIRST)", "https://www.edufirst.com.sg/blog/jc-cut-off-points-how-l1r5-works-and-how-to-read-the-numbers/"),
+]

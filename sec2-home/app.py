@@ -11,6 +11,7 @@ Then open http://127.0.0.1:8000
     /geography/  Sec 2 Geography Cheat Sheet
     /literature/ Sec 2 English Literature Cheat Sheet
     /history/    Sec 2 History Cheat Sheet
+    /chinese-lit/ SEC / O-Level Literature in Chinese (华文文学) Cheat Sheet
     /plan        EOY revision plan
     /jc          Junior college admission guide
     /files/...   the parents' briefing and exam scope PDFs
@@ -49,6 +50,7 @@ science_app = load_site("sec2-science-site", "sec2_science_site")
 geography_app = load_site("sec2-geography-site", "sec2_geography_site")
 literature_app = load_site("sec2-literature-site", "sec2_literature_site")
 history_app = load_site("sec2-history-site", "sec2_history_site")
+chinese_lit_app = load_site("sec3-chinese-lit-site", "sec3_chinese_lit_site")
 
 app = Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
@@ -142,7 +144,7 @@ def files(filename):
     return send_from_directory(ROOT, filename)
 
 
-app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {"/math": math_app, "/science": science_app, "/geography": geography_app, "/literature": literature_app, "/history": history_app})
+app.wsgi_app = DispatcherMiddleware(app.wsgi_app, {"/math": math_app, "/science": science_app, "/geography": geography_app, "/literature": literature_app, "/history": history_app, "/chinese-lit": chinese_lit_app})
 
 # Content (topics.json), templates and CSS are re-read on the next request (see each site's
 # app.py), so refreshing the page shows changes without restarting the server.

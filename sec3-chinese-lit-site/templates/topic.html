@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}{{ t.title }} · 华文文学{% endblock %}
+{% block content %}
+<a class="back" href="{{ url_for('theme', slug=strand.slug) }}">← {{ strand.name }}</a>
+<div class="single{% if t.wide %} single-wide{% endif %}">{% include "_card.html" %}</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}华文文学 Cheat Sheet{% endblock %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Serif+SC:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">SEC / O-Level Literature in Chinese · Sec 3–4 · CLEP</div>
+  <h1><a href="{{ url_for('index') }}" style="color:inherit;text-decoration:none">华文文学 Cheat Sheet</a></h1>
+  <p class="lede">SEC（取代 O 水准）华文文学：全科（K332，两份试卷）与选修（K338，试卷二）。考试形式、全部指定文本（长篇小说、8 首诗歌、5 篇短篇小说）、文学术语、答题方法和课外篇章赏析，附练习题与参考答案。</p>
+</header>
+
+{% if config.HOME_URL %}<a class="back" href="{{ config.HOME_URL }}">← Sec 2 Study Hub</a>{% endif %}
+<nav class="jump" aria-label="Filter topics">
+  <a href="{{ url_for('index') }}" class="{{ 'on' if not active and not q }}">All topics</a>
+  {% for s in strands %}
+  <a href="{{ url_for('theme', slug=s.slug) }}" class="{{ 'on' if active == s.slug }}"><i style="background:var(--{{ s.css }})"></i>{{ s.name }}</a>
+  {% endfor %}
+  <form class="search" action="{{ url_for('index') }}" method="get" role="search">
+    <input id="q" type="search" name="q" value="{{ q or '' }}" placeholder="搜索，例如：孔乙己、意象、象征" aria-label="Search topics">
+  </form>
+</nav>
+
+{% block content %}{% endblock %}
+
+<footer>根据 SEAB 2027 年 SEC 华文文学课程纲要（K332 全科、K338 选修）编写。你在 2028 年考试，请向学校确认 2028 年的指定文本。作品分析参考公开的评论与赏析，请与课堂笔记核对。古典诗词与徐志摩《偶然》已不受版权保护，故附全文；其他现当代作品只作概述与短句引用。</footer>
+</div>
+<script>window.addEventListener("beforeprint",function(){document.querySelectorAll("details.qa").forEach(function(d){d.open=true})});</script>
+</body>
+</html>

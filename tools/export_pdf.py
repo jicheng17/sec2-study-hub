@@ -3,7 +3,7 @@
 Usage (from the O-LEVEL folder):
     pip install flask playwright
     playwright install chromium
-    python tools/export_pdf.py geography        # or: math, science, literature, history
+    python tools/export_pdf.py geography        # or: math, science, literature, history, chinese-lit
 
 Writes "Sec 2 <Subject> Cheat Sheet.pdf" into the O-LEVEL folder.
 """
@@ -24,6 +24,7 @@ SITES = {
     "geography": {"folder": "sec2-geography-site", "title": "Sec 2 Geography Cheat Sheet", "layout": "column"},
     "literature": {"folder": "sec2-literature-site", "title": "Sec 2 Literature Cheat Sheet", "layout": "column"},
     "history": {"folder": "sec2-history-site", "title": "Sec 2 History Cheat Sheet", "layout": "column"},
+    "chinese-lit": {"folder": "sec3-chinese-lit-site", "title": "Literature in Chinese Cheat Sheet", "layout": "column"},
 }
 
 BASE_CSS = """
